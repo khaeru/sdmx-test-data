@@ -1,0 +1,741 @@
+{
+  "header": {
+    "id": "8816013c-5d2f-4b9a-977b-27aa4f36c97c",
+    "test": false,
+    "prepared": "2021-06-19T14:06:41.689336Z",
+    "sender": {
+      "id": "OECD",
+      "name": "Organisation for Economic Co-operation and Development"
+    },
+    "links": [
+      {
+        "href": "https://stats.oecd.org:443/sdmx-json/data/PART2/all/all",
+        "rel": "request"
+      }
+    ]
+  },
+  "dataSets": [
+    {
+      "action": "Information",
+      "observations": {
+        "0:0:0:0:0:0": [
+          11.963615756565,
+          null
+        ],
+        "1:0:2:0:0:0": [
+          -2.13889095389401,
+          0
+        ],
+        "1:0:0:0:0:1": [
+          0.840296698679152,
+          null
+        ],
+        "5:0:2:0:0:0": [
+          -2.45141648554599,
+          1
+        ],
+        "5:0:0:0:0:1": [
+          0.473064243412171,
+          null
+        ],
+        "6:0:2:0:0:0": [
+          1.35138670313075,
+          2
+        ],
+        "16:78:3:2:2:2": [
+          22.0969285714286,
+          null
+        ]
+      }
+    }
+  ],
+  "structure": {
+    "links": [
+      {
+        "href": "https://stats.oecd.org/sdmx-json/dataflow/PART2/all",
+        "rel": "dataflow"
+      }
+    ],
+    "name": "Part 2 - Innovation as change in classrooms and schools",
+    "description": "Part 2 - Innovation as change in classrooms and schools",
+    "dimensions": {
+      "observation": [
+        {
+          "keyPosition": 0,
+          "id": "LOCATION",
+          "name": "Country",
+          "values": [
+            {
+              "id": "AUS",
+              "name": "Australia"
+            },
+            {
+              "id": "HUN",
+              "name": "Hungary"
+            },
+            {
+              "id": "ITA",
+              "name": "Italy"
+            },
+            {
+              "id": "JPN",
+              "name": "Japan"
+            },
+            {
+              "id": "NLD",
+              "name": "Netherlands"
+            },
+            {
+              "id": "NZL",
+              "name": "New Zealand"
+            },
+            {
+              "id": "NOR",
+              "name": "Norway"
+            },
+            {
+              "id": "USA",
+              "name": "United States"
+            },
+            {
+              "id": "HKG",
+              "name": "Hong Kong, China"
+            },
+            {
+              "id": "RUS",
+              "name": "Russia"
+            },
+            {
+              "id": "SGP",
+              "name": "Singapore"
+            },
+            {
+              "id": "SVN",
+              "name": "Slovenia"
+            },
+            {
+              "id": "CAN-ON",
+              "name": "Ontario"
+            },
+            {
+              "id": "CAN-QC",
+              "name": "Quebec"
+            },
+            {
+              "id": "GBR-ENG",
+              "name": "England"
+            },
+            {
+              "id": "GBR-SCT",
+              "name": "Scotland"
+            },
+            {
+              "id": "OME",
+              "name": "OECD mean"
+            },
+            {
+              "id": "KOR",
+              "name": "Korea"
+            },
+            {
+              "id": "SWE",
+              "name": "Sweden"
+            },
+            {
+              "id": "IDN",
+              "name": "Indonesia"
+            },
+            {
+              "id": "ISR",
+              "name": "Israel"
+            },
+            {
+              "id": "BAS",
+              "name": "Basque country"
+            },
+            {
+              "id": "AUT",
+              "name": "Austria"
+            },
+            {
+              "id": "CZE",
+              "name": "Czech Republic"
+            },
+            {
+              "id": "DNK",
+              "name": "Denmark"
+            },
+            {
+              "id": "DEU",
+              "name": "Germany"
+            },
+            {
+              "id": "SVK",
+              "name": "Slovak Republic"
+            },
+            {
+              "id": "CAN-AB",
+              "name": "Alberta"
+            },
+            {
+              "id": "BEL-FL",
+              "name": "Belgium Flemish"
+            },
+            {
+              "id": "TUR",
+              "name": "Turkey"
+            },
+            {
+              "id": "CHL",
+              "name": "Chile"
+            },
+            {
+              "id": "ZAF",
+              "name": "South Africa"
+            },
+            {
+              "id": "USA-IN",
+              "name": "Indiana"
+            },
+            {
+              "id": "USA-MA",
+              "name": "Massachusetts"
+            },
+            {
+              "id": "USA-MN",
+              "name": "Minnesota"
+            },
+            {
+              "id": "BEL",
+              "name": "Belgium"
+            },
+            {
+              "id": "CAN",
+              "name": "Canada"
+            },
+            {
+              "id": "FIN",
+              "name": "Finland"
+            },
+            {
+              "id": "GRC",
+              "name": "Greece"
+            },
+            {
+              "id": "ISL",
+              "name": "Iceland"
+            },
+            {
+              "id": "IRL",
+              "name": "Ireland"
+            },
+            {
+              "id": "LUX",
+              "name": "Luxembourg"
+            },
+            {
+              "id": "MEX",
+              "name": "Mexico"
+            },
+            {
+              "id": "POL",
+              "name": "Poland"
+            },
+            {
+              "id": "PRT",
+              "name": "Portugal"
+            },
+            {
+              "id": "ESP",
+              "name": "Spain"
+            },
+            {
+              "id": "CHE",
+              "name": "Switzerland"
+            },
+            {
+              "id": "GBR",
+              "name": "United Kingdom"
+            },
+            {
+              "id": "EST",
+              "name": "Estonia"
+            },
+            {
+              "id": "FRA",
+              "name": "France"
+            },
+            {
+              "id": "BEL-FR",
+              "name": "Belgium French"
+            }
+          ],
+          "role": "REF_AREA"
+        },
+        {
+          "keyPosition": 1,
+          "id": "IND",
+          "name": "Indicator",
+          "values": [
+            {
+              "id": "5CLAT",
+              "name": "Percentage of class time spent on lecture-style presentations, according to teachers"
+            },
+            {
+              "id": "5CIWT",
+              "name": "Percentage of class time spent on independent work, according to teachers"
+            },
+            {
+              "id": "5CLAS",
+              "name": "Percentage of class time spent on lecture-style presentations, according to students"
+            },
+            {
+              "id": "5SWOM",
+              "name": "Percentage of students watching the teacher demonstrate an experiment or investigation once or twice a month or more"
+            },
+            {
+              "id": "5SWHL",
+              "name": "Percentage of students watching the teacher demonstrate an experiment or investigation in at least half the lessons"
+            },
+            {
+              "id": "6RRAT",
+              "name": "Percentage of students whose teachers ask them to relate what they read with their own experience in at least half their lessons, according to teachers"
+            },
+            {
+              "id": "6RRAS",
+              "name": "Percentage of students whose teachers ask them to relate what they read with their own experience in at least half their lessons, according to students"
+            },
+            {
+              "id": "6EWYT",
+              "name": "Percentage of students whose teachers ask them to explain answers in at least half their lessons and change over time"
+            },
+            {
+              "id": "6RIAS",
+              "name": "Percentage of students reporting that they interpret data in tables, figures or graphs in half of the classes or more"
+            },
+            {
+              "id": "6EAAT",
+              "name": "Percentage of students whose teachers ask them to explain their answers in at least half their lessons according to teachers"
+            },
+            {
+              "id": "6EAAS",
+              "name": "Percentage of students whose teachers ask them to explain their answers in at least half their lessons according to students"
+            },
+            {
+              "id": "6EWAT",
+              "name": "Percentage of students whose teachers ask them to explain what they are studying in at least half their lessons"
+            },
+            {
+              "id": "6ODAT",
+              "name": "Percentage of students whose teachers ask them to observe and describe natural phenomena in at least half their lessons according to teachers"
+            },
+            {
+              "id": "7SWSG",
+              "name": "Percentage of students working together in small groups in at least half their lessons and change over time"
+            },
+            {
+              "id": "7DOPT",
+              "name": "Percentage of students whose teachers ask them to decide on their own procedures for solving complex problems in at least half their lessons and change over time"
+            },
+            {
+              "id": "7DOPS",
+              "name": "Percentage of students deciding on their own procedures for solving complex problems in at least half their lessons and change over time"
+            },
+            {
+              "id": "7DPET",
+              "name": "Percentage of students whose teachers ask them to design or plan experiments or investigations in at least half their lessons and change over time"
+            },
+            {
+              "id": "7DPES",
+              "name": "Percentage of students who design or plan experiments or investigations in at least half their lessons and change over "
+            },
+            {
+              "id": "7FGBA",
+              "name": "Percentage of 15 year-old students grouped by ability within class for at least some subjects and change over time"
+            },
+            {
+              "id": "7MISN",
+              "name": "Percentage of 15 year-old students in schools where the principal reports that learning is not at all hindered, or hindered very little, by teachers not meeting individual students’ needs and change over time"
+            },
+            {
+              "id": "7SNRH",
+              "name": "Percentage of 15 year-old students who agree or strongly agree that if they need extra help, they will receive it from their teachers and change over time"
+            },
+            {
+              "id": "5STRA",
+              "name": "Percentage of students whose teacher reads aloud to the whole class weekly or more"
+            },
+            {
+              "id": "5TARS",
+              "name": "Percentage of teachers asking students to read silently on their own once a week or more"
+            },
+            {
+              "id": "6MGAT",
+              "name": "Percentage of students whose teachers ask them to make generalisations and draw inferences from a text once a week or more"
+            },
+            {
+              "id": "7SARA",
+              "name": "Percentage of students whose teachers ask them to read aloud in small groups or pairs at least weekly and change over time"
+            },
+            {
+              "id": "7SCSA",
+              "name": "Percentage of students whose teachers often or always create same-ability groups when doing reading instruction or reading activities and change over time"
+            },
+            {
+              "id": "7SCMA",
+              "name": "Percentage of students whose teachers often or always create mixed-ability groups when doing reading instruction or reading activities and change over time"
+            },
+            {
+              "id": "7TRBT",
+              "name": "Percentage of students whose teachers give them time to read books of their own choosing at least once a month and change over time"
+            },
+            {
+              "id": "7TRBS",
+              "name": "Percentage of students reading books that they choose themselves at least once a month and change over time"
+            },
+            {
+              "id": "7RIIR",
+              "name": "Percentage of students whose teachers always or almost always use individualised instruction for reading and change over time"
+            },
+            {
+              "id": "8UTPR",
+              "name": "Percentage of students whose teachers use textbooks as a basis for instruction and change over time"
+            },
+            {
+              "id": "8UTSR",
+              "name": "Percentage of students whose teachers use textbooks as a supplementary resource and change over time"
+            },
+            {
+              "id": "8UTRR",
+              "name": "Percentage of students whose teachers use textbooks as a basis for reading instruction and change over time"
+            },
+            {
+              "id": "10CAU",
+              "name": "Percentage of students with computers available to use and change over time"
+            },
+            {
+              "id": "10IAC",
+              "name": "Percentage of students with Internet access in the classroom and change over time"
+            },
+            {
+              "id": "9FSTA",
+              "name": "Percentage of 15-year old students enrolled in schools where standardised tests are used for assessment at least monthly and change over time"
+            },
+            {
+              "id": "9FTTA",
+              "name": "Percentage of 15-year old students enrolled in schools where teacher-developed tests are used for assessment at least monthly and change over time"
+            },
+            {
+              "id": "9FTJR",
+              "name": "Percentage of 15-year olds assessed by teachers’ judgmental ratings at least monthly and change over time"
+            },
+            {
+              "id": "9FSPU",
+              "name": "Percentage of 15-year old students enrolled in schools where students’ portfolios are used for assessment at least monthly and change over time"
+            },
+            {
+              "id": "9FSAA",
+              "name": "Percentage of 15-year old students enrolled in schools wherestudents' assignements/projects/homework are used for assessment at least monthly and change over time"
+            },
+            {
+              "id": "12SSR",
+              "name": "Percentage of students in schools that offer remedial according to grade and field and change over time"
+            },
+            {
+              "id": "12SSE",
+              "name": "Percentage of students in schools that offer enrichment according to grade and field and change over time"
+            },
+            {
+              "id": "12SSS",
+              "name": "Percentage of students in schools with reading specialists always available in classrooms to work with students with reading difficulties and change over time"
+            },
+            {
+              "id": "12SSI",
+              "name": "Percentage of students in schools that offer informal initiatives to encourage students to read and change over time"
+            },
+            {
+              "id": "11PSUP",
+              "name": "Percentage of students using computers to practice skills and procedures at least sometimes and change over time"
+            },
+            {
+              "id": "11PSUL",
+              "name": "Percentage of students using computers to look up ideas and information at least sometimes and change over time"
+            },
+            {
+              "id": "11PSUA",
+              "name": "Percentage of students using computers to analyse data at least sometimes and change over time"
+            },
+            {
+              "id": "11PSUR",
+              "name": "Percentage of students using computers to read stories or other texts at least once or twice a week and change over time"
+            },
+            {
+              "id": "11PSUW",
+              "name": "Percentage of students using computers to write stories or other texts at least once or twice a week and change over time"
+            },
+            {
+              "id": "13PDT",
+              "name": "Peer discussions amongst teachers for specific grades and fields, percentage of students who have a teacher who discusses with other teachers how to teach a particular topic once a week or more and change over time"
+            },
+            {
+              "id": "13TCP",
+              "name": "Teacher collaboration in preparing instructional materials for specific grades and fields, percentage of students who have a teacher who collaborates in planning and preparing instructional materials with other teachers once a week or more and change over time"
+            },
+            {
+              "id": "13COT",
+              "name": "Classroom observations in specific grades and fields, percentage of students who have a teacher who visits another classroom to learn more about teaching once a week or more and change over time"
+            },
+            {
+              "id": "15ETO",
+              "name": "Evaluation of teachers' practices by inspector observation in 8th grade mathematics in specific grades and fields, percentage of students in schools in which observations by inspectors or other persons external to the school are used to evaluate the practice of teachers and change over time"
+            },
+            {
+              "id": "15PRT",
+              "name": "Peer review evaluation of teachers' practices in specific grades and fields, percentage of students in schools in which peer review is used to evaluate the practice of teachers and change over time"
+            },
+            {
+              "id": "15UIT",
+              "name": "Use of incentives for teacher recruitement and retention in specific grades and fields, percentage of students in schools which currently use any incentives to recruit or retain teachers and change over time"
+            },
+            {
+              "id": "15UTE",
+              "name": "Use of assessment data to make judgments about teachers' effectiveness, percentage of 15-year old students in schools where assessment data are used to make judgments about teachers’ effectiveness and change over time"
+            },
+            {
+              "id": "15UTP",
+              "name": "Use of achievement data for evaluating teachers' performance, percentage of 15-year old students in schools where achievement data are used for evaluating teachers’ performance and change over time"
+            },
+            {
+              "id": "15UPP",
+              "name": "Use of achievement data for the evaluation of principal's performance, percentage of 15-year old students in schools where achievement data are used for evaluating the principal’s performance and change over time"
+            },
+            {
+              "id": "16SSC",
+              "name": "Schools asking parents of specific grade students to serve on committees, percentage of students in schools that ask parents to serve on school committees and change over time"
+            },
+            {
+              "id": "16SVP",
+              "name": "Schools asking parents of specific grade students to volunteer for projects, percentage of students in schools that ask parents to volunteer for projects, programmes and trips and change over time"
+            },
+            {
+              "id": "16TDC",
+              "name": "Time devoted to community/parent relations by 4th grade principals"
+            },
+            {
+              "id": "16FPP",
+              "name": "Parental perceptions of receiving regular information about their child's progress, percentage of 15-year old students whose parents agree or strongly agree that they receive regular information about their child’s progress and change over time"
+            },
+            {
+              "id": "16FUA",
+              "name": "Use of assessment data to inform parents about their child's progress, percentage of 15-year old students in schools where assessment data are used to inform parents about their child’s progress and change over time"
+            },
+            {
+              "id": "16FIS",
+              "name": "Information provided to parents about their child's performance relative to other students in the same school, percentage of 15-year old students in schools that provide information to parents on their child’s academic performance relative to other students in the school and change over time"
+            },
+            {
+              "id": "16FIN",
+              "name": "Information provided to parents about their child's performance relative to national or regional benchmarks, percentage of 15-year old students in schools that provide information to parents on their child’s academic performance relative to national or regional benchmarks and change over time"
+            },
+            {
+              "id": "16FIG",
+              "name": "Information provided to parents about student group performance relative to students in the same grade in other schools, percentage of 15-year old students in schools that provide information to parents on the academic performance of students relative to students in the same grade in other schools and change over time"
+            },
+            {
+              "id": "16PPS",
+              "name": "Publicly posting school achievement data, percentage of 15-year old students in schools where achievement data are publicly posted and change over time"
+            },
+            {
+              "id": "16PRF",
+              "name": "Public relations and fundraising by school principals"
+            },
+            {
+              "id": "14FAA",
+              "name": "Use of student assessments for district or national benchmarking, percentage of 15-year old students in schools where assessments are used for comparing school to district or national performance and change over time"
+            },
+            {
+              "id": "14FAB",
+              "name": "Use of student assessments for between-school comparisons, percentage of 15-year old students in schools where assessments are used to compare the school with other schools and change over time"
+            },
+            {
+              "id": "14FAC",
+              "name": "Use of student assessments for monitoring progress over time, percentage of 15-year old students in schools where assessments are used for monitoring progress from year to year and change over time"
+            },
+            {
+              "id": "14FAD",
+              "name": "Administrative tracking of school achievement data, percentage of 15-year old students in schools where achievement data is tracked over time by an administrative authority and change over time"
+            },
+            {
+              "id": "14FAE",
+              "name": "Use of student assessments for instructional or curriculum improvement, percentage of 15-year old students in schools where assessments are used to identify instructional or curriculum improvement and change over time"
+            },
+            {
+              "id": "14FAF",
+              "name": "Percentage of principals’ time devoted to developing curriculum and pedagogy in their school and change over time"
+            },
+            {
+              "id": "17CFL",
+              "name": "Subject-level composite innovation indices for maths and science education, 2000-2011"
+            },
+            {
+              "id": "17CGL",
+              "name": "Composite innovation indices for 8th grade and 4th grade, 2000-2011"
+            },
+            {
+              "id": "17COV",
+              "name": "Overall composite education innovation index, 2000-2011"
+            },
+            {
+              "id": "17CSL",
+              "name": "School level composite innovation indices, 2000-2011"
+            },
+            {
+              "id": "17CCL",
+              "name": "Classroom level composite innovation indices, 2000-2011"
+            }
+          ]
+        },
+        {
+          "keyPosition": 2,
+          "id": "PER",
+          "name": "Period",
+          "values": [
+            {
+              "id": "INI",
+              "name": "Initial year in percentage"
+            },
+            {
+              "id": "END",
+              "name": "Final year in percentage"
+            },
+            {
+              "id": "CHG",
+              "name": "Change in percentage points"
+            },
+            {
+              "id": "CHJ",
+              "name": "Index of change"
+            }
+          ]
+        },
+        {
+          "keyPosition": 3,
+          "id": "GRD",
+          "name": "Grade",
+          "values": [
+            {
+              "id": "FOG",
+              "name": "4th grade"
+            },
+            {
+              "id": "EIG",
+              "name": "8th grade"
+            },
+            {
+              "id": "ZZZ",
+              "name": "Not applicable"
+            }
+          ]
+        },
+        {
+          "keyPosition": 4,
+          "id": "FLD",
+          "name": "Field",
+          "values": [
+            {
+              "id": "MAT",
+              "name": "Mathematics"
+            },
+            {
+              "id": "SCI",
+              "name": "Sciences"
+            },
+            {
+              "id": "ZZZ",
+              "name": "Not applicable"
+            },
+            {
+              "id": "REA",
+              "name": "Reading"
+            }
+          ]
+        },
+        {
+          "keyPosition": 5,
+          "id": "MSR",
+          "name": "Measure",
+          "values": [
+            {
+              "id": "MN",
+              "name": "Percentage"
+            },
+            {
+              "id": "SE",
+              "name": "Standard error"
+            },
+            {
+              "id": "IND",
+              "name": "Index"
+            }
+          ]
+        }
+      ]
+    },
+    "attributes": {
+      "dataSet": [],
+      "series": [],
+      "observation": [
+        {
+          "id": "TIME_FORMAT",
+          "name": "Time Format",
+          "values": []
+        },
+        {
+          "id": "OBS_STATUS",
+          "name": "Observation Status",
+          "values": [
+            {
+              "id": "x",
+              "name": "Change significant at the 0.05 level"
+            },
+            {
+              "id": "w",
+              "name": "Change significant at the 0.01 level"
+            },
+            {
+              "id": "y",
+              "name": "Change significant at the 0.1 level"
+            }
+          ]
+        }
+      ]
+    },
+    "annotations": [
+      {
+        "title": "Copyright OECD - All rights reserved",
+        "uri": "",
+        "text": ""
+      },
+      {
+        "title": "Terms and Conditions",
+        "uri": "http://www.oecd.org/termsandconditions/",
+        "text": ""
+      },
+      {
+        "title": "Privacy Policy",
+        "uri": "http://www.oecd.org/privacy/",
+        "text": ""
+      },
+      {
+        "title": "MyOECD",
+        "uri": "https://www.oecd.org/login",
+        "text": ""
+      },
+      {
+        "title": "Contact Us",
+        "uri": "http://www.oecd.org/contact/",
+        "text": ""
+      }
+    ]
+  }
+}
