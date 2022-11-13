@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:StructureSpecificData xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:s="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:u="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ESTAT:NAMA_10_GDP(32.1):ObsLevelDim:TIME_PERIOD" xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <m:Header>
+    <m:ID>6EC616C41A1449948584F6B5E3749E2B</m:ID>
+    <m:Test>false</m:Test>
+    <m:Prepared>2022-11-11T12:30:30.333Z</m:Prepared>
+    <m:Sender id="ESTAT"/>
+    <m:Structure dimensionAtObservation="TIME_PERIOD" structureID="STR1">
+      <c:StructureUsage>
+        <Ref id="NAMA_10_GDP" agencyID="ESTAT" version="1.0"/>
+      </c:StructureUsage>
+    </m:Structure>
+    <m:DataSetID>NAMA_10_GDP</m:DataSetID>
+    <m:Extracted>2022-11-11T12:30:30.333Z</m:Extracted>
+  </m:Header>
+  <u:DataSet s:structureRef="STR1" s:dataScope="DataStructure" xsi:type="u:DataSetType">
+    <Series geo="LU" na_item="B1GQ" unit="CP_MEUR" freq="A">
+      <Obs TIME_PERIOD="2012" OBS_VALUE="46526.2"/>
+      <Obs TIME_PERIOD="2013" OBS_VALUE="49094.5"/>
+      <Obs TIME_PERIOD="2014" OBS_VALUE="51791.3"/>
+      <Obs TIME_PERIOD="2015" OBS_VALUE="54142.3"/>
+    </Series>
+  </u:DataSet>
+</m:StructureSpecificData>
