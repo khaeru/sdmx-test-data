@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:Structure xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+    xmlns:s="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+    xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+    <m:Header>
+        <m:ID>DF1674729685</m:ID>
+        <m:Test>false</m:Test>
+        <m:Prepared>2023-01-26T10:41:25.169Z</m:Prepared>
+        <m:Sender id="ESTAT"/>
+    </m:Header>
+    <m:Structures>
+        <s:Dataflows>
+            <s:Dataflow id="GOV_10Q_GGNFA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=ESTAT:GOV_10Q_GGNFA(1.0)" agencyID="ESTAT" version="1.0" isFinal="false">
+                <c:Annotations>
+                    <c:Annotation>
+                        <c:AnnotationTitle>&lt;adms:identifier xmlns:adms="http://www.w3.org/ns/adms#" xmlns:skos="http://www.w3.org/2004/02/skos/core.html" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">&lt;adms:Identifier rdf:about="https://doi.org/10.2908/GOV_10Q_GGNFA">&lt;skos:notation rdf:datatype="http://purl.org/spar/datacite/doi">10.2908/GOV_10Q_GGNFA&lt;/skos:notation>&lt;dct:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ESTAT"/>&lt;dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-19T12:50:39&lt;/dct:issued>&lt;/adms:Identifier>&lt;/adms:identifier></c:AnnotationTitle>
+                        <c:AnnotationType>DISSEMINATION_DOI_XML</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>DATASET</c:AnnotationTitle>
+                        <c:AnnotationType>DISSEMINATION_OBJECT_TYPE</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>Explanatory texts (metadata)</c:AnnotationTitle>
+                        <c:AnnotationType>ESMS_HTML</c:AnnotationType>
+                        <c:AnnotationURL>https://ec.europa.eu/eurostat/cache/metadata/en/gov_10q_ggnfa_esms.htm</c:AnnotationURL>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>Explanatory texts (metadata)</c:AnnotationTitle>
+                        <c:AnnotationType>ESMS_SDMX</c:AnnotationType>
+                        <c:AnnotationURL>https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/gov_10q_ggnfa_esms.sdmx.zip</c:AnnotationURL>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>1331280</c:AnnotationTitle>
+                        <c:AnnotationType>OBS_COUNT</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>2022-Q3</c:AnnotationTitle>
+                        <c:AnnotationType>OBS_PERIOD_OVERALL_LATEST</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>1980-Q1</c:AnnotationTitle>
+                        <c:AnnotationType>OBS_PERIOD_OVERALL_OLDEST</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationType>SOURCE_INSTITUTIONS</c:AnnotationType>
+                        <c:AnnotationText xml:lang="fr">Eurostat</c:AnnotationText>
+                        <c:AnnotationText xml:lang="en">Eurostat</c:AnnotationText>
+                        <c:AnnotationText xml:lang="de">Eurostat</c:AnnotationText>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>2023-01-23T11:00:00+0100</c:AnnotationTitle>
+                        <c:AnnotationType>UPDATE_DATA</c:AnnotationType>
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>2023-01-23T11:00:00+0100</c:AnnotationTitle>
+                        <c:AnnotationType>UPDATE_STRUCTURE</c:AnnotationType>
+                    </c:Annotation>
+                </c:Annotations>
+                <c:Name xml:lang="fr">Comptes non-financiers trimestriels des administrations publiques</c:Name>
+                <c:Name xml:lang="de">Vierteljährliche nichtfinanzielle Staatskonten</c:Name>
+                <c:Name xml:lang="en">Quarterly non-financial accounts for general government</c:Name>
+                <s:Structure>
+                    <Ref id="GOV_10Q_GGNFA" version="43.0" agencyID="ESTAT" package="datastructure" class="DataStructure"/>
+                </s:Structure>
+            </s:Dataflow>
+        </s:Dataflows>
+        <s:Codelists>
+            <s:Codelist agencyID="ESTAT" id="GEO" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:GEO(13.1)" version="13.1" isPartial="true" structureURL="https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/codelist/ESTAT/GEO/13.1" isExternalReference="true">
+                <c:Name xml:lang="en">Geopolitical entity (reporting)</c:Name>
+                <c:Name xml:lang="de">Geopolitische Meldeeinheit</c:Name>
+                <c:Name xml:lang="fr">Entité géopolitique (déclarante)</c:Name>
+                <s:Code id="EU27_2020" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).EU27_2020">
+                    <c:Name xml:lang="en">European Union - 27 countries (from 2020)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 27 Länder (ab 2020)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 27 pays (à partir de 2020)</c:Name>
+                </s:Code>
+                <s:Code id="EA20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).EA20">
+                    <c:Name xml:lang="en">Euro area – 20 countries (from 2023)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 20 Länder (ab 2023)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 20 pays (à partir de 2023)</c:Name>
+                </s:Code>
+                <s:Code id="EA19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).EA19">
+                    <c:Name xml:lang="en">Euro area - 19 countries  (2015-2022)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 19 Länder (2015-2022)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 19 pays (2015-2022)</c:Name>
+                </s:Code>
+                <s:Code id="BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).BE">
+                    <c:Name xml:lang="en">Belgium</c:Name>
+                    <c:Name xml:lang="de">Belgien</c:Name>
+                    <c:Name xml:lang="fr">Belgique</c:Name>
+                </s:Code>
+                <s:Code id="BG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).BG">
+                    <c:Name xml:lang="en">Bulgaria</c:Name>
+                    <c:Name xml:lang="de">Bulgarien</c:Name>
+                    <c:Name xml:lang="fr">Bulgarie</c:Name>
+                </s:Code>
+                <s:Code id="CZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).CZ">
+                    <c:Name xml:lang="en">Czechia</c:Name>
+                    <c:Name xml:lang="de">Tschechien</c:Name>
+                    <c:Name xml:lang="fr">Tchéquie</c:Name>
+                </s:Code>
+                <s:Code id="DK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).DK">
+                    <c:Name xml:lang="en">Denmark</c:Name>
+                    <c:Name xml:lang="de">Dänemark</c:Name>
+                    <c:Name xml:lang="fr">Danemark</c:Name>
+                </s:Code>
+                <s:Code id="DE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).DE">
+                    <c:Name xml:lang="en">Germany (until 1990 former territory of the FRG)</c:Name>
+                    <c:Name xml:lang="de">Deutschland (bis 1990 früheres Gebiet der BRD)</c:Name>
+                    <c:Name xml:lang="fr">Allemagne (jusqu'en 1990, ancien territoire de la RFA)</c:Name>
+                </s:Code>
+                <s:Code id="EE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).EE">
+                    <c:Name xml:lang="en">Estonia</c:Name>
+                    <c:Name xml:lang="de">Estland</c:Name>
+                    <c:Name xml:lang="fr">Estonie</c:Name>
+                </s:Code>
+                <s:Code id="IE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).IE">
+                    <c:Name xml:lang="en">Ireland</c:Name>
+                    <c:Name xml:lang="de">Irland</c:Name>
+                    <c:Name xml:lang="fr">Irlande</c:Name>
+                </s:Code>
+                <s:Code id="EL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).EL">
+                    <c:Name xml:lang="en">Greece</c:Name>
+                    <c:Name xml:lang="de">Griechenland</c:Name>
+                    <c:Name xml:lang="fr">Grèce</c:Name>
+                </s:Code>
+                <s:Code id="ES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).ES">
+                    <c:Name xml:lang="en">Spain</c:Name>
+                    <c:Name xml:lang="de">Spanien</c:Name>
+                    <c:Name xml:lang="fr">Espagne</c:Name>
+                </s:Code>
+                <s:Code id="FR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).FR">
+                    <c:Name xml:lang="en">France</c:Name>
+                    <c:Name xml:lang="de">Frankreich</c:Name>
+                    <c:Name xml:lang="fr">France</c:Name>
+                </s:Code>
+                <s:Code id="HR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).HR">
+                    <c:Name xml:lang="en">Croatia</c:Name>
+                    <c:Name xml:lang="de">Kroatien</c:Name>
+                    <c:Name xml:lang="fr">Croatie</c:Name>
+                </s:Code>
+                <s:Code id="IT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).IT">
+                    <c:Name xml:lang="en">Italy</c:Name>
+                    <c:Name xml:lang="de">Italien</c:Name>
+                    <c:Name xml:lang="fr">Italie</c:Name>
+                </s:Code>
+                <s:Code id="CY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).CY">
+                    <c:Name xml:lang="en">Cyprus</c:Name>
+                    <c:Name xml:lang="de">Zypern</c:Name>
+                    <c:Name xml:lang="fr">Chypre</c:Name>
+                </s:Code>
+                <s:Code id="LV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).LV">
+                    <c:Name xml:lang="en">Latvia</c:Name>
+                    <c:Name xml:lang="de">Lettland</c:Name>
+                    <c:Name xml:lang="fr">Lettonie</c:Name>
+                </s:Code>
+                <s:Code id="LT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).LT">
+                    <c:Name xml:lang="en">Lithuania</c:Name>
+                    <c:Name xml:lang="de">Litauen</c:Name>
+                    <c:Name xml:lang="fr">Lituanie</c:Name>
+                </s:Code>
+                <s:Code id="LU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).LU">
+                    <c:Name xml:lang="en">Luxembourg</c:Name>
+                    <c:Name xml:lang="de">Luxemburg</c:Name>
+                    <c:Name xml:lang="fr">Luxembourg</c:Name>
+                </s:Code>
+                <s:Code id="HU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).HU">
+                    <c:Name xml:lang="en">Hungary</c:Name>
+                    <c:Name xml:lang="de">Ungarn</c:Name>
+                    <c:Name xml:lang="fr">Hongrie</c:Name>
+                </s:Code>
+                <s:Code id="MT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).MT">
+                    <c:Name xml:lang="en">Malta</c:Name>
+                    <c:Name xml:lang="de">Malta</c:Name>
+                    <c:Name xml:lang="fr">Malte</c:Name>
+                </s:Code>
+                <s:Code id="NL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).NL">
+                    <c:Name xml:lang="en">Netherlands</c:Name>
+                    <c:Name xml:lang="de">Niederlande</c:Name>
+                    <c:Name xml:lang="fr">Pays-Bas</c:Name>
+                </s:Code>
+                <s:Code id="AT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).AT">
+                    <c:Name xml:lang="en">Austria</c:Name>
+                    <c:Name xml:lang="de">Österreich</c:Name>
+                    <c:Name xml:lang="fr">Autriche</c:Name>
+                </s:Code>
+                <s:Code id="PL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).PL">
+                    <c:Name xml:lang="en">Poland</c:Name>
+                    <c:Name xml:lang="de">Polen</c:Name>
+                    <c:Name xml:lang="fr">Pologne</c:Name>
+                </s:Code>
+                <s:Code id="PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).PT">
+                    <c:Name xml:lang="en">Portugal</c:Name>
+                    <c:Name xml:lang="de">Portugal</c:Name>
+                    <c:Name xml:lang="fr">Portugal</c:Name>
+                </s:Code>
+                <s:Code id="RO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).RO">
+                    <c:Name xml:lang="en">Romania</c:Name>
+                    <c:Name xml:lang="de">Rumänien</c:Name>
+                    <c:Name xml:lang="fr">Roumanie</c:Name>
+                </s:Code>
+                <s:Code id="SI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).SI">
+                    <c:Name xml:lang="en">Slovenia</c:Name>
+                    <c:Name xml:lang="de">Slowenien</c:Name>
+                    <c:Name xml:lang="fr">Slovénie</c:Name>
+                </s:Code>
+                <s:Code id="SK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).SK">
+                    <c:Name xml:lang="en">Slovakia</c:Name>
+                    <c:Name xml:lang="de">Slowakei</c:Name>
+                    <c:Name xml:lang="fr">Slovaquie</c:Name>
+                </s:Code>
+                <s:Code id="FI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).FI">
+                    <c:Name xml:lang="en">Finland</c:Name>
+                    <c:Name xml:lang="de">Finnland</c:Name>
+                    <c:Name xml:lang="fr">Finlande</c:Name>
+                </s:Code>
+                <s:Code id="SE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).SE">
+                    <c:Name xml:lang="en">Sweden</c:Name>
+                    <c:Name xml:lang="de">Schweden</c:Name>
+                    <c:Name xml:lang="fr">Suède</c:Name>
+                </s:Code>
+                <s:Code id="IS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).IS">
+                    <c:Name xml:lang="en">Iceland</c:Name>
+                    <c:Name xml:lang="de">Island</c:Name>
+                    <c:Name xml:lang="fr">Islande</c:Name>
+                </s:Code>
+                <s:Code id="NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).NO">
+                    <c:Name xml:lang="en">Norway</c:Name>
+                    <c:Name xml:lang="de">Norwegen</c:Name>
+                    <c:Name xml:lang="fr">Norvège</c:Name>
+                </s:Code>
+                <s:Code id="CH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.1).CH">
+                    <c:Name xml:lang="en">Switzerland</c:Name>
+                    <c:Name xml:lang="de">Schweiz</c:Name>
+                    <c:Name xml:lang="fr">Suisse</c:Name>
+                </s:Code>
+            </s:Codelist>
+            <s:Codelist xmlns:s="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+                xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+                xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" agencyID="ESTAT" id="UNIT" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:UNIT(15.1)" version="15.1">
+                <c:Name xml:lang="en">Unit of measure</c:Name>
+                <c:Name xml:lang="de">Maßeinheit</c:Name>
+                <c:Name xml:lang="fr">Unité de mesure</c:Name>
+                <s:Code id="TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.1).TOTAL">
+                    <c:Name xml:lang="en">Total</c:Name>
+                    <c:Name xml:lang="de">Insgesamt</c:Name>
+                    <c:Name xml:lang="fr">Total</c:Name>
+                </s:Code>
+                <s:Code id="MIO_EUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.1).MIO_EUR">
+                    <c:Name xml:lang="en">Million euro</c:Name>
+                    <c:Name xml:lang="de">Millionen Euro</c:Name>
+                    <c:Name xml:lang="fr">Millions d'euros</c:Name>
+                </s:Code>
+                <s:Code id="MIO_NAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.1).MIO_NAC">
+                    <c:Name xml:lang="en">Million units of national currency</c:Name>
+                    <c:Name xml:lang="de">Millionen Einheiten Landeswährung</c:Name>
+                    <c:Name xml:lang="fr">Millions d'unités de monnaie nationale</c:Name>
+                </s:Code>
+                <s:Code id="PC_GDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.1).PC_GDP">
+                    <c:Name xml:lang="en">Percentage of gross domestic product (GDP)</c:Name>
+                    <c:Name xml:lang="de">Prozent des Bruttoinlandsprodukts (BIP)</c:Name>
+                    <c:Name xml:lang="fr">Pourcentage du produit intérieur brut (PIB)</c:Name>
+                </s:Code>
+            </s:Codelist>
+            <s:Codelist xmlns:s="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+                xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+                xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" agencyID="ESTAT" id="GEO" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:GEO(13.0)" version="13.0">
+                <c:Name xml:lang="en">Geopolitical entity (reporting)</c:Name>
+                <c:Name xml:lang="de">Geopolitische Meldeeinheit</c:Name>
+                <c:Name xml:lang="fr">Entité géopolitique (déclarante)</c:Name>
+                <s:Code id="EUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EUR">
+                    <c:Name xml:lang="en">Europe</c:Name>
+                    <c:Name xml:lang="de">Europa</c:Name>
+                    <c:Name xml:lang="fr">Europe</c:Name>
+                </s:Code>
+                <s:Code id="EU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU">
+                    <c:Name xml:lang="en">European Union (EU6-1958, EU9-1973, EU10-1981, EU12-1986, EU15-1995, EU25-2004, EU27-2007, EU28-2013, EU27-2020)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union (EU6-1958, EU9-1973, EU10-1981, EU12-1986, EU15-1995, EU25-2004, EU27-2007, EU28-2013, EU27-2020)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne (UE6-1958, UE9-1973, UE10-1981, UE12-1986, UE15-1995, UE25-2004, UE27-2007, UE28-2013, UE27-2020)</c:Name>
+                </s:Code>
+                <s:Code id="EU_V" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU_V">
+                    <c:Name xml:lang="en">European Union (aggregate changing according to the context)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union (Aggregat ändert sich je nach Anwendungsbereich)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne (agrégat variable en fonction du contexte)</c:Name>
+                </s:Code>
+                <s:Code id="EU27_2020_EFTA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU27_2020_EFTA">
+                    <c:Name xml:lang="en">European Union - 27 countries (from 2020) and European Free Trade Association (EFTA) countries</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 27 Länder (ab 2020) und Länder der Europäischen Freihandelsassoziation (EFTA)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 27 pays (à partir de 2020) et pays de l'Association Européenne de Libre Echange (AELE)</c:Name>
+                </s:Code>
+                <s:Code id="EU27_2020_IS_K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU27_2020_IS_K">
+                    <c:Name xml:lang="en">European Union - 27 countries (from 2020) and Iceland under the Kyoto Protocol</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 27 Länder (ab 2020) und Island unter dem Kyoto-Protokoll</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 27 pays (à partir de 2020) et l'Islande dans le cadre du Protocole de Kyoto</c:Name>
+                </s:Code>
+                <s:Code id="EU27_2020" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU27_2020">
+                    <c:Name xml:lang="en">European Union - 27 countries (from 2020)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 27 Länder (ab 2020)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 27 pays (à partir de 2020)</c:Name>
+                </s:Code>
+                <s:Code id="EU28_EFTA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU28_EFTA">
+                    <c:Name xml:lang="en">European Union - 28 countries (2013-2020) and European Free Trade Association (EFTA) countries</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 28 Länder (2013-2020) und Länder der Europäischen Freihandelsassoziation (EFTA)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 28 pays (2013-2020) et pays de l'Association Européenne de Libre Echange (AELE)</c:Name>
+                </s:Code>
+                <s:Code id="EU28_IS_K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU28_IS_K">
+                    <c:Name xml:lang="en">European Union - 28 countries (2013-2020) and Iceland under the Kyoto Protocol</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 28 Länder (2013-2020) und Island unter dem Kyoto-Protokoll</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 28 pays (2013-2020) et l'Islande dans le cadre du Protocole de Kyoto</c:Name>
+                </s:Code>
+                <s:Code id="EU28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU28">
+                    <c:Name xml:lang="en">European Union - 28 countries (2013-2020)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 28 Länder (2013-2020)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 28 pays (2013-2020)</c:Name>
+                </s:Code>
+                <s:Code id="EU27_2007" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU27_2007">
+                    <c:Name xml:lang="en">European Union - 27 countries (2007-2013)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 27 Länder (2007-2013)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 27 pays (2007-2013)</c:Name>
+                </s:Code>
+                <s:Code id="EU25" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU25">
+                    <c:Name xml:lang="en">European Union - 25 countries (2004-2006)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 25 Länder (2004-2006)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 25 pays (2004-2006)</c:Name>
+                </s:Code>
+                <s:Code id="EU15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU15">
+                    <c:Name xml:lang="en">European Union - 15 countries (1995-2004)</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 15 Länder (1995-2004)</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 15 pays (1995-2004)</c:Name>
+                </s:Code>
+                <s:Code id="EU15_NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU15_NO">
+                    <c:Name xml:lang="en">European Union - 15 countries (1995-2004) and Norway</c:Name>
+                    <c:Name xml:lang="de">Europäische Union - 15 Länder (1995-2004) und Norwegen</c:Name>
+                    <c:Name xml:lang="fr">Union européenne - 15 pays (1995-2004) et Norvège</c:Name>
+                </s:Code>
+                <s:Code id="NMS13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).NMS13">
+                    <c:Name xml:lang="en">New Member States - 13 countries (from 2013)</c:Name>
+                    <c:Name xml:lang="de">Neue Mitgliedstaaten - 13 Länder (ab 2013)</c:Name>
+                    <c:Name xml:lang="fr">Nouveaux Etats membres - 13 pays (à partir de 2013)</c:Name>
+                </s:Code>
+                <s:Code id="NMS12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).NMS12">
+                    <c:Name xml:lang="en">New Member States - 12 countries (2007-2013)</c:Name>
+                    <c:Name xml:lang="de">Neue Mitgliedstaaten - 12 Länder (2007-2013)</c:Name>
+                    <c:Name xml:lang="fr">Nouveaux Etats membres - 12 pays (2007-2013)</c:Name>
+                </s:Code>
+                <s:Code id="NMS10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).NMS10">
+                    <c:Name xml:lang="en">New Member States - 10 countries (2004-2006)</c:Name>
+                    <c:Name xml:lang="de">Neue Mitgliedstaaten - 10 Länder (2004-2006)</c:Name>
+                    <c:Name xml:lang="fr">Nouveaux Etats membres - 10 pays (2004-2006)</c:Name>
+                </s:Code>
+                <s:Code id="EU12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU12">
+                    <c:Name xml:lang="en">European Community - 12 countries (1986-1994)</c:Name>
+                    <c:Name xml:lang="de">Europäische Gemeinschaft - 12 Länder (1986-1994)</c:Name>
+                    <c:Name xml:lang="fr">Communauté européenne - 12 pays (1986-1994)</c:Name>
+                </s:Code>
+                <s:Code id="EU10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU10">
+                    <c:Name xml:lang="en">European Community - 10 countries (1981-1985)</c:Name>
+                    <c:Name xml:lang="de">Europäische Gemeinschaft - 10 Länder (1981-1985)</c:Name>
+                    <c:Name xml:lang="fr">Communauté européenne - 10 pays (1981-1985)</c:Name>
+                </s:Code>
+                <s:Code id="EU9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU9">
+                    <c:Name xml:lang="en">European Community - 9 countries (1973-1980)</c:Name>
+                    <c:Name xml:lang="de">Europäische Gemeinschaft - 9 Länder (1973-1980)</c:Name>
+                    <c:Name xml:lang="fr">Communauté européenne - 9 pays (1973-1980)</c:Name>
+                </s:Code>
+                <s:Code id="EU6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EU6">
+                    <c:Name xml:lang="en">European Community  - 6 founder countries (1958-1972)</c:Name>
+                    <c:Name xml:lang="de">Europäische Gemeinschaft - 6 Gründerländer (1958-1972)</c:Name>
+                    <c:Name xml:lang="fr">Communauté européenne - 6 pays fondateurs (1958-1972)</c:Name>
+                </s:Code>
+                <s:Code id="EA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA">
+                    <c:Name xml:lang="en">Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023)</c:Name>
+                    <c:Name xml:lang="de">Euroraum (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023)</c:Name>
+                </s:Code>
+                <s:Code id="EA20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA20">
+                    <c:Name xml:lang="en">Euro area – 20 countries (from 2023)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 20 Länder (ab 2023)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 20 pays (à partir de 2023)</c:Name>
+                </s:Code>
+                <s:Code id="EA19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA19">
+                    <c:Name xml:lang="en">Euro area - 19 countries  (2015-2022)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 19 Länder (2015-2022)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 19 pays (2015-2022)</c:Name>
+                </s:Code>
+                <s:Code id="EA18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA18">
+                    <c:Name xml:lang="en">Euro area - 18 countries (2014)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 18 Länder (2014)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 18 pays (2014)</c:Name>
+                </s:Code>
+                <s:Code id="EA17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA17">
+                    <c:Name xml:lang="en">Euro area - 17 countries (2011-2013)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 17 Länder (2011-2013)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 17 pays (2011-2013)</c:Name>
+                </s:Code>
+                <s:Code id="EA16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA16">
+                    <c:Name xml:lang="en">Euro area - 16 countries (2009-2010)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 16 Länder (2009-2010)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 16 pays (2009-2010)</c:Name>
+                </s:Code>
+                <s:Code id="EA15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA15">
+                    <c:Name xml:lang="en">Euro area - 15 countries (2008)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 15 Länder (2008)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 15 pays (2008)</c:Name>
+                </s:Code>
+                <s:Code id="EA13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA13">
+                    <c:Name xml:lang="en">Euro area - 13 countries (2007)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 13 Länder (2007)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 13 pays (2007)</c:Name>
+                </s:Code>
+                <s:Code id="EA12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA12">
+                    <c:Name xml:lang="en">Euro area - 12 countries (2001-2006)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 12 Länder (2001-2006)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 12 pays (2001-2006)</c:Name>
+                </s:Code>
+                <s:Code id="EA11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).EA11">
+                    <c:Name xml:lang="en">Euro area - 11 countries (1999-2000)</c:Name>
+                    <c:Name xml:lang="de">Euroraum - 11 Länder (1999-2000)</c:Name>
+                    <c:Name xml:lang="fr">Zone euro - 11 pays (1999-2000)</c:Name>
+                </s:Code>
+                <s:Code id="BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE">
+                    <c:Name xml:lang="en">Belgium</c:Name>
+                    <c:Name xml:lang="de">Belgien</c:Name>
+                    <c:Name xml:lang="fr">Belgique</c:Name>
+                </s:Code>
+                <s:Code id="BE1_2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE1_2">
+                    <c:Name xml:lang="en">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest and Vlaams Gewest</c:Name>
+                    <c:Name xml:lang="de">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest und Vlaams Gewest</c:Name>
+                    <c:Name xml:lang="fr">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest et Vlaams Gewest</c:Name>
+                </s:Code>
+                <s:Code id="BE1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE1">
+                    <c:Name xml:lang="en">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                    <c:Name xml:lang="de">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                    <c:Name xml:lang="fr">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                </s:Code>
+                <s:Code id="BE10_24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE10_24">
+                    <c:Name xml:lang="en">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest and Prov. Vlaams Brabant</c:Name>
+                    <c:Name xml:lang="de">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest und Prov. Vlaams Brabant</c:Name>
+                    <c:Name xml:lang="fr">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest et Prov. Vlaams Brabant</c:Name>
+                </s:Code>
+                <s:Code id="BE10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE10">
+                    <c:Name xml:lang="en">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                    <c:Name xml:lang="de">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                    <c:Name xml:lang="fr">Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest</c:Name>
+                </s:Code>
+                <s:Code id="BE100" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:GEO(13.0).BE100">
+                    <c:Name xml:lang="en">Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</c:Name>
+                    <c:Name xml:lang="de">Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</c:Name>
+                    <c:Name xml:lang="fr">Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</c:Name>
+                </s:Code>
+            </s:Codelist>
+            <s:Codelist agencyID="ESTAT" id="UNIT" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:UNIT(15.2)" version="15.2" isPartial="true" structureURL="https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/codelist/ESTAT/UNIT/15.2" isExternalReference="true">
+                <c:Name xml:lang="en">Unit of measure</c:Name>
+                <c:Name xml:lang="de">Maßeinheit</c:Name>
+                <c:Name xml:lang="fr">Unité de mesure</c:Name>
+                <s:Code id="MIO_EUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.2).MIO_EUR">
+                    <c:Name xml:lang="en">Million euro</c:Name>
+                    <c:Name xml:lang="de">Millionen Euro</c:Name>
+                    <c:Name xml:lang="fr">Millions d'euros</c:Name>
+                </s:Code>
+                <s:Code id="MIO_NAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.2).MIO_NAC">
+                    <c:Name xml:lang="en">Million units of national currency</c:Name>
+                    <c:Name xml:lang="de">Millionen Einheiten Landeswährung</c:Name>
+                    <c:Name xml:lang="fr">Millions d'unités de monnaie nationale</c:Name>
+                </s:Code>
+                <s:Code id="PC_GDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:UNIT(15.2).PC_GDP">
+                    <c:Name xml:lang="en">Percentage of gross domestic product (GDP)</c:Name>
+                    <c:Name xml:lang="de">Prozent des Bruttoinlandsprodukts (BIP)</c:Name>
+                    <c:Name xml:lang="fr">Pourcentage du produit intérieur brut (PIB)</c:Name>
+                </s:Code>
+            </s:Codelist>
+        </s:Codelists>
+        <s:Concepts>
+            <s:ConceptScheme agencyID="ESTAT" id="GOV_10Q_GGNFA" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=ESTAT:GOV_10Q_GGNFA(36.0)" version="36.0" isPartial="false">
+                <c:Name xml:lang="en">List of concepts for dataset 'GOV_10Q_GGNFA'</c:Name>
+                <s:Concept id="freq" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).freq">
+                    <c:Name xml:lang="en">Time frequency</c:Name>
+                    <c:Name xml:lang="de">Zeitliche Frequenz</c:Name>
+                    <c:Name xml:lang="fr">Fréquence (relative au temps)</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="FREQ" package="codelist" version="1.30"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="unit" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).unit">
+                    <c:Name xml:lang="en">Unit of measure</c:Name>
+                    <c:Name xml:lang="de">Maßeinheit</c:Name>
+                    <c:Name xml:lang="fr">Unité de mesure</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="UNIT" package="codelist" version="15.1"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="s_adj" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).s_adj">
+                    <c:Name xml:lang="en">Seasonal adjustment</c:Name>
+                    <c:Name xml:lang="de">Saisonbereinigung</c:Name>
+                    <c:Name xml:lang="fr">Désaisonnalisation</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="S_ADJ" package="codelist" version="1.9"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="sector" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).sector">
+                    <c:Name xml:lang="en">Sector</c:Name>
+                    <c:Name xml:lang="de">Sektor</c:Name>
+                    <c:Name xml:lang="fr">Secteur</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="SECTOR" package="codelist" version="9.2"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="na_item" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).na_item">
+                    <c:Name xml:lang="en">National accounts indicator (ESA 2010)</c:Name>
+                    <c:Name xml:lang="de">Volkswirtschaftliche Gesamtrechnungen Indikator (ESVG 2010)</c:Name>
+                    <c:Name xml:lang="fr">Indicateur des comptes nationaux (SEC 2010)</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="NA_ITEM" package="codelist" version="8.2"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="geo" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).geo">
+                    <c:Name xml:lang="en">Geopolitical entity (reporting)</c:Name>
+                    <c:Name xml:lang="de">Geopolitische Meldeeinheit</c:Name>
+                    <c:Name xml:lang="fr">Entité géopolitique (déclarante)</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="GEO" package="codelist" version="13.0"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).TIME_PERIOD">
+                    <c:Name xml:lang="en">Time</c:Name>
+                    <c:Name xml:lang="de">Zeit</c:Name>
+                    <c:Name xml:lang="fr">Temps</c:Name>
+                    <s:CoreRepresentation>
+                        <s:TextFormat textType="ObservationalTimePeriod"/>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).OBS_FLAG">
+                    <c:Name xml:lang="en">Observation status (Flag)</c:Name>
+                    <c:Name xml:lang="de">Beobachtungswert</c:Name>
+                    <c:Name xml:lang="fr">Valeur observée</c:Name>
+                    <s:CoreRepresentation>
+                        <s:Enumeration>
+                            <Ref agencyID="ESTAT" class="Codelist" id="OBS_FLAG" package="codelist" version="1.30"/>
+                        </s:Enumeration>
+                    </s:CoreRepresentation>
+                </s:Concept>
+                <s:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:GOV_10Q_GGNFA(36.0).OBS_VALUE">
+                    <c:Name xml:lang="en">Observation value</c:Name>
+                    <c:Name xml:lang="fr">Valeur observée</c:Name>
+                    <c:Name xml:lang="de">Beobachtungswert</c:Name>
+                </s:Concept>
+            </s:ConceptScheme>
+        </s:Concepts>
+        <s:DataStructures>
+            <s:DataStructure xmlns:s="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+                xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+                xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" agencyID="ESTAT" id="GOV_10Q_GGNFA" isFinal="true" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ESTAT:GOV_10Q_GGNFA(43.0)" version="43.0">
+                <c:Annotations>
+                    <c:Annotation>
+                        <c:AnnotationTitle>OBS_FLAG</c:AnnotationTitle>
+                        <c:AnnotationType>DISSEMINATION_FLAG_SETTINGS</c:AnnotationType>
+                        <c:AnnotationURL />
+                    </c:Annotation>
+                    <c:Annotation>
+                        <c:AnnotationTitle>time</c:AnnotationTitle>
+                        <c:AnnotationType>DISSEMINATION_TIME_DIMENSION_CODE</c:AnnotationType>
+                        <c:AnnotationURL />
+                    </c:Annotation>
+                </c:Annotations>
+                <c:Name xml:lang="en">GOV_10Q_GGNFA data structure</c:Name>
+                <s:DataStructureComponents>
+                    <s:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=ESTAT:GOV_10Q_GGNFA(43.0).DimensionDescriptor">
+                        <s:Dimension id="freq" position="1" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).freq">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="freq" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="FREQ" package="codelist" version="1.31" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:Dimension id="unit" position="2" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).unit">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="unit" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="UNIT" package="codelist" version="15.2" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:Dimension id="s_adj" position="3" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).s_adj">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="s_adj" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="S_ADJ" package="codelist" version="1.9" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:Dimension id="sector" position="4" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).sector">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="sector" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="SECTOR" package="codelist" version="9.2" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:Dimension id="na_item" position="5" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).na_item">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="na_item" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="NA_ITEM" package="codelist" version="9.0" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:Dimension id="geo" position="6" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:GOV_10Q_GGNFA(43.0).geo">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="geo" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="GEO" package="codelist" version="13.1" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                        </s:Dimension>
+                        <s:TimeDimension id="TIME_PERIOD" position="7" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ESTAT:GOV_10Q_GGNFA(43.0).TIME_PERIOD">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="TIME_PERIOD" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:TextFormat textType="ObservationalTimePeriod" />
+                            </s:LocalRepresentation>
+                        </s:TimeDimension>
+                    </s:DimensionList>
+                    <s:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=ESTAT:GOV_10Q_GGNFA(43.0).AttributeDescriptor">
+                        <s:Attribute assignmentStatus="Conditional" id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ESTAT:GOV_10Q_GGNFA(43.0).OBS_FLAG">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="OBS_FLAG" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:Enumeration>
+                                    <Ref agencyID="ESTAT" class="Codelist" id="OBS_FLAG" package="codelist" version="1.31" />
+                                </s:Enumeration>
+                            </s:LocalRepresentation>
+                            <s:AttributeRelationship>
+                                <s:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE" />
+                                </s:PrimaryMeasure>
+                            </s:AttributeRelationship>
+                        </s:Attribute>
+                    </s:AttributeList>
+                    <s:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=ESTAT:GOV_10Q_GGNFA(43.0).MeasureDescriptor">
+                        <s:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ESTAT:GOV_10Q_GGNFA(43.0).OBS_VALUE">
+                            <s:ConceptIdentity>
+                                <Ref agencyID="ESTAT" class="Concept" id="OBS_VALUE" maintainableParentID="GOV_10Q_GGNFA" maintainableParentVersion="36.0" package="conceptscheme" />
+                            </s:ConceptIdentity>
+                            <s:LocalRepresentation>
+                                <s:TextFormat textType="Double" />
+                            </s:LocalRepresentation>
+                        </s:PrimaryMeasure>
+                    </s:MeasureList>
+                </s:DataStructureComponents>
+            </s:DataStructure>
+        </s:DataStructures>
+    </m:Structures>
+</m:Structure>
