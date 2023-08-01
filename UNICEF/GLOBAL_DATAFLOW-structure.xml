@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+    xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+    xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://registry.sdmx.org/schemas/v2_1/SDMXMessage.xsd">
+    <mes:Header>
+        <mes:ID>IREF885685</mes:ID>
+        <mes:Test>false</mes:Test>
+        <mes:Prepared>2023-08-01T11:16:04Z</mes:Prepared>
+        <mes:Sender id="UNICEF"/>
+        <mes:Receiver id="not_supplied"/>
+    </mes:Header>
+    <mes:Structures>
+        <str:OrganisationSchemes>
+            <str:AgencyScheme urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=SDMX:AGENCIES(1.0)" isExternalReference="false" agencyID="SDMX" id="AGENCIES" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">SDMX Agency Scheme</com:Name>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX" id="SDMX">
+                    <com:Name xml:lang="en">Statistical Data and Metadata eXchange</com:Name>
+                    <com:Description xml:lang="en">SDMX is an initiative to foster standards for the exchange of statistical information. It is sponsored by the Bank for International Settlements (BIS), the European Central Bank (ECB), the Statistical Office of the European Union (Eurostat), the International Monetary Fund (IMF), the Organization for Economic Co-Operation and Development (OECD), the United Nations (UN) and the World Bank.</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNSD" id="UNSD">
+                    <com:Name xml:lang="en">United Nations Statistics Division</com:Name>
+                    <com:Description xml:lang="en">The Statistics Division of the Department of Economic and Social Affairs of the United Nations Secretariat (UNSD) is committed to the advancement of the global statistical system. UNSD compiles and disseminates global statistical information, develops standards and norms for statistical activities, and supports countries' efforts to strengthen their national statistical systems. UNSD facilitates the coordination of international statistical activities and supports the functioning of the United Nations Statistical Commission as the apex entity of the global statistical system.</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=IAEG-SDGs" id="IAEG-SDGs">
+                    <com:Name xml:lang="en">Inter-agency and Expert Group on SDG Indicators</com:Name>
+                    <com:Description xml:lang="en">The United Nations Statistical Commission created the Inter-agency and Expert Group on SDG Indicators (IAEG-SDGs), composed of Member States and including regional and international agencies as observers. The IAEG-SDGs was tasked to develop and implement the global indicator framework for the Goals and targets of the 2030 Agenda. The global indicator framework was developed by the IAEG-SDGs and agreed upon, including refinements on several indicators, at the 48th session of the United Nations Statistical Commission held in March 2017. The global indicator framework was subsequently adopted by the General Assembly on 6 July 2017 and is contained in the Resolution adopted by the General Assembly on Work of the Statistical Commission pertaining to the 2030 Agenda for Sustainable Development (A/RES/71/313)</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNESCO" id="UNESCO">
+                    <com:Name xml:lang="en">United Nations Organization for Education, Science and Culture</com:Name>
+                    <com:Description xml:lang="en">The United Nations Organization for Education, Science and Culture (UNESCO) was founded on 16 November 1945.
+
+            UNESCO has 195 Members and eight Associate Members. It is governed by the General Conference and the Executive Board. The Secretariat, headed by the Director-General, implements the decisions of these two bodies.
+
+            The Organization has more than 50 field offices around the world. Its headquarters are located at Place de Fontenoy in Paris, France, in in an outstanding, Modernist building inaugurated in 1958 and recently renovated.</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF" id="UNICEF">
+                    <com:Name xml:lang="en">UNICEF - United Nations Children's Fund</com:Name>
+                    <com:Description xml:lang="en">UNICEF</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=EAPRO" id="EAPRO">
+                    <com:Name xml:lang="en">UNICEF East Asia and Pacific Regional Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF_TEST" id="UNICEF_TEST">
+                    <com:Name xml:lang="en">UNICEF Test Data</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=ECARO" id="ECARO">
+                    <com:Name xml:lang="en">UNICEF Europe and Central Asia Regional Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF_DRAFT" id="UNICEF_DRAFT">
+                    <com:Name xml:lang="en">UNICEF Draft Data</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=PFP" id="PFP">
+                    <com:Name xml:lang="en">UNICEF Private Fundraising and Partnerships Division</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=CD2030" id="CD2030">
+                    <com:Name xml:lang="en">Countdown 2030</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNPD" id="UNPD">
+                    <com:Name xml:lang="en">United Nations Population Division</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=PCO" id="PCO">
+                    <com:Name xml:lang="en">UNICEF Pakistan Country Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=CD2030_ARCHIVE" id="CD2030_ARCHIVE">
+                    <com:Name xml:lang="en">CD2030 Archive</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF_ARCHIVE" id="UNICEF_ARCHIVE">
+                    <com:Name xml:lang="en">UNICEF Archive</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNESCO_ARCHIVE" id="UNESCO_ARCHIVE">
+                    <com:Name xml:lang="en">UNESCO Archive</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=MENARO" id="MENARO">
+                    <com:Name xml:lang="en">UNICEF Middle East and North Africa</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF_LACRO" id="UNICEF_LACRO">
+                    <com:Name xml:lang="en">UNICEF Latin America and the Caribbean office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=BRAZIL_CO" id="BRAZIL_CO">
+                    <com:Name xml:lang="en">Brazil Country Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=ROSA" id="ROSA">
+                    <com:Name xml:lang="en">UNICEF South Asia Regional Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=ZIMBABWE_CO" id="ZIMBABWE_CO">
+                    <com:Name xml:lang="en">Zimbabwe Country Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=CAP2030" id="CAP2030">
+                    <com:Name xml:lang="en">CAP 2030</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=PARAGUAY_INE" id="PARAGUAY_INE">
+                    <com:Name xml:lang="en">Paraguay INE</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=PRY_INE" id="PRY_INE">
+                    <com:Name xml:lang="en">Paraguay INE</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=WCARO" id="WCARO">
+                    <com:Name xml:lang="en">WCARO</com:Name>
+                </str:Agency>
+            </str:AgencyScheme>
+            <str:AgencyScheme urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=UNICEF:AGENCIES(1.0)" isExternalReference="false" agencyID="UNICEF" id="AGENCIES" isFinal="false" version="1.0">
+                <com:Name xml:lang="it">AGENCIES</com:Name>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF.EMOPS" id="EMOPS">
+                    <com:Name xml:lang="en">UNICEF Office of Emergency Programmes</com:Name>
+                    <com:Description xml:lang="en">UNICEF’s Office of Emergency Programmes (EMOPS) is the focal point for emergency assistance, humanitarian policies, staff security and support to UNICEF offices in the field, as well as strategic coordination with external humanitarian partners both within and outside the United Nations system.</com:Description>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF.UNICEF_HQ_EDUCATION" id="UNICEF_HQ_EDUCATION">
+                    <com:Name xml:lang="en">UNICEF HQ Education</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF.AFGHANISTAN_CO" id="AFGHANISTAN_CO">
+                    <com:Name xml:lang="en">Afghanistan Country Office</com:Name>
+                </str:Agency>
+                <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=UNICEF.CO_KEN" id="CO_KEN">
+                    <com:Name xml:lang="en">Kenya Country Office</com:Name>
+                </str:Agency>
+            </str:AgencyScheme>
+            <str:DataProviderScheme urn="urn:sdmx:org.sdmx.infomodel.base.DataProviderScheme=UNICEF:DATA_PROVIDERS(1.0)" isExternalReference="false" agencyID="UNICEF" id="DATA_PROVIDERS" isFinal="false" version="1.0">
+                <com:Name xml:lang="it">DATA_PROVIDERS</com:Name>
+                <str:DataProvider urn="urn:sdmx:org.sdmx.infomodel.base.DataProvider=UNICEF:DATA_PROVIDERS(1.0).UNICEF" id="UNICEF">
+                    <com:Name xml:lang="en">UNICEF Official Data</com:Name>
+                </str:DataProvider>
+                <str:DataProvider urn="urn:sdmx:org.sdmx.infomodel.base.DataProvider=UNICEF:DATA_PROVIDERS(1.0).UNICEF_DRAFT" id="UNICEF_DRAFT">
+                    <com:Name xml:lang="en">UNICEF Draft Data</com:Name>
+                </str:DataProvider>
+                <str:DataProvider urn="urn:sdmx:org.sdmx.infomodel.base.DataProvider=UNICEF:DATA_PROVIDERS(1.0).EDUCATION" id="EDUCATION">
+                    <com:Name xml:lang="en">UNICEF Education data provider</com:Name>
+                </str:DataProvider>
+            </str:DataProviderScheme>
+        </str:OrganisationSchemes>
+        <str:Dataflows>
+            <str:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=UNICEF:GLOBAL_DATAFLOW(1.0)" isExternalReference="false" agencyID="UNICEF" id="GLOBAL_DATAFLOW" isFinal="true" version="1.0">
+                <com:Name xml:lang="en">Cross-sector indicators</com:Name>
+                <str:Structure>
+                    <Ref package="datastructure" agencyID="UNICEF" id="DSD_AGGREGATE" version="1.0" class="DataStructure"/>
+                </str:Structure>
+            </str:Dataflow>
+        </str:Dataflows>
+        <str:Codelists>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_CONF_STATUS(1.0)" isExternalReference="false" agencyID="SDMX" id="CL_CONF_STATUS" isFinal="true" version="1.0">
+                <com:Name xml:lang="en">Confidentiality Status</com:Name>
+                <com:Description xml:lang="en">This code list provides coded information about the sensitivity and confidentiality status of the data. This code list was first released in 2009. More information about this code list and SDMX code lists in general (e.g. list of generic codes for expressing general concepts like "Total", "Unknown", etc.; syntaxes for the creation of further codes; general guidelines for the creation of SDMX code lists) can be found at this address: http://sdmx.org/?page_id=1513.</com:Description>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_CONF_STATUS(1.0).F" id="F">
+                    <com:Name xml:lang="en">Free</com:Name>
+                    <com:Description xml:lang="en">It is used for observations for which there are no special sensitivity considerations and which can be freely shared. Please note: In some institutional environments the term "unclassified" is used in a sense that still denotes implied restrictions in the circulation of information. If this is the case, this organisation may probably consider that "free" (value F) is not the appropriate corresponding tag for this kind of "unclassified" category and it may be that "non-publishable / restricted" (value N) may be more appropriate. The focus of this code is not to describe and anticipate all potential permissible uses (e.g. permission to re-disseminate). Thus, the use of "F" does not allow safe assumptions with respect to the permission to "re-disseminate" (freely or at a price) the received or accessed information (e.g. on web or paper), especially on a massive and regular basis (legal and copyright constraints may apply). Usually, source organisations provide information and guidance on re-dissemination issues, either on their websites or on their paper publications.</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_CONF_STATUS(1.0).N" id="N">
+                    <com:Name xml:lang="en">Not for publication, restricted for internal use only</com:Name>
+                    <com:Description xml:lang="en">Used to denote observations that are restricted for internal use only within organisations.</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_CONF_STATUS(1.0).C" id="C">
+                    <com:Name xml:lang="en">Confidential statistical information</com:Name>
+                    <com:Description xml:lang="en">Confidential statistical information (primary confidentiality) due to identifiable respondents. Measures also should be taken to prevent not only direct access, but also indirect deduction or calculation by other users and parties, probably by considering and treating additional observations as "confidential" (secondary confidentiality management).</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_CONF_STATUS(1.0).D" id="D">
+                    <com:Name xml:lang="en">Secondary confidentiality set by the sender, not for publication</com:Name>
+                    <com:Description xml:lang="en">Used by the sender of the data to flag (beyond the confidential statistical information) one or more additional observations of the dataset so that the receiver knows that he/she should suppress these observations in subsequent stages of processing (especially, dissemination) in order to prevent third parties to indirectly deduct (e.g. through accounting identities or other formulas) the observations that are genuinely flagged with "C".</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_CONF_STATUS(1.0).S" id="S">
+                    <com:Name xml:lang="en">Secondary confidentiality set and managed by the receiver, not for publication</com:Name>
+                    <com:Description xml:lang="en">If senders do not manage the secondary confidentiality in their data and/or there are also other countries' data involved (with the intention to eventually compile a regional-wide aggregate that is going to be published), the value "S" is used by the receiver to flag additional suppressed observations (within sender's data and/or within the datasets of other senders) in subsequent stages of processing (especially, dissemination) in order to prevent third parties to indirectly deduct the observations that were genuinely flagged with "C" by the sender</com:Description>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_SEX(2.1)" isExternalReference="false" agencyID="SDMX" id="CL_SEX" isFinal="true" version="2.1">
+                <com:Name xml:lang="en">Sex</com:Name>
+                <com:Description xml:lang="en">This code list provides coded information about the state of being male or female. This concept is applied if data needs to be categorised by sex. It applies not only to human beings but also to animals and other living organisms.</com:Description>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1).F" id="F">
+                    <com:Name xml:lang="en">Female</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1).M" id="M">
+                    <com:Name xml:lang="en">Male</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1)._N" id="_N">
+                    <com:Name xml:lang="en">Non response</com:Name>
+                    <com:Description xml:lang="en">Failure to obtain a measurement on one or more study variables for one or more elements in a survey.</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1)._O" id="_O">
+                    <com:Name xml:lang="en">Other</com:Name>
+                    <com:Description xml:lang="en">Used to cover residual information not contained in other categories of the code list (in some contexts, e.g. classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1)._T" id="_T">
+                    <com:Name xml:lang="en">Total</com:Name>
+                    <com:Description xml:lang="en">Used for expressing totals.</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1)._U" id="_U">
+                    <com:Name xml:lang="en">Unknown</com:Name>
+                    <com:Description xml:lang="en">Failure to obtain a measurement (e.g. non response, no data available, information not known by the respondent unit, etc.).</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_SEX(2.1)._Z" id="_Z">
+                    <com:Name xml:lang="en">Not applicable</com:Name>
+                    <com:Description xml:lang="en">Used in response to a question or a request for information that does not apply to the circumstances of the unit being surveyed. This concept is to be understood as meaning "statistically not applicable"; i.e. _Z is to be used only for statistical purposes.</com:Description>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_UNIT_MULT(1.1)" isExternalReference="false" agencyID="SDMX" id="CL_UNIT_MULT" isFinal="true" version="1.1">
+                <com:Name xml:lang="en">Unit Multiplier</com:Name>
+                <com:Description xml:lang="en">This code list provides code values for indicating the magnitude in the units of measurement. More information about this code list and SDMX code lists in general (e.g. list of generic codes for expressing general concepts like "Total", "Unknown", etc.; syntaxes for the creation of further codes; general guidelines for the creation of SDMX code lists) can be found at this address: https://sdmx.org/?page_id=4345.</com:Description>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_UNIT_MULT(1.1).0" id="0">
+                    <com:Name xml:lang="en">Units</com:Name>
+                    <com:Description xml:lang="en">In scientific notation, expressed as ten raised to the power of zero (10^0)</com:Description>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_ADMIN_LEVEL(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_ADMIN_LEVEL" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Administrative level</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ADMIN_LEVEL(1.0).0" id="0">
+                    <com:Name xml:lang="en">Administrative level 0</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ADMIN_LEVEL(1.0).1" id="1">
+                    <com:Name xml:lang="en">Administrative level 1</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ADMIN_LEVEL(1.0).2" id="2">
+                    <com:Name xml:lang="en">Administrative level 2</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_AGE(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_AGE" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Age group code list</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_AGE(1.0).M0" id="M0">
+                    <com:Name xml:lang="en">Under 1 month old</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_ASSESSMENT(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_ASSESSMENT" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">SDG progress assessment</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ASSESSMENT(1.0).1" id="1">
+                    <com:Name xml:lang="en">No data</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ASSESSMENT(1.0).2" id="2">
+                    <com:Name xml:lang="en">Insufficient trend data</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ASSESSMENT(1.0).3" id="3">
+                    <com:Name xml:lang="en">Acceleration</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ASSESSMENT(1.0).4" id="4">
+                    <com:Name xml:lang="en">On track</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ASSESSMENT(1.0).5" id="5">
+                    <com:Name xml:lang="en">Target met</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_CHLD_HLTH_VACCINES(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_CHLD_HLTH_VACCINES" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Child Health Immunization Vaccines Code List</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_CHLD_HLTH_VACCINES(1.0).BCG" id="BCG">
+                    <com:Name xml:lang="en">Bacille calmette-guerin (tuberculosis)</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_COUNTRY(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_COUNTRY" isFinal="false" version="1.0">
+                <com:Annotations>
+                    <com:Annotation id="parentCodesHaveData">
+                        <com:AnnotationTitle>Parent Codes Have Data</com:AnnotationTitle>
+                        <com:AnnotationType>boolean</com:AnnotationType>
+                        <com:AnnotationText xml:lang="en">1</com:AnnotationText>
+                    </com:Annotation>
+                </com:Annotations>
+                <com:Name xml:lang="en">Statistical Reference Areas</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_COUNTRY(1.0).AFG" id="AFG">
+                    <com:Name xml:lang="en">Afghanistan</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_ECD_DOMAIN(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_ECD_DOMAIN" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">ECD Domain</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0).LN_D" id="LN_D">
+                    <com:Name xml:lang="en">Literacy-numeracy development</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0).LRN" id="LRN">
+                    <com:Name xml:lang="en">Learning</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0).PHYS_DEVLP" id="PHYS_DEVLP">
+                    <com:Name xml:lang="en">Physical development</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0).SE_D" id="SE_D">
+                    <com:Name xml:lang="en">Social-emotional development</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0)._Z" id="_Z">
+                    <com:Name xml:lang="en">Not disaggregated</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_ECD_DOMAIN(1.0)._T" id="_T">
+                    <com:Name xml:lang="en">Total</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_EDU_LEVEL(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_EDU_LEVEL" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Education Level</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_EDU_LEVEL(1.0).ISCED11_0" id="ISCED11_0">
+                    <com:Name xml:lang="en">Early childhood education</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_FREQ_COLL(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_FREQ_COLL" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Collection Frequency</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_FREQ_COLL(1.0).0" id="0">
+                    <com:Name xml:lang="en">Not Known</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_OBS_SOWC_NOTES(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_OBS_SOWC_NOTES" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">State of the World's Children Observation Notes</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).a" id="a">
+                    <com:Name xml:lang="en">Full coverage with vitamin A supplements is reported as the lower percentage of 2 annual coverage points (i.e., lower point between semester 1 (January–June) and semester 2 (July–December) of 2017. Data are only presented for VAS priority countries; thus aggregates are only based on and representative of these priority countries.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).b" id="b">
+                    <com:Name xml:lang="en">Cannot be confirmed whether the reported value includes households without salt or not.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).c" id="c">
+                    <com:Name xml:lang="en">Global and regional averages for stunting (moderate and severe), overweight (moderate and severe),wasting (moderate and severe) and wasting (severe) are estimated using statistical modelling data from the UNICEF-WHO-World Bank Group Joint Child Malnutrition Estimates, March 2019 Edition. For more information see &lt;data.unicef.org/malnutrition&gt;. Disaggregations for stunting (moderate and severe) are population-weighted, which means using the most recent estimate for each country with data between 2013 and 2018; therefore disaggregations may not coincide with total estimates at the global and regional level presented in this table.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).d" id="d">
+                    <com:Name xml:lang="en">For stunting, wasting and severe wasting estimates, the Northern America regional average is based only on United States data; The Australia and New Zealand regional estimates for stunting and overweight are based only on Australian data.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).e" id="e">
+                    <com:Name xml:lang="en">Consecutive low population coverage, interpret with caution.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).f" id="f">
+                    <com:Name xml:lang="en">Identifies countries which are designated 'priority'. Priority countries for national vitamin A supplementation programmes are identified as those having high under-five mortality rates (over 70 per 1,000 live births), and/or evidence of vitamin A deficiency among this age group, and/or a history of vitamin A supplementation programmes.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).p" id="p">
+                    <com:Name xml:lang="en">Based on small denominators (typically 25–49 unweighted cases). No data based on fewer than 25 unweighted cases are displayed.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).q" id="q">
+                    <com:Name xml:lang="en">Regional estimates for East Asia and Pacific exclude China, Latin America and the Caribbean exclude Brazil, Eastern Europe and Central Asia exclude the Russian Federation.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).r" id="r">
+                    <com:Name xml:lang="en">Disgarregated data are from different sources than the data presented for all children for the same indicator.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).v" id="v">
+                    <com:Name xml:lang="en">Estimates of 100% were assumed given that civil registration systems in these countries are complete and all vital events (including births) are registered. Source: United Nations, Department of Economic and Social Affairs, Statistics Division, last update January 2021.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).w" id="w">
+                    <com:Name xml:lang="en">Reduced age range. For vitamin A supplementation, this identifies countries with national vitamin A supplementation programmes targeted towards a reduced age age. Coverage figure is reported as targeted.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).x" id="x">
+                    <com:Name xml:lang="en">Data refer to years or periods other than those specified in the column heading. Such data are not included in the calculation of regional and global averages. Estimates from data years prior to 2000 are not displayed.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).y" id="y">
+                    <com:Name xml:lang="en">Data differ from the standard definition or refer to only part of a country. If they fall within the noted reference period, such data are included in the calculation of regional and global averages.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).z" id="z">
+                    <com:Name xml:lang="en">Identifies countries for which the national estimate is not displayed but for which the national estimate has been used for regional and all priority country estimates.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).i" id="i">
+                    <com:Name xml:lang="en">Data are from older sources than data presented for other indicators on the same topic within this table. Such discrepancies may be due to an indicator being unavailable in the latest data source, or to the databases for each indicator having been updated as of different dates.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).h" id="h">
+                    <com:Name xml:lang="en">Excludes China.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).k" id="k">
+                    <com:Name xml:lang="en">Excludes India.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).u" id="u">
+                    <com:Name xml:lang="en">The average corresponds to all recipient countries in the world.</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_SOWC_NOTES(1.0).j" id="j">
+                    <com:Name xml:lang="en">Excludes Brazil and Mexico.</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_OBS_STATUS(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_OBS_STATUS" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Observation Status</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_OBS_STATUS(1.0).A" id="A">
+                    <com:Name xml:lang="en">Normal value</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_RESIDENCE(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_RESIDENCE" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Type of Residence (Urbanisation)</com:Name>
+                <com:Description xml:lang="en">Urban or Rural</com:Description>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_RESIDENCE(1.0)._T" id="_T">
+                    <com:Name xml:lang="en">Total</com:Name>
+                    <com:Description xml:lang="en">Total</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_RESIDENCE(1.0).U" id="U">
+                    <com:Name xml:lang="en">Urban</com:Name>
+                    <com:Description xml:lang="en">Urban</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_RESIDENCE(1.0).R" id="R">
+                    <com:Name xml:lang="en">Rural</com:Name>
+                    <com:Description xml:lang="en">Rural</com:Description>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_RESIDENCE(1.0)._Z" id="_Z">
+                    <com:Name xml:lang="en">Not Applicable</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_TIME_PERIOD_METHOD(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_TIME_PERIOD_METHOD" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Time period method</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_TIME_PERIOD_METHOD(1.0).MOF" id="MOF">
+                    <com:Name xml:lang="en">Middle of fieldwork</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_TIME_PERIOD_METHOD(1.0).EOF" id="EOF">
+                    <com:Name xml:lang="en">End of fieldwork</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_TIME_PERIOD_METHOD(1.0).OTHER" id="OTHER">
+                    <com:Name xml:lang="en">Other</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_UNICEF_INDICATOR(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_UNICEF_INDICATOR" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Indicators</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_UNICEF_INDICATOR(1.0).CME" id="CME">
+                    <com:Name xml:lang="en">Child mortality</com:Name>
+                    <com:Description xml:lang="en">Child mortality</com:Description>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_UNIT_MEASURE(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_UNIT_MEASURE" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Unit of Measure</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_UNIT_MEASURE(1.0).BINARY" id="BINARY">
+                    <com:Name xml:lang="en">Binary</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:CL_WEALTH_QUINTILE(1.0)" isExternalReference="false" agencyID="UNICEF" id="CL_WEALTH_QUINTILE" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Wealth Quintile</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:CL_WEALTH_QUINTILE(1.0).Q1" id="Q1">
+                    <com:Name xml:lang="en">Lowest</com:Name>
+                    <com:Description xml:lang="en">Quintile 1 (poorest)</com:Description>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF:POV_THRESHOLD(1.0)" isExternalReference="false" agencyID="UNICEF" id="POV_THRESHOLD" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Poverty threshold</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:POV_THRESHOLD(1.0)._T" id="_T">
+                    <com:Name xml:lang="en">Total</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:POV_THRESHOLD(1.0).S1" id="S1">
+                    <com:Name xml:lang="en">Exactly 1 deprivation</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:POV_THRESHOLD(1.0).S2" id="S2">
+                    <com:Name xml:lang="en">Exactly 2 deprivation</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:POV_THRESHOLD(1.0).S3" id="S3">
+                    <com:Name xml:lang="en">Exactly 3 deprivation</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF:POV_THRESHOLD(1.0).S4_MORE" id="S4_MORE">
+                    <com:Name xml:lang="en">Four or more deprivations</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF.EMOPS:CL_EMOPS_INDICATORS(1.0)" isExternalReference="false" agencyID="UNICEF.EMOPS" id="CL_EMOPS_INDICATORS" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">EMOPS Indicators</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_EMOPS_INDICATORS(1.0).CV-01-01" id="CV-01-01">
+                    <com:Name xml:lang="en">Number of people reached on COVID-19 through MESSAGING ON PREVENTION AND ACCESS TO SERVICES</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=UNICEF.EMOPS:CL_HAC_PILLAR(1.0)" isExternalReference="false" agencyID="UNICEF.EMOPS" id="CL_HAC_PILLAR" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Humanitarian Action Pillar</com:Name>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_HAC_PILLAR(1.0).CV-01" id="CV-01">
+                    <com:Name xml:lang="en">Risk Communication and Community Engagement (RCCE)</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_HAC_PILLAR(1.0).CV-02" id="CV-02">
+                    <com:Name xml:lang="en">Provision of critical medical and water, sanitation and hygiene (WASH) supplies and improving Infection Prevention and Control (IPC)</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_HAC_PILLAR(1.0).CV-03" id="CV-03">
+                    <com:Name xml:lang="en">Continuity of health care for women and children</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_HAC_PILLAR(1.0).CV-04" id="CV-04">
+                    <com:Name xml:lang="en">Access to continuous education, child protection and GBV services</com:Name>
+                </str:Code>
+                <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=UNICEF.EMOPS:CL_HAC_PILLAR(1.0).CV-05" id="CV-05">
+                    <com:Name xml:lang="en">Social Protection</com:Name>
+                </str:Code>
+            </str:Codelist>
+        </str:Codelists>
+        <str:Concepts>
+            <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=UNICEF:UNICEF_CONCEPTS(1.0)" isExternalReference="false" agencyID="UNICEF" id="UNICEF_CONCEPTS" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">UNICEF Concepts</com:Name>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE" id="AGE">
+                    <com:Name xml:lang="en">Current age</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_AGE" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_MARRIAGE" id="AGE_MARRIAGE">
+                    <com:Name xml:lang="en">Age when first married</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).BIRTH_ORDER" id="BIRTH_ORDER">
+                    <com:Name xml:lang="en">Birth Order</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CAUSE_OF_DEATH" id="CAUSE_OF_DEATH">
+                    <com:Name xml:lang="en">Cause of death</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CHILD_FUNCTIONING" id="CHILD_FUNCTIONING">
+                    <com:Name xml:lang="en">Child Functioning</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CURRENT_PARTNER_AGE" id="CURRENT_PARTNER_AGE">
+                    <com:Name xml:lang="en">Age of current partner</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DATA_SOURCE" id="DATA_SOURCE">
+                    <com:Name xml:lang="en">Data Source</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DATA_SOURCE_TYPE" id="DATA_SOURCE_TYPE">
+                    <com:Name xml:lang="en">Type of Data Source</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DENOMINATOR_TYPE" id="DENOMINATOR_TYPE">
+                    <com:Name xml:lang="en">Type of Denominator</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DISABILITY_STATUS" id="DISABILITY_STATUS">
+                    <com:Name xml:lang="en">Disability Status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DISEASE" id="DISEASE">
+                    <com:Name xml:lang="en">Disease</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).EDUCATION_LEVEL" id="EDUCATION_LEVEL">
+                    <com:Name xml:lang="en">Education Level</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_EDU_LEVEL" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ESTABLISHMENT" id="ESTABLISHMENT">
+                    <com:Name xml:lang="en">Establishment</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FOOTNOTE" id="FOOTNOTE">
+                    <com:Name xml:lang="en">Footnote</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).HEALTH_FACILITY_TYPE" id="HEALTH_FACILITY_TYPE">
+                    <com:Name xml:lang="en">Type of Health Facility</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MARITAL_STATUS" id="MARITAL_STATUS">
+                    <com:Name xml:lang="en">Marital Status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MARRIAGE_CHOICE" id="MARRIAGE_CHOICE">
+                    <com:Name xml:lang="en">Marriage Choice (yes/no)</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MATERNAL_AGE_AT_BIRTH" id="MATERNAL_AGE_AT_BIRTH">
+                    <com:Name xml:lang="en">Maternal Age at Birth of Child</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MATERNAL_AGE_CURR" id="MATERNAL_AGE_CURR">
+                    <com:Name xml:lang="en">Current maternal age</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MATERNAL_EDU_LVL" id="MATERNAL_EDU_LVL">
+                    <com:Name xml:lang="en">Mother's Education Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MEASURE" id="MEASURE">
+                    <com:Name xml:lang="en">Measure</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MIGRANT_STATUS" id="MIGRANT_STATUS">
+                    <com:Name xml:lang="en">Migrant Status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MOTHER_EDUCATION" id="MOTHER_EDUCATION">
+                    <com:Name xml:lang="en">Mother's Education Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).OBS_CONF" id="OBS_CONF">
+                    <com:Name xml:lang="en">Observation confidentaility</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="SDMX" id="CL_CONF_STATUS" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).OBS_STATUS" id="OBS_STATUS">
+                    <com:Name xml:lang="en">Observation Status</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_OBS_STATUS" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).OBS_VALUE" id="OBS_VALUE">
+                    <com:Name xml:lang="en">Observation Value</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PREDICTION" id="PREDICTION">
+                    <com:Name xml:lang="en">Prediction</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PREVIOUS_PARTNER" id="PREVIOUS_PARTNER">
+                    <com:Name xml:lang="en">Previous Partner (yes/no)</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REF_AREA" id="REF_AREA">
+                    <com:Name xml:lang="en">Geographic area</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_COUNTRY" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REF_PERIOD" id="REF_PERIOD">
+                    <com:Name xml:lang="en">Reference Period</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SDG_INDICATOR" id="SDG_INDICATOR">
+                    <com:Name xml:lang="en">Indicator</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERVICE_LEVEL" id="SERVICE_LEVEL">
+                    <com:Name xml:lang="en">Service Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERVICE_TYPE" id="SERVICE_TYPE">
+                    <com:Name xml:lang="en">Service Type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SEX" id="SEX">
+                    <com:Name xml:lang="en">Sex</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="SDMX" id="CL_SEX" version="2.1" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).HEAD_OF_HOUSE" id="HEAD_OF_HOUSE">
+                    <com:Name xml:lang="en">Head of House</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOURCE_TYPE" id="SOURCE_TYPE">
+                    <com:Name xml:lang="en">Source Type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOURCE_YEAR" id="SOURCE_YEAR">
+                    <com:Name xml:lang="en">Source Year</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SUB_DOMAIN" id="SUB_DOMAIN">
+                    <com:Name xml:lang="en">Sub Domain</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).TIME_PERIOD" id="TIME_PERIOD">
+                    <com:Name xml:lang="en">Time period</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNAIDS_INDICATOR" id="UNAIDS_INDICATOR">
+                    <com:Name xml:lang="en">UNAIDS Indicator</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNICEF_INDICATOR" id="UNICEF_INDICATOR">
+                    <com:Name xml:lang="en">Indicator</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNIT_MEASURE" id="UNIT_MEASURE">
+                    <com:Name xml:lang="en">Unit of measure</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_UNIT_MEASURE" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNIT_MULTIPLIER" id="UNIT_MULTIPLIER">
+                    <com:Name xml:lang="en">Unit multiplier</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="SDMX" id="CL_UNIT_MULT" version="1.1" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).URBANISATION" id="URBANISATION">
+                    <com:Name xml:lang="en">Urbanisation</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).VACCINATION_CONFIRMATION" id="VACCINATION_CONFIRMATION">
+                    <com:Name xml:lang="en">Confirmation of Vaccination</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).VACCINE" id="VACCINE">
+                    <com:Name xml:lang="en">Vaccine</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_CHLD_HLTH_VACCINES" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).WEALTH_QUINTILE" id="WEALTH_QUINTILE">
+                    <com:Name xml:lang="en">Wealth Quintile</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_WEALTH_QUINTILE" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).NUMBER_CHLD" id="NUMBER_CHLD">
+                    <com:Name xml:lang="en">Number of Living Children</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SCHOOL_ED_LEVEL" id="SCHOOL_ED_LEVEL">
+                    <com:Name xml:lang="en">School Education Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERVICE_LADDER" id="SERVICE_LADDER">
+                    <com:Name xml:lang="en">Service Ladder</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PERPETRATOR" id="PERPETRATOR">
+                    <com:Name xml:lang="en">Perpetrator</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY" id="COUNTRY">
+                    <com:Name xml:lang="en">Country</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_COUNTRY" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).NAT_CONTACT_NAME" id="NAT_CONTACT_NAME">
+                    <com:Name xml:lang="en">National Contact Name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).NAT_CONTACT_EMAIL" id="NAT_CONTACT_EMAIL">
+                    <com:Name xml:lang="en">National Contact Email</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SDG_ID" id="SDG_ID">
+                    <com:Name xml:lang="en">SDG ID</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNICEF_SDG_IND_NAME" id="UNICEF_SDG_IND_NAME">
+                    <com:Name xml:lang="en">UNICEF SDG Indicator Name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNICEF_SDG_IND_DESC" id="UNICEF_SDG_IND_DESC">
+                    <com:Name xml:lang="en">UNICEF Indicator SDG Description</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SDG_CODE" id="SDG_CODE">
+                    <com:Name xml:lang="en">SDG Code</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNICEF_SDG_IND_NME" id="UNICEF_SDG_IND_NME">
+                    <com:Name xml:lang="en">UNICEF SDG Indicator Name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COMMENT" id="COMMENT">
+                    <com:Name xml:lang="en">Comment</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).XCOMMENT" id="XCOMMENT">
+                    <com:Name xml:lang="en">Comment</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ISO_CODE_ID" id="ISO_CODE_ID">
+                    <com:Name xml:lang="en">ISO Code Id</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INDUSTRY_SECTOR" id="INDUSTRY_SECTOR">
+                    <com:Name xml:lang="en">Industry Sector</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PARENT_PROFESSION" id="PARENT_PROFESSION">
+                    <com:Name xml:lang="en">Profession of Parent</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).STATUS_IN_EMPLOYMENT" id="STATUS_IN_EMPLOYMENT">
+                    <com:Name xml:lang="en">Status in Employment</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).RELIGIOUS_GROUP" id="RELIGIOUS_GROUP">
+                    <com:Name xml:lang="en">Religion</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PARENT_EDUCATION_LEVEL" id="PARENT_EDUCATION_LEVEL">
+                    <com:Name xml:lang="en">Education Level of Parent</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).STD_ERR" id="STD_ERR">
+                    <com:Name xml:lang="en">Standard Error</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CONF_INTVAL" id="CONF_INTVAL">
+                    <com:Name xml:lang="en">Confidence interval</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).N_CASES" id="N_CASES">
+                    <com:Name xml:lang="en">Number of Cases</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UPPER_BOUND" id="UPPER_BOUND">
+                    <com:Name xml:lang="en">Upper Bound</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LOWER_BOUND" id="LOWER_BOUND">
+                    <com:Name xml:lang="en">Lower Bound</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PROPTN" id="PROPTN">
+                    <com:Name xml:lang="en">Proportion</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).RATE" id="RATE">
+                    <com:Name xml:lang="en">Rate</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).WGTD_SAMPL_SIZE" id="WGTD_SAMPL_SIZE">
+                    <com:Name xml:lang="en">Weighted Sample Size</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).N_WGTD_SAMPL_SIZE" id="N_WGTD_SAMPL_SIZE">
+                    <com:Name xml:lang="en">Non Weighted Sample Size</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PARITY_IDX" id="PARITY_IDX">
+                    <com:Name xml:lang="en">Parity Index</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_CUT" id="AGE_CUT">
+                    <com:Name xml:lang="en">Age at Cutting</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FGM_PRACTITIONER" id="FGM_PRACTITIONER">
+                    <com:Name xml:lang="en">FGM Practitioner</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ETHNIC_GROUP" id="ETHNIC_GROUP">
+                    <com:Name xml:lang="en">Ethnic Group</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CUT_TYPE" id="CUT_TYPE">
+                    <com:Name xml:lang="en">Type of Cutting</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UNWGTD_SAMPL_SIZE" id="UNWGTD_SAMPL_SIZE">
+                    <com:Name xml:lang="en">Unweighted Sample Size</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FATHER_EDUCATION" id="FATHER_EDUCATION">
+                    <com:Name xml:lang="en">Father's Education Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_FGM" id="AGE_FGM">
+                    <com:Name xml:lang="en">Age at FGM</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FGM_TYPE" id="FGM_TYPE">
+                    <com:Name xml:lang="en">Type of FGM</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MTH_FGM_STATUS" id="MTH_FGM_STATUS">
+                    <com:Name xml:lang="en">Mother's FGM Status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SUB_SECTOR" id="SUB_SECTOR">
+                    <com:Name xml:lang="en">Sub Sector</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).RESIDENCE" id="RESIDENCE">
+                    <com:Name xml:lang="en">Residence</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_RESIDENCE" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY_ASYLUM" id="COUNTRY_ASYLUM">
+                    <com:Name xml:lang="en">Country of Asylum</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY_ORIGIN" id="COUNTRY_ORIGIN">
+                    <com:Name xml:lang="en">Country of Origin</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY_DESTINATION" id="COUNTRY_DESTINATION">
+                    <com:Name xml:lang="en">Country of Destination</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOWC_IND_DESC" id="SOWC_IND_DESC">
+                    <com:Name xml:lang="en">Indicator Description</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOWC_IND_NAME" id="SOWC_IND_NAME">
+                    <com:Name xml:lang="en">Indicator Name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ECD_DOMAIN" id="ECD_DOMAIN">
+                    <com:Name xml:lang="en">ECD Domain</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_ECD_DOMAIN" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INDQT_SPVN" id="INDQT_SPVN">
+                    <com:Name xml:lang="en">Inadequate Supervision</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PLAYTHNG_TYPE" id="PLAYTHNG_TYPE">
+                    <com:Name xml:lang="en">Plaything Type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).EC_EDUC_ATTND" id="EC_EDUC_ATTND">
+                    <com:Name xml:lang="en">Early Childhood Education Attendance</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).WASH_LADDER" id="WASH_LADDER">
+                    <com:Name xml:lang="en">WASH Ladder</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ASLYM_RFGS" id="ASLYM_RFGS">
+                    <com:Name xml:lang="en">Asylum Seekers and Refugees</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).VARIANT_TYPE" id="VARIANT_TYPE">
+                    <com:Name xml:lang="en">Type of variant</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).STAT_POP" id="STAT_POP">
+                    <com:Name xml:lang="en">Statistical Population</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_AT_BIRTH" id="AGE_AT_BIRTH">
+                    <com:Name xml:lang="en">Age at Birth</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_AGE" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).OBS_FOOTNOTE" id="OBS_FOOTNOTE">
+                    <com:Name xml:lang="en">Observation footnote</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_FOOTNOTE" id="SERIES_FOOTNOTE">
+                    <com:Name xml:lang="en">Series footnote</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FREQ_COLL" id="FREQ_COLL">
+                    <com:Name xml:lang="en">Time interval at which the source data are collected</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_FREQ_COLL" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COVERAGE_TIME" id="COVERAGE_TIME">
+                    <com:Name xml:lang="en">The period of time for which data are provided</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).TIME_PERIOD_METHOD" id="TIME_PERIOD_METHOD">
+                    <com:Name xml:lang="en">Time period activity related to when the data are collected</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_TIME_PERIOD_METHOD" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOURCE_LINK" id="SOURCE_LINK">
+                    <com:Name xml:lang="en">Citation of or link to the data source</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CUSTODIAN" id="CUSTODIAN">
+                    <com:Name xml:lang="en">Custodian</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).GEO_AREA" id="GEO_AREA">
+                    <com:Name xml:lang="en">Geographic area</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INDICATOR_DEFINITION" id="INDICATOR_DEFINITION">
+                    <com:Name xml:lang="en">Indicator Definition</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).NUMERATOR_DEFINITION" id="NUMERATOR_DEFINITION">
+                    <com:Name xml:lang="en">Numerator Definition</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DENOMINATOR_DEFINITION" id="DENOMINATOR_DEFINITION">
+                    <com:Name xml:lang="en">Denominator Definition</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PUBLICATION_DATE" id="PUBLICATION_DATE">
+                    <com:Name xml:lang="en">Date of Publication</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY_MG_ROLE" id="COUNTRY_MG_ROLE">
+                    <com:Name xml:lang="en">Country Migration Role</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SCHOOL_TYPE" id="SCHOOL_TYPE">
+                    <com:Name xml:lang="en">Type of School</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CONSULTATION_CYCLE" id="CONSULTATION_CYCLE">
+                    <com:Name xml:lang="en">Consultation cycle</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SKILL_TYPE" id="SKILL_TYPE">
+                    <com:Name xml:lang="en">Skill type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_NAME" id="SERIES_NAME">
+                    <com:Name xml:lang="en">Series Name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_CATEGORY" id="SERIES_CATEGORY">
+                    <com:Name xml:lang="en">Series Category</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_TYPE" id="SERIES_TYPE">
+                    <com:Name xml:lang="en">Series Type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_YEAR" id="SERIES_YEAR">
+                    <com:Name xml:lang="en">Series Year</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REF_DATE" id="REF_DATE">
+                    <com:Name xml:lang="en">Reference Date</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_GROUP_OF_WOMEN" id="AGE_GROUP_OF_WOMEN">
+                    <com:Name xml:lang="en">Age Group of Women</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).TIME_SINCE_FIRST_BIRTH" id="TIME_SINCE_FIRST_BIRTH">
+                    <com:Name xml:lang="en">Time Since First Birth</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INTERVAL" id="INTERVAL">
+                    <com:Name xml:lang="en">Interval</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SERIES_METHOD" id="SERIES_METHOD">
+                    <com:Name xml:lang="en">Series Method</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).MODEL" id="MODEL">
+                    <com:Name xml:lang="en">Model Used</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).COUNTRY_NOTES" id="COUNTRY_NOTES">
+                    <com:Name xml:lang="en">Country notes</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).STATUS" id="STATUS">
+                    <com:Name xml:lang="en">Status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).YEAR_TO_ACHIEVE" id="YEAR_TO_ACHIEVE">
+                    <com:Name xml:lang="en">Year to achieve</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DEFINITION" id="DEFINITION">
+                    <com:Name xml:lang="en">Definition</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INDICATOR" id="INDICATOR">
+                    <com:Name xml:lang="en">Indicator</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_UNICEF_INDICATOR" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CATEGORY" id="CATEGORY">
+                    <com:Name xml:lang="en">Category</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DEATH_CATEGORY" id="DEATH_CATEGORY">
+                    <com:Name xml:lang="en">Death category</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).FINAL_ASSESSMENT" id="FINAL_ASSESSMENT">
+                    <com:Name xml:lang="en">Final assessment</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_ASSESSMENT" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LATEST_DATA_POINT" id="LATEST_DATA_POINT">
+                    <com:Name xml:lang="en">Latest data point</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LATEST_DATA_POINT_YEAR" id="LATEST_DATA_POINT_YEAR">
+                    <com:Name xml:lang="en">Latest data point year</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).GOAL" id="GOAL">
+                    <com:Name xml:lang="en">Goal</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).TARGET" id="TARGET">
+                    <com:Name xml:lang="en">Target</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DISCRIMINATION" id="DISCRIMINATION">
+                    <com:Name xml:lang="en">Ground of discrimination</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LANGUAGE" id="LANGUAGE">
+                    <com:Name xml:lang="en">Language</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DIVISION" id="DIVISION">
+                    <com:Name xml:lang="en">Division</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SURVEY_YEAR" id="SURVEY_YEAR">
+                    <com:Name xml:lang="en">Survey Year</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LEVEL" id="LEVEL">
+                    <com:Name xml:lang="en">Level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CONNECTION" id="CONNECTION">
+                    <com:Name xml:lang="en">Connection</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REGIONAL_GROUP" id="REGIONAL_GROUP">
+                    <com:Name xml:lang="en">Regional group</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SECTOR" id="SECTOR">
+                    <com:Name xml:lang="en">Sector</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).RELEASE_DATE" id="RELEASE_DATE">
+                    <com:Name xml:lang="en">Release date</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SURVEY_NAME" id="SURVEY_NAME">
+                    <com:Name xml:lang="en">Survey name</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).ADMIN_LEVEL" id="ADMIN_LEVEL">
+                    <com:Name xml:lang="en">Administrative level</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_ADMIN_LEVEL" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).HAC_PILLAR" id="HAC_PILLAR">
+                    <com:Name xml:lang="en">Humanitarian Action for Children Pillar</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF.EMOPS" id="CL_HAC_PILLAR" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SITREP_INDICATOR" id="SITREP_INDICATOR">
+                    <com:Name xml:lang="en">Situation Report Indicator</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF.EMOPS" id="CL_EMOPS_INDICATORS" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SDG_TYPE" id="SDG_TYPE">
+                    <com:Name xml:lang="en">SDG Type</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOWC_FLAG_A" id="SOWC_FLAG_A">
+                    <com:Name xml:lang="en">SOWC flag A</com:Name>
+                    <com:Description xml:lang="en">Flag used in State of the World Children publication</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_OBS_SOWC_NOTES" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOWC_FLAG_B" id="SOWC_FLAG_B">
+                    <com:Name xml:lang="en">SOWC flag B</com:Name>
+                    <com:Description xml:lang="en">Flag used in State of the World Children publication</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_OBS_SOWC_NOTES" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LAST_SURVEY" id="LAST_SURVEY">
+                    <com:Name xml:lang="en">Last Survey</com:Name>
+                    <com:Description xml:lang="en">Last known survey type and year, usually associated to a country, and so a series level attribute.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="String"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DATA_SOURCE_PRIORITY" id="DATA_SOURCE_PRIORITY">
+                    <com:Name xml:lang="en">Data source priority</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOWC_FLAG_C" id="SOWC_FLAG_C">
+                    <com:Name xml:lang="en">SOWC flag C</com:Name>
+                    <com:Description xml:lang="en">Flag used in State of the World Children publication</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="CL_OBS_SOWC_NOTES" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).POV_THRESHOLD" id="POV_THRESHOLD">
+                    <com:Name xml:lang="en">Poverty threshold</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref package="codelist" agencyID="UNICEF" id="POV_THRESHOLD" version="1.0" class="Codelist"/>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SOURCE_DATAFLOW" id="SOURCE_DATAFLOW">
+                    <com:Name xml:lang="en">Source dataflow</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).HUMANITARIAN" id="HUMANITARIAN">
+                    <com:Name xml:lang="en">Humanitarian</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).INDICATOR_METADATA" id="INDICATOR_METADATA">
+                    <com:Name xml:lang="en">Indicator metadata</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).RANK" id="RANK">
+                    <com:Name xml:lang="en">Rank</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CAUSE_GROUP" id="CAUSE_GROUP">
+                    <com:Name xml:lang="en">Cause group</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CAVEAT_NOTE" id="CAVEAT_NOTE">
+                    <com:Name xml:lang="en">Caveat note</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CAVEAT_LINK" id="CAVEAT_LINK">
+                    <com:Name xml:lang="en">Caveat link</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REPORTING_LVL" id="REPORTING_LVL">
+                    <com:Name xml:lang="en">Reporting level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).DATA_SOURCE_MAIN" id="DATA_SOURCE_MAIN">
+                    <com:Name xml:lang="en">Main data source</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REF_AREA_PARENT" id="REF_AREA_PARENT">
+                    <com:Name xml:lang="en">Parent reference area</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REGION" id="REGION">
+                    <com:Name xml:lang="en">Region</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).PROJ_SCENARIO" id="PROJ_SCENARIO">
+                    <com:Name xml:lang="en">Projection scenario</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).CH_MARRIAGE_STATUS" id="CH_MARRIAGE_STATUS">
+                    <com:Name xml:lang="en">Child marriage status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).UCODE" id="UCODE">
+                    <com:Name xml:lang="en">UNICEF area code</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).REF_AREA_PARENT_UCODE" id="REF_AREA_PARENT_UCODE">
+                    <com:Name xml:lang="en">UNICEF Parent area code</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).AGE_GROUP" id="AGE_GROUP">
+                    <com:Name xml:lang="en">Age group</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).M49" id="M49">
+                    <com:Name xml:lang="en">M49</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).SUBNATIONAL_LEVEL" id="SUBNATIONAL_LEVEL">
+                    <com:Name xml:lang="en">Subnational level</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LEVELCO" id="LEVELCO">
+                    <com:Name xml:lang="en">Level CO</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).BDRY_STATUS" id="BDRY_STATUS">
+                    <com:Name xml:lang="en">Boundary status</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).BDRY_SOURCE" id="BDRY_SOURCE">
+                    <com:Name xml:lang="en">Boundary source</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).BDRY_FOOTNOTE" id="BDRY_FOOTNOTE">
+                    <com:Name xml:lang="en">Boundary footnote</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).BOUNDARIES" id="BOUNDARIES">
+                    <com:Name xml:lang="en">Boundaries</com:Name>
+                </str:Concept>
+                <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=UNICEF:UNICEF_CONCEPTS(1.0).LEVELRNK" id="LEVELRNK">
+                    <com:Name xml:lang="en">Level RNK</com:Name>
+                </str:Concept>
+            </str:ConceptScheme>
+        </str:Concepts>
+        <str:DataStructures>
+            <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=UNICEF:DSD_AGGREGATE(1.0)" isExternalReference="false" agencyID="UNICEF" id="DSD_AGGREGATE" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">Aggregate Indicators</com:Name>
+                <str:DataStructureComponents>
+                    <str:DimensionList urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=UNICEF:DSD_AGGREGATE(1.0).DimensionDescriptor" id="DimensionDescriptor">
+                        <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UNICEF:DSD_AGGREGATE(1.0).REF_AREA" id="REF_AREA" position="1">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="REF_AREA" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_COUNTRY" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                        </str:Dimension>
+                        <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UNICEF:DSD_AGGREGATE(1.0).INDICATOR" id="INDICATOR" position="2">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="UNICEF_INDICATOR" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_UNICEF_INDICATOR" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                        </str:Dimension>
+                        <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=UNICEF:DSD_AGGREGATE(1.0).SEX" id="SEX" position="3">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="SEX" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="SDMX" id="CL_SEX" version="2.1" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                        </str:Dimension>
+                        <str:TimeDimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=UNICEF:DSD_AGGREGATE(1.0).TIME_PERIOD" id="TIME_PERIOD" position="4">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="TIME_PERIOD" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:TextFormat textType="ObservationalTimePeriod"/>
+                            </str:LocalRepresentation>
+                        </str:TimeDimension>
+                    </str:DimensionList>
+                    <str:AttributeList urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=UNICEF:DSD_AGGREGATE(1.0).AttributeDescriptor" id="AttributeDescriptor">
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).UNIT_MULTIPLIER" assignmentStatus="Conditional" id="UNIT_MULTIPLIER">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="UNIT_MULTIPLIER" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="SDMX" id="CL_UNIT_MULT" version="1.1" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).UNIT_MEASURE" assignmentStatus="Mandatory" id="UNIT_MEASURE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="UNIT_MEASURE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_UNIT_MEASURE" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).OBS_STATUS" assignmentStatus="Conditional" id="OBS_STATUS">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="OBS_STATUS" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_OBS_STATUS" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).OBS_CONF" assignmentStatus="Conditional" id="OBS_CONF">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="OBS_CONF" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="SDMX" id="CL_CONF_STATUS" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).LOWER_BOUND" assignmentStatus="Conditional" id="LOWER_BOUND">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="LOWER_BOUND" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).UPPER_BOUND" assignmentStatus="Conditional" id="UPPER_BOUND">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="UPPER_BOUND" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).WGTD_SAMPL_SIZE" assignmentStatus="Conditional" id="WGTD_SAMPL_SIZE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="WGTD_SAMPL_SIZE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).OBS_FOOTNOTE" assignmentStatus="Conditional" id="OBS_FOOTNOTE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="OBS_FOOTNOTE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).SERIES_FOOTNOTE" assignmentStatus="Conditional" id="SERIES_FOOTNOTE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="SERIES_FOOTNOTE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).DATA_SOURCE" assignmentStatus="Conditional" id="DATA_SOURCE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="DATA_SOURCE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).SOURCE_LINK" assignmentStatus="Conditional" id="SOURCE_LINK">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="SOURCE_LINK" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).CUSTODIAN" assignmentStatus="Conditional" id="CUSTODIAN">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="CUSTODIAN" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).TIME_PERIOD_METHOD" assignmentStatus="Conditional" id="TIME_PERIOD_METHOD">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="TIME_PERIOD_METHOD" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_TIME_PERIOD_METHOD" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).REF_PERIOD" assignmentStatus="Conditional" id="REF_PERIOD">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="REF_PERIOD" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).COVERAGE_TIME" assignmentStatus="Conditional" id="COVERAGE_TIME">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="COVERAGE_TIME" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=UNICEF:DSD_AGGREGATE(1.0).AGE" assignmentStatus="Conditional" id="AGE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="AGE" class="Concept"/>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref package="codelist" agencyID="UNICEF" id="CL_AGE" version="1.0" class="Codelist"/>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                    </str:AttributeList>
+                    <str:MeasureList urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=UNICEF:DSD_AGGREGATE(1.0).MeasureDescriptor" id="MeasureDescriptor">
+                        <str:PrimaryMeasure urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=UNICEF:DSD_AGGREGATE(1.0).OBS_VALUE" id="OBS_VALUE">
+                            <str:ConceptIdentity>
+                                <Ref maintainableParentID="UNICEF_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="UNICEF" id="OBS_VALUE" class="Concept"/>
+                            </str:ConceptIdentity>
+                        </str:PrimaryMeasure>
+                    </str:MeasureList>
+                </str:DataStructureComponents>
+            </str:DataStructure>
+        </str:DataStructures>
+        <str:Constraints>
+            <str:ContentConstraint urn="urn:sdmx:org.sdmx.infomodel.registry.ContentConstraint=UNICEF:CONSTR_SEX(1.0)" isExternalReference="false" agencyID="UNICEF" id="CONSTR_SEX" isFinal="false" type="Allowed" version="1.0">
+                <com:Name xml:lang="en">Sex constraint</com:Name>
+                <str:ConstraintAttachment>
+                    <str:Dataflow>
+                        <Ref package="datastructure" agencyID="UNICEF" id="GLOBAL_DATAFLOW" version="1.0" class="Dataflow"/>
+                    </str:Dataflow>
+                </str:ConstraintAttachment>
+                <str:DataKeySet isIncluded="true">
+                    <str:Key>
+                        <com:KeyValue id="SEX">
+                            <com:Value>F</com:Value>
+                        </com:KeyValue>
+                    </str:Key>
+                    <str:Key>
+                        <com:KeyValue id="SEX">
+                            <com:Value>M</com:Value>
+                        </com:KeyValue>
+                    </str:Key>
+                    <str:Key>
+                        <com:KeyValue id="SEX">
+                            <com:Value>_T</com:Value>
+                        </com:KeyValue>
+                    </str:Key>
+                </str:DataKeySet>
+            </str:ContentConstraint>
+        </str:Constraints>
+        <str:ProvisionAgreements>
+            <str:ProvisionAgreement urn="urn:sdmx:org.sdmx.infomodel.registry.ProvisionAgreement=UNICEF:GLOBAL_DATAFLOW_UNICEF_UNICEF(1.0)" isExternalReference="false" agencyID="UNICEF" id="GLOBAL_DATAFLOW_UNICEF_UNICEF" isFinal="false" version="1.0">
+                <com:Name xml:lang="en">UNICEF for Global Dataflow</com:Name>
+                <str:StructureUsage>
+                    <Ref package="datastructure" agencyID="UNICEF" id="GLOBAL_DATAFLOW" version="1.0" class="Dataflow"/>
+                </str:StructureUsage>
+                <str:DataProvider>
+                    <Ref maintainableParentID="DATA_PROVIDERS" package="base" maintainableParentVersion="1.0" agencyID="UNICEF" id="UNICEF" class="DataProvider"/>
+                </str:DataProvider>
+            </str:ProvisionAgreement>
+        </str:ProvisionAgreements>
+    </mes:Structures>
+</mes:Structure>
