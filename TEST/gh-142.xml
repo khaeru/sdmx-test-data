@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mes:Structure xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"
+  xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <mes:Header>
+    <mes:ID>IDREF652</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2023-06-13T13:16:08.604607</mes:Prepared>
+    <mes:Sender id="TEST"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist version="1.0" isExternalReference="false" isFinal="false" validFrom="2021-01-24T08:00:00" validTo="2021-09-24T08:00:00" agencyID="TEST" id="CL_NAICS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=TEST:CL_NAICS(1.0)">
+        <com:Annotations>
+          <com:Annotation id="status">
+            <com:AnnotationText xml:lang="en">Released</com:AnnotationText>
+          </com:Annotation>
+          <com:Annotation id="audience">
+            <com:AnnotationText xml:lang="en">Standardized</com:AnnotationText>
+          </com:Annotation>
+          <com:Annotation id="abbreviation">
+            <com:AnnotationText xml:lang="en">NAICS</com:AnnotationText>
+          </com:Annotation>
+        </com:Annotations>
+        <com:Name xml:lang="en">North American Product Classification System</com:Name>
+        <str:Code id="1">
+          <com:Name xml:lang="en">Test code</com:Name>
+          <com:Description xml:lang="en">A sample code.</com:Description>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+  </mes:Structures>
+</mes:Structure>
