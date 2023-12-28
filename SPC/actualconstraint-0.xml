@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.18.2.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF11273</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-12-27T19:32:57.702454+00:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CR_A_DF_ADBKI" agencyID="SPC" version="1.0" validFrom="2023-11-14T21:53:01.147Z" isFinal="false" type="Actual">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>A</common:AnnotationTitle>
+            <common:AnnotationType>ReleaseVersion</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>9683</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Availability (A) for DF_ADBKI</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DF_ADBKI" version="1.0" agencyID="SPC" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="FREQ">
+            <common:Value>A</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="GEO_PICT">
+            <common:Value>CK</common:Value>
+            <common:Value>FJ</common:Value>
+            <common:Value>FM</common:Value>
+            <common:Value>KI</common:Value>
+            <common:Value>MH</common:Value>
+            <common:Value>NR</common:Value>
+            <common:Value>NU</common:Value>
+            <common:Value>PG</common:Value>
+            <common:Value>PW</common:Value>
+            <common:Value>SB</common:Value>
+            <common:Value>TO</common:Value>
+            <common:Value>TV</common:Value>
+            <common:Value>VU</common:Value>
+            <common:Value>WS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="INDICATOR">
+            <common:Value>ENEL_CS_PS</common:Value>
+            <common:Value>ENEL_PR_PS</common:Value>
+            <common:Value>NGDP_R_PTX_PS</common:Value>
+            <common:Value>NGDPVA_IND_R_PTX_PS</common:Value>
+            <common:Value>NGDPVA_OSA_R_XDC_PS</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_A_PC_CP_A_PT</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_A_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_B_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_C_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_D_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_E_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_F_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_G_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_H_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_I_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_J_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_K_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_L_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_M_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_N_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_O_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_P_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_Q_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_R_XDC</common:Value>
+            <common:Value>NGDPVA_R_ISIC4_T_XDC</common:Value>
+            <common:Value>NGDPVA_R_XDC</common:Value>
+            <common:Value>NGDPVA_SER_R_PTX_PS</common:Value>
+            <common:Value>PCPI_CP_01_IX</common:Value>
+            <common:Value>PCPI_CP_02_IX</common:Value>
+            <common:Value>PCPI_CP_03_IX</common:Value>
+            <common:Value>PCPI_CP_04_IX</common:Value>
+            <common:Value>PCPI_CP_05_IX</common:Value>
+            <common:Value>PCPI_CP_06_IX</common:Value>
+            <common:Value>PCPI_CP_07_IX</common:Value>
+            <common:Value>PCPI_CP_08_IX</common:Value>
+            <common:Value>PCPI_CP_09_IX</common:Value>
+            <common:Value>PCPI_CP_10_IX</common:Value>
+            <common:Value>PCPI_CP_11_IX</common:Value>
+            <common:Value>PCPI_CP_13_IX</common:Value>
+            <common:Value>PCPI_IX</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">1999-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2022-12-31T00:00:00</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

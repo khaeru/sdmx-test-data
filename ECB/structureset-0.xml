@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://registry.sdmx.org/schemas/v2_1/SDMXMessage.xsd">
+  <mes:Header>
+    <mes:ID>IREF932328</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2023-08-03T20:07:13Z</mes:Prepared>
+    <mes:Sender id="Unknown"/>
+    <mes:Receiver id="not_supplied"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:StructureSets>
+      <str:StructureSet urn="urn:sdmx:org.sdmx.infomodel.mapping.StructureSet=ECB:GLOBAL_MAPPINGS(1.0)" isExternalReference="false" agencyID="ECB" id="GLOBAL_MAPPINGS" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Generic mappings</com:Name>
+        <com:Description xml:lang="en">A collection of generic mappings, that can be used across statistical domains.</com:Description>
+        <str:CodelistMap urn="urn:sdmx:org.sdmx.infomodel.mapping.CodelistMap=ECB:GLOBAL_MAPPINGS(1.0).MAP_CL_CURRENCY2AREA" id="MAP_CL_CURRENCY2AREA">
+          <com:Name xml:lang="en">CL_CURRENCY to CL_AREA_EE map</com:Name>
+          <str:Source>
+            <Ref package="codelist" agencyID="ECB" id="CL_CURRENCY" version="1.0" class="Codelist"/>
+          </str:Source>
+          <str:Target>
+            <Ref package="codelist" agencyID="ECB" id="CL_AREA_EE" version="1.0" class="Codelist"/>
+          </str:Target>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="ATS"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="AT"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="BEF"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="BE"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="BGL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="BG"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="BGN"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="BG"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="CYP"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="CY"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="CZK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="CZ"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="DEM"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="DE"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="DKK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="DK"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="EEK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="EE"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="ESP"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="ES"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="EUR"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="U2"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="FIM"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="FI"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="FRF"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="FR"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="GBP"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="GB"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="GRD"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="GR"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="HRK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="HR"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="HUF"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="HU"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="IEP"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="IE"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="ITL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="IT"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="LTL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="LT"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="LUF"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="LU"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="LVL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="LV"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="MTL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="MT"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="NLG"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="NL"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="PLN"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="PL"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="PLZ"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="PL"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="PTE"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="PT"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="ROL"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="RO"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="RON"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="RO"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="SEK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="SE"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="SIT"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="SI"/>
+            </str:Target>
+          </str:CodeMap>
+          <str:CodeMap>
+            <str:Source>
+              <Ref id="SKK"/>
+            </str:Source>
+            <str:Target>
+              <Ref id="SK"/>
+            </str:Target>
+          </str:CodeMap>
+        </str:CodelistMap>
+      </str:StructureSet>
+    </str:StructureSets>
+  </mes:Structures>
+</mes:Structure>

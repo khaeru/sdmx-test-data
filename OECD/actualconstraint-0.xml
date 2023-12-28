@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.18.2.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF1898</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-12-27T20:45:33.6227693+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CR_A_DSD_DEBT_TRANS_COLL@DF_MICRO" agencyID="OECD.DAF" version="1.0" validFrom="2023-10-16T14:33:16.13Z" isFinal="false" type="Actual">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>A</common:AnnotationTitle>
+            <common:AnnotationType>ReleaseVersion</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>48</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Availability (A) for DSD_DEBT_TRANS_COLL@DF_MICRO</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_DEBT_TRANS_COLL@DF_MICRO" version="1.0" agencyID="OECD.DAF" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="DD_ID">
+            <common:Value>1</common:Value>
+            <common:Value>10</common:Value>
+            <common:Value>11</common:Value>
+            <common:Value>12</common:Value>
+            <common:Value>13</common:Value>
+            <common:Value>14</common:Value>
+            <common:Value>15</common:Value>
+            <common:Value>16</common:Value>
+            <common:Value>17</common:Value>
+            <common:Value>18</common:Value>
+            <common:Value>19</common:Value>
+            <common:Value>2</common:Value>
+            <common:Value>20</common:Value>
+            <common:Value>21</common:Value>
+            <common:Value>22</common:Value>
+            <common:Value>23</common:Value>
+            <common:Value>24</common:Value>
+            <common:Value>25</common:Value>
+            <common:Value>26</common:Value>
+            <common:Value>27</common:Value>
+            <common:Value>28</common:Value>
+            <common:Value>29</common:Value>
+            <common:Value>3</common:Value>
+            <common:Value>30</common:Value>
+            <common:Value>31</common:Value>
+            <common:Value>32</common:Value>
+            <common:Value>33</common:Value>
+            <common:Value>34</common:Value>
+            <common:Value>35</common:Value>
+            <common:Value>36</common:Value>
+            <common:Value>37</common:Value>
+            <common:Value>38</common:Value>
+            <common:Value>39</common:Value>
+            <common:Value>4</common:Value>
+            <common:Value>40</common:Value>
+            <common:Value>41</common:Value>
+            <common:Value>42</common:Value>
+            <common:Value>43</common:Value>
+            <common:Value>44</common:Value>
+            <common:Value>45</common:Value>
+            <common:Value>46</common:Value>
+            <common:Value>47</common:Value>
+            <common:Value>48</common:Value>
+            <common:Value>5</common:Value>
+            <common:Value>6</common:Value>
+            <common:Value>7</common:Value>
+            <common:Value>8</common:Value>
+            <common:Value>9</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="REF_AREA">
+            <common:Value>AGO</common:Value>
+            <common:Value>ARE</common:Value>
+            <common:Value>BLZ</common:Value>
+            <common:Value>BRB</common:Value>
+            <common:Value>CIV</common:Value>
+            <common:Value>ECU</common:Value>
+            <common:Value>KAZ</common:Value>
+            <common:Value>OMN</common:Value>
+            <common:Value>PAK</common:Value>
+            <common:Value>PHL</common:Value>
+            <common:Value>QAT</common:Value>
+            <common:Value>RUS</common:Value>
+            <common:Value>SAU</common:Value>
+            <common:Value>THA</common:Value>
+            <common:Value>TUR</common:Value>
+            <common:Value>TZA</common:Value>
+            <common:Value>UZB</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="RECIPIENT_TYPE">
+            <common:Value>GOV</common:Value>
+            <common:Value>SOV_F</common:Value>
+            <common:Value>STATE_ENT</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FIN_TYPE">
+            <common:Value>BONDS</common:Value>
+            <common:Value>LOANS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="CURRENCY">
+            <common:Value>EUR</common:Value>
+            <common:Value>THB</common:Value>
+            <common:Value>USD</common:Value>
+            <common:Value>UZS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="INTEREST_RATE">
+            <common:Value>_X</common:Value>
+            <common:Value>IRGT0T3</common:Value>
+            <common:Value>IRGT11</common:Value>
+            <common:Value>IRGT3T8</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="INTEREST_RATE_TYPE">
+            <common:Value>FIXED</common:Value>
+            <common:Value>FLOATING</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="CLAIM_RANK">
+            <common:Value>_O</common:Value>
+            <common:Value>SEN_UNSEC</common:Value>
+            <common:Value>SUB</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2020-04-15T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2023-04-25T00:00:00</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

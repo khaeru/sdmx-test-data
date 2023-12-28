@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+    xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+    xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+    <mes:Header>
+        <mes:ID>IDREF452f381b-559e-4c57-9756-affe20bef303</mes:ID>
+        <mes:Test>false</mes:Test>
+        <mes:Prepared>2023-12-27T19:45:21Z</mes:Prepared>
+        <mes:Sender id="UNKNOWN"></mes:Sender>
+        <mes:Receiver id="not_supplied"></mes:Receiver>
+    </mes:Header>
+    <mes:Structures>
+        <str:Constraints>
+            <str:ContentConstraint urn="urn:sdmx:org.sdmx.infomodel.registry.ContentConstraint=BIS:CBP_D_24D(1.0)" isExternalReference="false" agencyID="BIS" id="CBP_D_24D" isFinal="false" type="Actual" version="1.0">
+                <com:Annotations>
+                    <com:Annotation id="pv">
+                        <com:AnnotationTitle>PPQ</com:AnnotationTitle>
+                        <com:AnnotationType>1~2~1,0,0~both</com:AnnotationType>
+                    </com:Annotation>
+                    <com:Annotation id="lastNPeriods">
+                        <com:AnnotationTitle>PPQ</com:AnnotationTitle>
+                        <com:AnnotationType>D_24</com:AnnotationType>
+                    </com:Annotation>
+                </com:Annotations>
+                <com:Name xml:lang="en">Policy rates, daily, last 24 days</com:Name>
+                <str:ConstraintAttachment>
+                    <str:Dataflow>
+                        <Ref package="datastructure" agencyID="BIS" id="WS_CBPOL_D" version="1.0" class="Dataflow"></Ref>
+                    </str:Dataflow>
+                </str:ConstraintAttachment>
+                <str:CubeRegion include="true">
+                    <com:KeyValue id="FREQ">
+                        <com:Value>D</com:Value>
+                    </com:KeyValue>
+                </str:CubeRegion>
+            </str:ContentConstraint>
+        </str:Constraints>
+    </mes:Structures>
+</mes:Structure>
