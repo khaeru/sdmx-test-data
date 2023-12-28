@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<message:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/common">
+  <message:Header>
+    <message:ID>IREF414522</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-12-28T05:30:54Z</message:Prepared>
+    <message:Sender id="Unknown"></message:Sender>
+    <message:Receiver id="not_supplied"></message:Receiver>
+  </message:Header>
+  <message:Structures>
+    <str:Hierarchies>
+      <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0)" isExternalReference="false" agencyID="ESTAT" id="HCL_WSTATUS_SCL_WSTATUSPR" version="1.0" hasFormalLevels="false">
+        <com:Name xml:lang="en">SCL_WSTATUSPR</com:Name>
+        <com:Description xml:lang="en">Preferred employment status</com:Description>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).oF0V" id="oF0V">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).TOTAL</str:Code>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).4zl6" id="4zl6">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).SAL</str:Code>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).w2YF" id="w2YF">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).SELF</str:Code>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).1NMR" id="1NMR">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).NCHG</str:Code>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).3Kga" id="3Kga">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).NRP</str:Code>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).oJyx" id="oJyx">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:SCL_WSTATUS(1.0).NAP</str:Code>
+        </str:HierarchicalCode>
+      </str:Hierarchy>
+    </str:Hierarchies>
+  </message:Structures>
+</message:Structure>

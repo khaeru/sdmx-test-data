@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<message:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/common">
+  <message:Header>
+    <message:ID>IREF414020</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-12-28T05:30:07Z</message:Prepared>
+    <message:Sender id="Unknown"></message:Sender>
+    <message:Receiver id="not_supplied"></message:Receiver>
+  </message:Header>
+  <message:Structures>
+    <str:Hierarchies>
+      <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=SDMX:HCL_TEST_AREA(1.0)" isExternalReference="false" agencyID="SDMX" id="HCL_TEST_AREA" version="1.0" hasFormalLevels="true">
+        <com:Annotations>
+          <com:Annotation>
+            <com:AnnotationTitle>DRAFT</com:AnnotationTitle>
+          </com:Annotation>
+        </com:Annotations>
+        <com:Name xml:lang="en">Area</com:Name>
+        <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=SDMX:HCL_TEST_AREA(1.0).Level1" id="Level1">
+          <com:Name xml:lang="en">AREA_LEVEL</com:Name>
+          <com:Description xml:lang="en">Area level</com:Description>
+          <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=SDMX:HCL_TEST_AREA(1.0).Level2" id="Level2">
+            <com:Name xml:lang="en">ACTIVITY_LEVEL</com:Name>
+            <com:Description xml:lang="en">Activity level</com:Description>
+          </str:Level>
+        </str:Level>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R" id="Bt3R">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AREA(1.8).4D</str:Code>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B05" id="B05">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).B05</str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B06" id="B06">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).B06</str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B06_09" id="B06_09">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).B06_09</str:Code>
+          </str:HierarchicalCode>
+        </str:HierarchicalCode>
+        <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb" id="RUlb">
+          <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AREA(1.8).1B</str:Code>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C262" id="C262">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).C262</str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C26" id="C26">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).C26</str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C25" id="C25">
+            <str:Code>urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_ACTIVITY(1.6).C25</str:Code>
+          </str:HierarchicalCode>
+        </str:HierarchicalCode>
+      </str:Hierarchy>
+    </str:Hierarchies>
+  </message:Structures>
+</message:Structure>
