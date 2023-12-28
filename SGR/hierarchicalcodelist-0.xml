@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF948029</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2023-08-03T20:33:22Z</mes:Prepared>
+    <mes:Sender id="Unknown"></mes:Sender>
+    <mes:Receiver id="not_supplied"></mes:Receiver>
+  </mes:Header>
+  <mes:Structures>
+    <str:HierarchicalCodelists>
+      <str:HierarchicalCodelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0)" isExternalReference="false" agencyID="ESTAT" id="HCL_WSTATUS_SCL_BNSPART" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">SCL_BNSPART</com:Name>
+        <com:Description xml:lang="en">Business partner</com:Description>
+        <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0)" id="HCL_WSTATUS_SCL_BNSPART" leveled="false">
+          <com:Name xml:lang="en">SCL_BNSPART</com:Name>
+          <com:Description xml:lang="en">Business partner</com:Description>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).thUA" id="thUA">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="TOTAL" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).Iu3n" id="Iu3n">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="SELF" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).jMXt" id="jMXt">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="SELF_COWN" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).qxSI" id="qxSI">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NONE" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).bVpL" id="bVpL">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NAP" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_BNSPART(1.0).2xsu" id="2xsu">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NSAL" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+        </str:Hierarchy>
+      </str:HierarchicalCodelist>
+      <str:HierarchicalCodelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0)" isExternalReference="false" agencyID="ESTAT" id="HCL_WSTATUS_SCL_WSTATUSPR" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">SCL_WSTATUSPR</com:Name>
+        <com:Description xml:lang="en">Preferred employment status</com:Description>
+        <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0)" id="HCL_WSTATUS_SCL_WSTATUSPR" leveled="false">
+          <com:Name xml:lang="en">SCL_WSTATUSPR</com:Name>
+          <com:Description xml:lang="en">Preferred employment status</com:Description>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).oF0V" id="oF0V">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="TOTAL" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).4zl6" id="4zl6">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="SAL" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).w2YF" id="w2YF">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="SELF" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).1NMR" id="1NMR">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NCHG" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).3Kga" id="3Kga">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NRP" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=ESTAT:HCL_WSTATUS_SCL_WSTATUSPR(1.0).oJyx" id="oJyx">
+            <str:Code>
+              <Ref maintainableParentID="SCL_WSTATUS" package="codelist" maintainableParentVersion="1.0" agencyID="ESTAT" id="NAP" class="Code"></Ref>
+            </str:Code>
+          </str:HierarchicalCode>
+        </str:Hierarchy>
+      </str:HierarchicalCodelist>
+      <str:HierarchicalCodelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=SDMX:HCL_TEST_AREA(1.0)" isExternalReference="false" agencyID="SDMX" id="HCL_TEST_AREA" isFinal="false" version="1.0">
+        <com:Annotations>
+          <com:Annotation>
+            <com:AnnotationTitle>DRAFT</com:AnnotationTitle>
+          </com:Annotation>
+        </com:Annotations>
+        <com:Name xml:lang="en">Area</com:Name>
+        <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=SDMX:HCL_TEST_AREA(1.0)" id="HCL_TEST_AREA" leveled="true">
+          <com:Annotations>
+            <com:Annotation>
+              <com:AnnotationTitle>DRAFT</com:AnnotationTitle>
+            </com:Annotation>
+          </com:Annotations>
+          <com:Name xml:lang="en">Area</com:Name>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R" id="Bt3R">
+            <str:Code>
+              <Ref maintainableParentID="CL_AREA" package="codelist" maintainableParentVersion="1.8" agencyID="ESTAT" id="4D" class="Code"></Ref>
+            </str:Code>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B05" id="B05">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="B05" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B06" id="B06">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="B06" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).Bt3R.B06_09" id="B06_09">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="B06_09" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb" id="RUlb">
+            <str:Code>
+              <Ref maintainableParentID="CL_AREA" package="codelist" maintainableParentVersion="1.8" agencyID="ESTAT" id="1B" class="Code"></Ref>
+            </str:Code>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C262" id="C262">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="C262" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C26" id="C26">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="C26" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=SDMX:HCL_TEST_AREA(1.0).RUlb.C25" id="C25">
+              <str:Code>
+                <Ref maintainableParentID="CL_ACTIVITY" package="codelist" maintainableParentVersion="1.6" agencyID="ESTAT" id="C25" class="Code"></Ref>
+              </str:Code>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=SDMX:HCL_TEST_AREA(1.0).Level1" id="Level1">
+            <com:Name xml:lang="en">AREA_LEVEL</com:Name>
+            <com:Description xml:lang="en">Area level</com:Description>
+            <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=SDMX:HCL_TEST_AREA(1.0).Level2" id="Level2">
+              <com:Name xml:lang="en">ACTIVITY_LEVEL</com:Name>
+              <com:Description xml:lang="en">Activity level</com:Description>
+            </str:Level>
+          </str:Level>
+        </str:Hierarchy>
+      </str:HierarchicalCodelist>
+    </str:HierarchicalCodelists>
+  </mes:Structures>
+</mes:Structure>

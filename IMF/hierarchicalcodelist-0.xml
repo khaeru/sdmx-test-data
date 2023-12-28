@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF390627</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2023-12-28T04:51:08Z</mes:Prepared>
+    <mes:Sender id="IMF"></mes:Sender>
+    <mes:Receiver id="not_supplied"></mes:Receiver>
+  </mes:Header>
+  <mes:Structures>
+    <str:HierarchicalCodelists>
+      <str:HierarchicalCodelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=IMF:TST(1.0)" isExternalReference="false" agencyID="IMF" id="TST" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">TEST</com:Name>
+        <str:Hierarchy urn="urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=IMF:TST(1.0)" id="TST" leveled="true">
+          <com:Name xml:lang="en">TEST</com:Name>
+          <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C" id="1C">
+            <str:Code>
+              <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="1C" class="Code"></Ref>
+            </str:Code>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR24" id="XR24">
+              <str:Code>
+                <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="XR24" class="Code"></Ref>
+              </str:Code>
+              <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR24.CN" id="CN">
+                <str:Code>
+                  <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="CN" class="Code"></Ref>
+                </str:Code>
+              </str:HierarchicalCode>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR43" id="XR43">
+              <str:Code>
+                <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="XR43" class="Code"></Ref>
+              </str:Code>
+              <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR43.DO" id="DO">
+                <str:Code>
+                  <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="DO" class="Code"></Ref>
+                </str:Code>
+              </str:HierarchicalCode>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR29" id="XR29">
+              <str:Code>
+                <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="XR29" class="Code"></Ref>
+              </str:Code>
+              <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR29.US" id="US">
+                <str:Code>
+                  <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="US" class="Code"></Ref>
+                </str:Code>
+              </str:HierarchicalCode>
+              <str:HierarchicalCode urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=IMF:TST(1.0).1C.XR29.GB" id="GB">
+                <str:Code>
+                  <Ref maintainableParentID="CL_REF_AREA" package="codelist" maintainableParentVersion="1.0" agencyID="IMF" id="GB" class="Code"></Ref>
+                </str:Code>
+              </str:HierarchicalCode>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=IMF:TST(1.0).IMF_FA" id="IMF_FA">
+            <com:Name xml:lang="en">IMF full agregate</com:Name>
+            <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=IMF:TST(1.0).IMF_IG" id="IMF_IG">
+              <com:Name xml:lang="en">IMF income group</com:Name>
+              <str:Level urn="urn:sdmx:org.sdmx.infomodel.codelist.Level=IMF:TST(1.0).IMF_C" id="IMF_C">
+                <com:Name xml:lang="en">IMF countries</com:Name>
+              </str:Level>
+            </str:Level>
+          </str:Level>
+        </str:Hierarchy>
+      </str:HierarchicalCodelist>
+    </str:HierarchicalCodelists>
+  </mes:Structures>
+</mes:Structure>
