@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF431541</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2023-12-28T05:59:13Z</mes:Prepared>
+    <mes:Sender id="Unknown"></mes:Sender>
+    <mes:Receiver id="not_supplied"></mes:Receiver>
+  </mes:Header>
+  <mes:Structures>
+    <str:MetadataStructures>
+      <str:MetadataStructure urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(1.0)" isExternalReference="false" agencyID="IAEG-SDGs" id="SDG_MSD" isFinal="true" version="1.0">
+        <com:Name xml:lang="en">SDG Metadata Structure Definition</com:Name>
+        <com:Description xml:lang="en">Metadata Structure Definition for Sustainable Development Goals Indicators.</com:Description>
+        <str:MetadataStructureComponents>
+          <str:MetadataTarget id="Target">
+            <str:IdentifiableObjectTarget id="IdentifiableObjectTarget" objectType="Dataflow">
+              <str:LocalRepresentation>
+                <str:TextFormat textType="IdentifiableReference"></str:TextFormat >
+              </str:LocalRepresentation>
+            </str:IdentifiableObjectTarget>
+          </str:MetadataTarget>
+          <str:ReportStructure id="Report">
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).ADJUSTMENT" minOccurs="0" maxOccurs="1" id="ADJUSTMENT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="ADJUSTMENT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CLASS_SYSTEM" minOccurs="0" maxOccurs="1" id="CLASS_SYSTEM">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CLASS_SYSTEM" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).COLL_METHOD" minOccurs="0" maxOccurs="1" id="COLL_METHOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="COLL_METHOD" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).COMPARABILITY" minOccurs="0" maxOccurs="1" id="COMPARABILITY">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="COMPARABILITY" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).COMPILING_ORG" minOccurs="0" maxOccurs="1" id="COMPILING_ORG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="COMPILING_ORG" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT" minOccurs="0" maxOccurs="1" id="CONTACT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_EMAIL" minOccurs="0" maxOccurs="1" id="CONTACT_EMAIL">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_EMAIL" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_FUNCT" minOccurs="0" maxOccurs="1" id="CONTACT_FUNCT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_FUNCT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_MAIL" minOccurs="0" maxOccurs="1" id="CONTACT_MAIL">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_MAIL" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_NAME" minOccurs="0" maxOccurs="1" id="CONTACT_NAME">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_NAME" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_ORGANISATION" minOccurs="0" maxOccurs="1" id="CONTACT_ORGANISATION">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_ORGANISATION" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).CONTACT_PHONE" minOccurs="0" maxOccurs="1" id="CONTACT_PHONE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="CONTACT_PHONE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).COVERAGE" minOccurs="0" maxOccurs="1" id="COVERAGE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="COVERAGE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).DATA_COMP" minOccurs="0" maxOccurs="1" id="DATA_COMP">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="DATA_COMP" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).DATA_SOURCE" minOccurs="0" maxOccurs="1" id="DATA_SOURCE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="DATA_SOURCE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).DATA_VALIDATION" minOccurs="0" maxOccurs="1" id="DATA_VALIDATION">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="DATA_VALIDATION" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).DOC_METHOD" minOccurs="0" maxOccurs="1" id="DOC_METHOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="DOC_METHOD" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).FREQ_COLL" minOccurs="0" maxOccurs="1" id="FREQ_COLL">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="FREQ_COLL" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).IMPUTATION" minOccurs="0" maxOccurs="1" id="IMPUTATION">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="IMPUTATION" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).IND_DEF_CON_CLASS" minOccurs="0" maxOccurs="1" id="IND_DEF_CON_CLASS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="IND_DEF_CON_CLASS" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).INST_MANDATE" minOccurs="0" maxOccurs="1" id="INST_MANDATE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="INST_MANDATE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).META_LAST_UPDATE" minOccurs="0" maxOccurs="1" id="META_LAST_UPDATE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="META_LAST_UPDATE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat isSequence="false" textType="GregorianDay"></str:TextFormat>
+              </str:LocalRepresentation>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).ORGANISATION_UNIT" minOccurs="0" maxOccurs="1" id="ORGANISATION_UNIT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="ORGANISATION_UNIT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).OTHER_DOC" minOccurs="0" maxOccurs="1" id="OTHER_DOC">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="OTHER_DOC" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).OTHER_METHOD" minOccurs="0" maxOccurs="1" id="OTHER_METHOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="OTHER_METHOD" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).QUALITY_ASSMNT" minOccurs="0" maxOccurs="1" id="QUALITY_ASSMNT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="QUALITY_ASSMNT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).QUALITY_ASSURE" minOccurs="0" maxOccurs="1" id="QUALITY_ASSURE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="QUALITY_ASSURE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).QUALITY_MGMNT" minOccurs="0" maxOccurs="1" id="QUALITY_MGMNT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="QUALITY_MGMNT" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).RATIONALE" minOccurs="0" maxOccurs="1" id="RATIONALE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="RATIONALE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).REC_USE_LIM" minOccurs="0" maxOccurs="1" id="REC_USE_LIM">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="REC_USE_LIM" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).REG_AGG" minOccurs="0" maxOccurs="1" id="REG_AGG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="REG_AGG" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).REL_CAL_POLICY" minOccurs="0" maxOccurs="1" id="REL_CAL_POLICY">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="REL_CAL_POLICY" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_CUSTODIAN_AGENCIES" minOccurs="0" maxOccurs="1" id="SDG_CUSTODIAN_AGENCIES">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_CUSTODIAN_AGENCIES" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_GOAL" minOccurs="0" maxOccurs="1" id="SDG_GOAL">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_GOAL" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_INDICATOR" minOccurs="0" maxOccurs="1" id="SDG_INDICATOR">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_INDICATOR" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_INDICATOR_INFO" minOccurs="0" maxOccurs="1" id="SDG_INDICATOR_INFO">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_INDICATOR_INFO" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_RELATED_INDICATORS" minOccurs="0" maxOccurs="1" id="SDG_RELATED_INDICATORS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_RELATED_INDICATORS" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_SERIES_DESCR" minOccurs="0" maxOccurs="1" id="SDG_SERIES_DESCR">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_SERIES_DESCR" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SDG_TARGET" minOccurs="0" maxOccurs="1" id="SDG_TARGET">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SDG_TARGET" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SOURCE_TYPE" minOccurs="0" maxOccurs="1" id="SOURCE_TYPE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SOURCE_TYPE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).SRC_TYPE_COLL_METHOD" minOccurs="0" maxOccurs="1" id="SRC_TYPE_COLL_METHOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="SRC_TYPE_COLL_METHOD" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).STAT_CONC_DEF" minOccurs="0" maxOccurs="1" id="STAT_CONC_DEF">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="STAT_CONC_DEF" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).UNIT_MEASURE" minOccurs="0" maxOccurs="1" id="UNIT_MEASURE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="UNIT_MEASURE" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataAttribute urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IAEG-SDGs:SDG_MSD(1.0).TRANSLATIONS" minOccurs="0" maxOccurs="1" id="TRANSLATIONS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="SDG_META_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="IAEG-SDGs" id="TRANSLATIONS" class="Concept"></Ref>
+              </str:ConceptIdentity>
+            </str:MetadataAttribute>
+            <str:MetadataTarget>
+              <Ref id="Target"></Ref>
+            </str:MetadataTarget>
+          </str:ReportStructure>
+        </str:MetadataStructureComponents>
+      </str:MetadataStructure>
+    </str:MetadataStructures>
+  </mes:Structures>
+</mes:Structure>

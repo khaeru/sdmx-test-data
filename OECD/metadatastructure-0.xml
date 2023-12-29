@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.17.0.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF302</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-08-14T16:00:28.536532+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:MetadataStructures>
+      <structure:MetadataStructure id="MSD_REF_METADATA" agencyID="OECD" version="1.0" isFinal="false">
+        <common:Name xml:lang="en">OECD Generic Reference Metadata Structure</common:Name>
+        <structure:MetadataStructureComponents>
+          <structure:MetadataTarget id="KEY_TARGET">
+            <structure:KeyDescriptorValuesTarget id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="KeyValues" />
+              </structure:LocalRepresentation>
+            </structure:KeyDescriptorValuesTarget>
+            <structure:IdentifiableObjectTarget id="Dataflow" objectType="Dataflow">
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="IdentifiableReference" />
+              </structure:LocalRepresentation>
+            </structure:IdentifiableObjectTarget>
+          </structure:MetadataTarget>
+          <structure:MetadataTarget id="DataflowTARGET">
+            <structure:IdentifiableObjectTarget id="Dataflow" objectType="Dataflow">
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="IdentifiableReference" />
+              </structure:LocalRepresentation>
+            </structure:IdentifiableObjectTarget>
+          </structure:MetadataTarget>
+          <structure:ReportStructure id="GENERIC">
+            <structure:MetadataAttribute id="COMMENT" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COMMENT" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COMPILING_ORG" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COMPILING_ORG" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="CONTACT" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="CONTACT" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COVERAGE" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COVERAGE" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COVERAGE_GEO" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COVERAGE_GEO" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COVERAGE_POP" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COVERAGE_POP" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COVERAGE_SECTOR" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COVERAGE_SECTOR" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="COVERAGE_TIME" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="COVERAGE_TIME" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_COMP" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_COMP" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_SOURCE" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_SOURCE" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_VALIDATION" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_VALIDATION" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATE_LAST_UPDATE" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATE_LAST_UPDATE" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="BasicTimePeriod" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DISS_ORG" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DISS_ORG" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="QUALITY_ASSMNT" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="QUALITY_ASSMNT" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="REC_USE_LIM" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="REC_USE_LIM" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SEASONAL_ADJUST" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="SEASONAL_ADJUST" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="STAT_CONC_DEF" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="STAT_CONC_DEF" maintainableParentID="CS_REF_METADATA" maintainableParentVersion="1.0" agencyID="OECD" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataTarget>
+              <Ref id="KEY_TARGET" />
+            </structure:MetadataTarget>
+            <structure:MetadataTarget>
+              <Ref id="DataflowTARGET" />
+            </structure:MetadataTarget>
+          </structure:ReportStructure>
+        </structure:MetadataStructureComponents>
+      </structure:MetadataStructure>
+    </structure:MetadataStructures>
+  </message:Structures>
+</message:Structure>

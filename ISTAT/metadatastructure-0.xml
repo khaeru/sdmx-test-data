@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.4.1.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF37276</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-08-03T22:31:48.0519013+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:MetadataStructures>
+      <structure:MetadataStructure id="ISTAT_MSD_TOPMETA" agencyID="IT1" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Metadata structure definition for I.Stat (topmeta)</common:Name>
+        <common:Name xml:lang="it">Definizione della struttura dei metadati per I.Stat (topmeta)</common:Name>
+        <structure:MetadataStructureComponents>
+          <structure:MetadataTarget id="FULL_ISMS_TOPMETA">
+            <structure:IdentifiableObjectTarget id="DATAFLOW" objectType="Dataflow">
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CS_MSD_TOPMETA" version="1.0" agencyID="IT1" package="conceptscheme" class="ConceptScheme" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:IdentifiableObjectTarget>
+          </structure:MetadataTarget>
+          <structure:ReportStructure id="ISMS_REPORT_FULL_TOPMETA">
+            <structure:MetadataAttribute id="ABSTRACT" minOccurs="0" maxOccurs="1">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="ABSTRACT" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SOURCE_ITEMS" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="SOURCE_ITEMS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="CONTACT_ORGANISATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="CONTACT_ORGANISATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_LINK" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_LINK" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="NAME_COLLECTION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="NAME_COLLECTION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DIRECT_SOURCE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DIRECT_SOURCE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="SOURCE_PERIODICITY" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="SOURCE_PERIODICITY" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="SOURCE_METADATA" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="SOURCE_METADATA" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATE_LAST_INPUT" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATE_LAST_INPUT" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="CHARACTERISTICS_ITEMS" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="CHARACTERISTICS_ITEMS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="UNIT_MEASURE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="UNIT_MEASURE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="POWER_CODE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="POWER_CODE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="VARIABLES_COLLECTED" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="VARIABLES_COLLECTED" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="SAMPLING" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="SAMPLING" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="PERIDIOCITY" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="PERIDIOCITY" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="REF_PERIOD" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="REF_PERIOD" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="BASE_PERIOD" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="BASE_PERIOD" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATE_LAST_UPDATE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATE_LAST_UPDATE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="LINK_RELEASE_CALENDAR" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="LINK_RELEASE_CALENDAR" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="CONTACT_PERSON" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="CONTACT_PERSON" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="OTHER_DATA_CHARACTERISTIC" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="OTHER_DATA_CHARACTERISTIC" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SCOPE_ITEM" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="SCOPE_ITEM" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="STATISTICAL_POPULATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="STATISTICAL_POPULATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="GEO_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="GEO_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="SECTOR_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="SECTOR_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="INST_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="INST_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="ITEM_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="ITEM_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="POP_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="POP_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="PROD_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="PROD_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="OTHER_COVERAGE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="OTHER_COVERAGE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="CONCEPTS_ITEMS" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="CONCEPTS_ITEMS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="KEY_STAT_CONCEPT" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="KEY_STAT_CONCEPT" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="CLASSIF_USED" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="CLASSIF_USED" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="MANIPULATION_ITEMS" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="MANIPULATION_ITEMS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="AGGREG_CONSOLID" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="AGGREG_CONSOLID" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="ESTIMATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="ESTIMATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="IMPUTATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="IMPUTATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="TRANSFORMATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="TRANSFORMATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="VALIDATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="VALIDATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="INDEX_TYPE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="INDEX_TYPE" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="WEIGHTS" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="WEIGHTS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="SEASONAL_ADJUSTMENT" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="SEASONAL_ADJUSTMENT" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="OTHER_MANIPULATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="OTHER_MANIPULATION" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DISSEMINATION_FORMAT" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DISSEMINATION_FORMAT" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="OTHER_ASPECTS_ITEMS" minOccurs="0" maxOccurs="unbounded" isPresentational="true">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationTitle>True</common:AnnotationTitle>
+                  <common:AnnotationType>SDMX21_IsMultiLingual</common:AnnotationType>
+                </common:Annotation>
+              </common:Annotations>
+              <structure:ConceptIdentity>
+                <Ref id="OTHER_ASPECTS_ITEMS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:MetadataAttribute id="RECC_USES_LIMITATIONS" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="RECC_USES_LIMITATIONS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="QUALITY_COMMENTS" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="QUALITY_COMMENTS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="OTHER_COMMENTS" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="OTHER_COMMENTS" maintainableParentID="CS_MSD_TOPMETA" maintainableParentVersion="1.0" agencyID="IT1" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="String" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataTarget>
+              <Ref id="FULL_ISMS_TOPMETA" />
+            </structure:MetadataTarget>
+          </structure:ReportStructure>
+        </structure:MetadataStructureComponents>
+      </structure:MetadataStructure>
+    </structure:MetadataStructures>
+  </message:Structures>
+</message:Structure>

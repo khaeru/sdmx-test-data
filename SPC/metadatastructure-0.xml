@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.13.0.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF173160</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-08-03T20:33:49.9902661+00:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:MetadataStructures>
+      <structure:MetadataStructure id="MSD_COM_GENERAL" agencyID="SPC" version="1.0" isFinal="false">
+        <common:Name xml:lang="en">Common metadata structure definition for PDH.STAT</common:Name>
+        <structure:MetadataStructureComponents>
+          <structure:MetadataTarget id="KEY_TARGET">
+            <structure:KeyDescriptorValuesTarget id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="KeyValues" />
+              </structure:LocalRepresentation>
+            </structure:KeyDescriptorValuesTarget>
+          </structure:MetadataTarget>
+          <structure:ReportStructure id="REPORT_STRUCTURE_ID">
+            <structure:MetadataAttribute id="DATA_SOURCE" minOccurs="0" maxOccurs="1" isPresentational="true">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_SOURCE" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:MetadataAttribute id="DATA_SOURCE_ORGANIZATION" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_ORGANIZATION" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="XHTML" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_TITLE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_TITLE" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="XHTML" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_LICENSE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_LICENSE" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="XHTML" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_DATE" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_DATE" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="GregorianDay" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_LINK" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_LINK" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="XHTML" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+              <structure:MetadataAttribute id="DATA_SOURCE_COMMENT" minOccurs="0" maxOccurs="1">
+                <structure:ConceptIdentity>
+                  <Ref id="DATA_SOURCE_COMMENT" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+                </structure:ConceptIdentity>
+                <structure:LocalRepresentation>
+                  <structure:TextFormat textType="XHTML" />
+                </structure:LocalRepresentation>
+              </structure:MetadataAttribute>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_PROCESSING" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_PROCESSING" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_REVISION" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_REVISION" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_COMMENT" minOccurs="0" maxOccurs="1">
+              <structure:ConceptIdentity>
+                <Ref id="DATA_COMMENT" maintainableParentID="CS_COM_METADATA" maintainableParentVersion="1.0" agencyID="SPC" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="XHTML" />
+              </structure:LocalRepresentation>
+            </structure:MetadataAttribute>
+            <structure:MetadataTarget>
+              <Ref id="KEY_TARGET" />
+            </structure:MetadataTarget>
+          </structure:ReportStructure>
+        </structure:MetadataStructureComponents>
+      </structure:MetadataStructure>
+    </structure:MetadataStructures>
+  </message:Structures>
+</message:Structure>
