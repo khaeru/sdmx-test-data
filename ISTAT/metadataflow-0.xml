@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.4.1.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF37275</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-08-03T22:31:47.6949785+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Metadataflows>
+      <structure:Metadataflow id="ISTAT_MDF_TOPMETA" agencyID="IT1" version="1.0" isFinal="false">
+        <common:Annotations>
+          <common:Annotation id="AssociatedMetadataSet">
+            <common:AnnotationTitle>AssociatedMetadataSet</common:AnnotationTitle>
+            <common:AnnotationType>AssociatedMetadataSet</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">ISTAT MetaDataFlow TOPMETA</common:Name>
+        <common:Name xml:lang="it">ISTAT MetaDataFlow TOPMETA</common:Name>
+        <structure:Structure>
+          <Ref id="ISTAT_MSD_TOPMETA" version="1.0" agencyID="IT1" package="metadatastructure" class="MetadataStructure" />
+        </structure:Structure>
+      </structure:Metadataflow>
+    </structure:Metadataflows>
+  </message:Structures>
+</message:Structure>
