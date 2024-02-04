@@ -1,0 +1,1365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../schemas/SDMXMessage.xsd">
+  <mes:Header>
+    <mes:ID>IDREF5312</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2024-02-02T14:15:37.721550799Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COUNTRY(1.9.0)" agencyID="IMF" id="CL_COUNTRY" version="1.9.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Country</com:Name>
+        <com:Description xml:lang="en">This code list provides information on the reporting entities for which statistical data is collected and reported: geographical entities (countries and other territories), economic entities, and country groups (aggregates or collective categories for which statistics are calculated).</com:Description>
+        <str:Code id="512">
+          <com:Name xml:lang="ar">أفغانستان</com:Name>
+          <com:Name xml:lang="ru">Афганистан</com:Name>
+          <com:Name xml:lang="ja">アフガニスタン</com:Name>
+          <com:Name xml:lang="en">Afghanistan</com:Name>
+          <com:Name xml:lang="fr">Afghanistan</com:Name>
+          <com:Name xml:lang="es">Afganistán</com:Name>
+          <com:Name xml:lang="zh">阿富汗</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+    <str:Concepts>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF_STA:CS_GFS(1.0.0)" agencyID="IMF_STA" id="CS_GFS" version="1.0.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Government Finance Statistics (GFS)</com:Name>
+        <str:Concept id="CL_GFS_COUNTRY_COUNTRY_1_0_0">
+          <com:Name xml:lang="en">Country</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_COUNTRY" version="1.0.9" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_INDICATOR_INDICATOR_1_0_0">
+          <com:Name xml:lang="en">Indicator</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_INDICATOR" version="1.1.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_SECTOR_SECTOR_1_0_0">
+          <com:Name xml:lang="en">Sector</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_SECTOR" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="NATURE_OF_DATA">
+          <com:Name xml:lang="en">Nature of data</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASES_OF_RECORDING_CASH__NON_CASH">
+          <com:Name xml:lang="en">Bases of recording (Cash / Non Cash)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASES_OF_RECORDING_GROSS__NET">
+          <com:Name xml:lang="en">Bases of recording (Gross / Net)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VALUATION">
+          <com:Name xml:lang="en">Valuation</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_TABLES_SECTOR_SECTOR_1_0_0">
+          <com:Name xml:lang="en">Sector</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_TABLES_SECTOR" version="1.0.4" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_UNIT_UNIT_1_1_0_0">
+          <com:Name xml:lang="en">Unit</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_UNIT" version="1.0.8" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_USES_CASH_CLASSIFICATION_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_USES_CASH_CLASSIFICATION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="GLOBAL_DSD_TIME_SERIES_CODE">
+          <com:Name xml:lang="en">Global DSD Time Series Code</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_CODE">
+          <com:Name xml:lang="en">Indicator Code</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASES_OF_RECORDING_CASH_NON_CASH">
+          <com:Name xml:lang="en">Bases of recording (Cash/ Non Cash)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASES_OF_RECORDING_GROSSNET">
+          <com:Name xml:lang="en">Bases of recording (Gross/Net)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_REVENUE_CLASSIFICATION_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_REVENUE_CLASSIFICATION" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_FINANCIAL_ASSETS_CLASSIFICATION_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_FINANCIAL_ASSETS_CLASSIFICATION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_FINANCIAL_ASSETS_SECTOR_COUNTERPART_SECTOR_1_0_0">
+          <com:Name xml:lang="en">Counterpart Sector</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_FINANCIAL_ASSETS_SECTOR" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_EXPENSE_CLASSIFICATION_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_EXPENSE_CLASSIFICATION" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_REVENUE_COUNTRY_COUNTRY_1_0_0">
+          <com:Name xml:lang="en">Country</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_REVENUE_COUNTRY" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_GLOBAL_FISCAL_REVENUE_SECTOR_SECTOR_1_0_0">
+          <com:Name xml:lang="en">Sector</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_GLOBAL_FISCAL_REVENUE_SECTOR" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_GLOBAL_FISCAL_REVENUE_CLASSIFICATION_INDICATOR_1_0_0">
+          <com:Name xml:lang="en">Indicator</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_GLOBAL_FISCAL_REVENUE_CLASSIFICATION" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASES_OF_RECORDING_CASHNON_CASH">
+          <com:Name xml:lang="en">Bases of recording (Cash/Non Cash)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_MAIN_CLASSIFICATION_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_MAIN_CLASSIFICATION" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_COFOG_UNIT_UNIT_1_1_0_0">
+          <com:Name xml:lang="en">Unit</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_COFOG_UNIT" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_COFOG_FUNCTION_COFOG_FUNCTION_1_0_0">
+          <com:Name xml:lang="en">COFOG Function</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_COFOG_FUNCTION" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_METADATA_QUESTIONNAIRE_QUESTION_QUESTION_1_0_0">
+          <com:Name xml:lang="en">Question</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_METADATA_QUESTIONNAIRE_QUESTION" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_METADATA_QUESTIONNAIRE_RESPONSE_RESPONSE_OPTION_1_0_0">
+          <com:Name xml:lang="en">Response Option</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_METADATA_QUESTIONNAIRE_RESPONSE" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_METADATA_QUESTIONNAIRE_DATA_TYPE_DATA_TYPE_1_0_0">
+          <com:Name xml:lang="en">Data Type</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_METADATA_QUESTIONNAIRE_DATA_TYPE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="RESPONSE">
+          <com:Name xml:lang="en">Response</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COMMENT">
+          <com:Name xml:lang="en">Comment</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COMMENT_EXTENDED">
+          <com:Name xml:lang="en">Comment Extended</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="EDITED_RESPONSE">
+          <com:Name xml:lang="en">Edited Response</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_ANALYTICS_MAIN_AGGREGATES_INDICATOR_1_0_0">
+          <com:Name xml:lang="en">Indicator</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_ANALYTICS_MAIN_AGGREGATES" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_ANALYTICS_MAIN_AGGREGATES_SECTOR_SECTOR_1_0_0">
+          <com:Name xml:lang="en">Sector</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_ANALYTICS_MAIN_AGGREGATES_SECTOR" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_ANALYTICS_MAIN_AGGREGATES_DATA_TYPE_DATA_TYPE_1_0_0">
+          <com:Name xml:lang="en">Data Type</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_ANALYTICS_MAIN_AGGREGATES_DATA_TYPE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_STO_STOCKS_TRANSACTIONS_AND_OTHER_FLOWS_1_0_0">
+          <com:Name xml:lang="en">Stocks, Transactions, and Other Flows</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_STO" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_INSTR_ASSET_INSTRUMENT_AND_ASSETS_CLASSIFICATION_1_0_0">
+          <com:Name xml:lang="en">Instrument and Assets Classification</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_INSTR_ASSET" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CL_GFS_RESIDENCE_RESIDENCE_1_0_0">
+          <com:Name xml:lang="en">Residence</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_GFS_RESIDENCE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF_STA:CS_MASTER(1.0.1)" agencyID="IMF_STA" id="CS_MASTER" version="1.0.1" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master Concepts</com:Name>
+        <str:Concept id="METHODOLOGY">
+          <com:Name xml:lang="en">Methodology</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_MASTER_METHODOLOGY" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MASTER_UNIT">
+          <com:Name xml:lang="en">Unit</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_MASTER_UNIT" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MASTER_KEY">
+          <com:Name xml:lang="en">Key</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_MASTER_KEY" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MASTER_CONCEPT">
+          <com:Name xml:lang="en">Concept</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_MASTER_CONCEPT" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MASTER_TOPIC">
+          <com:Name xml:lang="en">Topic</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF_STA" id="CL_MASTER_TOPIC" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="STATUS">
+          <com:Name xml:lang="en">Status</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ESTIMATION_METHODOLOGY">
+          <com:Name xml:lang="en">Estimation Methodology</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COMMON_REFERENCE_PERIOD">
+          <com:Name xml:lang="en">Common Reference Period</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REFERENCE_PERIOD">
+          <com:Name xml:lang="en">Reference Period</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATA_SOURCE_NAME">
+          <com:Name xml:lang="en">Data Source Name</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="START_PERIOD">
+          <com:Name xml:lang="en">Start Period</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="END_PERIOD">
+          <com:Name xml:lang="en">End Period</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_SYSTEM(1.0.3)" agencyID="IMF" id="CS_MASTER_SYSTEM" version="1.0.3" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master System Concepts</com:Name>
+        <com:Description xml:lang="en">The Master System Concept Scheme contain system concepts and related definitions that are required for certain functionality.</com:Description>
+        <str:Concept id="FREQ">
+          <com:Name xml:lang="en">Frequency</com:Name>
+          <com:Description xml:lang="en">Time interval at which observations occur over a given time period.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FREQ" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SCALE">
+          <com:Name xml:lang="en">Scale</com:Name>
+          <com:Description xml:lang="en">Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT_MULT" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRECISION">
+          <com:Name xml:lang="en">Precision</com:Name>
+          <com:Description xml:lang="en">Accuracy of the measurement.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT_MULT" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DECIMALS_DISPLAYED">
+          <com:Name xml:lang="en">Decimals Displayed</com:Name>
+          <com:Description xml:lang="en">Number of digits of an observation to the right of a decimal point used for display in the system.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_DECIMALS" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OBS_VALUE">
+          <com:Name xml:lang="en">Observation value</com:Name>
+          <com:Description xml:lang="en">Value of a particular variable.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="Decimal"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TIME_PERIOD">
+          <com:Name xml:lang="en">Time Period</com:Name>
+          <com:Description xml:lang="en">Timespan or point in time to which the observation actually refers.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="ObservationalTimePeriod"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER(4.0.0)" agencyID="IMF" id="CS_MASTER" version="4.0.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master Concepts</com:Name>
+        <str:Concept id="ID">
+          <com:Name xml:lang="en">ID</com:Name>
+          <com:Description xml:lang="en">A user-friendly string strictly bound to predefined valueset used to identify the resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DOI">
+          <com:Name xml:lang="en">DOI</com:Name>
+          <com:Description xml:lang="en">DOI (Digital Object Identifier) is a public identifier for selected resources published on the data portal. Users use it for citing the resource. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ISBN">
+          <com:Name xml:lang="en">ISBN</com:Name>
+          <com:Description xml:lang="en">An 8-digit numeric code, which identifies the printed or electronic edition of a periodical. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET">
+          <com:Name xml:lang="en">Dataset</com:Name>
+          <com:Description xml:lang="en">A related dataset in which the described data is included.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="NAME">
+          <com:Name xml:lang="en">Name</com:Name>
+          <com:Description xml:lang="en">A name given to the resource. This is a text string assigned by the dataset owner without any authoritative guidelines.  </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TYPE">
+          <com:Name xml:lang="en">Content Type</com:Name>
+          <com:Description xml:lang="en">The nature or type of the resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TYPE" version="1.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DEPARTMENT">
+          <com:Name xml:lang="en">Department</com:Name>
+          <com:Description xml:lang="en">The responsible department / division ultimately accountable for the resource created by or to the organization (e.g. IMF)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_DEPARTMENT" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="AUTHOR">
+          <com:Name xml:lang="en">Author</com:Name>
+          <com:Description xml:lang="en">The person or organization responsible for resource’s substantive and intellectual content.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="UNIT_MEASURE">
+          <com:Name xml:lang="en">Unit of Measure</com:Name>
+          <com:Description xml:lang="en">A unit of measurement of the observations in the indicator (e.g. Euro, square kilometre, percentage). </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT" version="1.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REFERENCE_PERIOD">
+          <com:Name xml:lang="en">Reference Period</com:Name>
+          <com:Description xml:lang="en">Indicates the time period for which the data is based on. This is for real or index series and it is synonymous with base period.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="ObservationalTimePeriod"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FREQ">
+          <com:Name xml:lang="en">Frequency</com:Name>
+          <com:Description xml:lang="en">The frequency of the timeseries (e.g. monthly, quarterly, yearly).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FREQ" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTRY">
+          <com:Name xml:lang="en">Country</com:Name>
+          <com:Description xml:lang="en">Country or specific areas for which statistics are provided or is covered by the resource. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COUNTRY" version="1.9.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTERPART_COUNTRY">
+          <com:Name xml:lang="en">Counterpart Country</com:Name>
+          <com:Description xml:lang="en">Country or specific areas within which the reference area or reporter had the transaction with.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COUNTRY" version="1.9.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="GEO_REGION">
+          <com:Name xml:lang="en">Geographical Region</com:Name>
+          <com:Description xml:lang="en">The geographical area or location that relates or is covered by the resource (UNSD / M49 Geograpical Regions).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_GEO_REGION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TIME_PERIOD">
+          <com:Name xml:lang="en">Time Period</com:Name>
+          <com:Description xml:lang="en">An interval of time that is named or defined by its start and end dates of the data in a resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="DateTime"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PUBLICATION_DATE">
+          <com:Name xml:lang="en">Publication Date</com:Name>
+          <com:Description xml:lang="en">The date of formal issuance (e.g., publication) of the resource. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="DateTime"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="UPDATE_DATE">
+          <com:Name xml:lang="en">Updated Date</com:Name>
+          <com:Description xml:lang="en">Most recent date on which the resource was changed, updated or modified. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="DateTime"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REVISION_TYPE">
+          <com:Name xml:lang="en">Revision Type</com:Name>
+          <com:Description xml:lang="en">A revision is defined as the numerical difference between two vintages of the same data point.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_REVISION_TYPE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FULL_DESCRIPTION">
+          <com:Name xml:lang="en">Full Description</com:Name>
+          <com:Description xml:lang="en">Textual long description of the resource. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_TOPIC">
+          <com:Name xml:lang="en">Dataset Topic</com:Name>
+          <com:Description xml:lang="en">A topic of the resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TOPIC" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="KEYWORDS">
+          <com:Name xml:lang="en">Keywords - DO NOT USE</com:Name>
+          <com:Description xml:lang="en">The subject of the resource that is represented using keywords.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LANGUAGE">
+          <com:Name xml:lang="en">Language</com:Name>
+          <com:Description xml:lang="en">The primary language of the resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_LANGUAGE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METADATA_NOTES">
+          <com:Name xml:lang="en">Metadata Notes</com:Name>
+          <com:Description xml:lang="en">A statement providing explanatory information about data.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY">
+          <com:Name xml:lang="en">Methodology</com:Name>
+          <com:Description xml:lang="en">Reference to the conceptual statistical framework and underlying statistical methodology used for the dataset (e.g. country specific).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_METHODOLOGY" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="RELEASE_NOTES">
+          <com:Name xml:lang="en">Release Notes</com:Name>
+          <com:Description xml:lang="en">It contains a description of the differences between this release and a previous release of the dataset.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SHORT_CITATION">
+          <com:Name xml:lang="en">Short Source Citation</com:Name>
+          <com:Description xml:lang="en">The short source citation of the resource following IMF style guide recommendations.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FULL_CITATION">
+          <com:Name xml:lang="en">Full Source Citation</com:Name>
+          <com:Description xml:lang="en">The attribution of the resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SECURITY_CLASSIFICATION">
+          <com:Name xml:lang="en">Security Classification</com:Name>
+          <com:Description xml:lang="en">Classification of the resource based on who can access it, what is its security status, how sensitive is its information and what are its distribution rights. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SEC_CLASSIFICATION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LICENSE">
+          <com:Name xml:lang="en">License</com:Name>
+          <com:Description xml:lang="en">Information on the licence for distribution of the resource, under which the resource is made available.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SUGGESTED_CITATION">
+          <com:Name xml:lang="en">Suggested Citation</com:Name>
+          <com:Description xml:lang="en">Citation of the resource by referencing the resource in a bibliographic format, acknowledging the resource as a first class output.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CONTACT_POINT">
+          <com:Name xml:lang="en">Contact Point</com:Name>
+          <com:Description xml:lang="en">Point of contact for the dataset. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FORMAT">
+          <com:Name xml:lang="en">Format</com:Name>
+          <com:Description xml:lang="en">Format version of the desscribed resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OBS_STATUS">
+          <com:Name xml:lang="en">Observation Status</com:Name>
+          <com:Description xml:lang="en">Coded information about the "status" of an observation.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_OBS_STATUS" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ALT_NAME">
+          <com:Name xml:lang="en">Alternative Name</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MAIN_NAME">
+          <com:Name xml:lang="en">Main Name</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REFERENCE_PERIOD_TYPE">
+          <com:Name xml:lang="en">Reference Period Type</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_REFERENCE_PERIOD_TYPE" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="KEY_INDICATOR">
+          <com:Name xml:lang="en">Key Indicator</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="Boolean"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VINTAGE_NAME">
+          <com:Name xml:lang="en">Vintage Name</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TRANSFORMATION">
+          <com:Name xml:lang="en">Transformation</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TRANSFORMATION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTRY_NOTES">
+          <com:Name xml:lang="en">Country Notes</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_TOPIC">
+          <com:Name xml:lang="en">Indicator Topic</com:Name>
+          <com:Description xml:lang="en">Topic of an indicator</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TOPIC" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_DISPLAY_NAME">
+          <com:Name xml:lang="en">Dataset Display Name</com:Name>
+          <com:Description xml:lang="en">Display name of a dataset </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_DISPLAY_NAME">
+          <com:Name xml:lang="en">Indicator Display Name</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_METHODOLOGY_NOTES">
+          <com:Name xml:lang="en">Dataset Methodology Notes</com:Name>
+          <com:Description xml:lang="en">Notes on methodology</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_METHODOLOGY_NOTES">
+          <com:Name xml:lang="en">Indicator Methodology Notes</com:Name>
+          <com:Description xml:lang="en">Notes on methodology</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OBS_COMMENT">
+          <com:Name xml:lang="en">Observation Comment</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_COMMENT">
+          <com:Name xml:lang="en">Dataset Comment</com:Name>
+          <com:Description xml:lang="en">Commentary on a dataset</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ITEM">
+          <com:Name xml:lang="en">Item</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="ITEM" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TS_COMMENT">
+          <com:Name xml:lang="en">Timeseries Comment</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TS_ID">
+          <com:Name xml:lang="en">Timeseries ID</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_DESCRIPTION">
+          <com:Name xml:lang="en">Indicator Description</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_DESCRIPTION">
+          <com:Name xml:lang="en">Dataset Description</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SHARING_STATUS">
+          <com:Name xml:lang="en">Sharing Status</com:Name>
+          <com:Description xml:lang="en">Communicates data sharing permission where the originator labeling information to indicate what further dissemination, if any, can be undertaken by the recipient.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SHARING_STATUS" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATASET_KEYWORDS">
+          <com:Name xml:lang="en">Dataset Keywords</com:Name>
+          <com:Description xml:lang="en">The subject of the resource that is represented using keywords (dataset level).</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR_KEYWORDS">
+          <com:Name xml:lang="en">Indicator Keywords</com:Name>
+          <com:Description xml:lang="en">The subject of the resource that is represented using keywords (indicator level).</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PUBLISHER">
+          <com:Name xml:lang="en">Publisher</com:Name>
+          <com:Description xml:lang="en">An entity responsible for making the resource available. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+    </str:Concepts>
+    <str:DataStructures>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF_STA:DSD_GFS(4.0.1)" agencyID="IMF_STA" id="DSD_GFS" version="4.0.1" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="parentUrn">
+            <com:AnnotationText xml:lang="en">urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF_STA:DSD_GFS(4.0.0)</com:AnnotationText>
+          </com:Annotation>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Government Finance Statistics (GFS)</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor">
+            <str:Dimension id="COUNTRY" position="0">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="COUNTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="INDICATOR" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="CL_GFS_INDICATOR_INDICATOR_1_0_0" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="SECTOR" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="CL_GFS_SECTOR_SECTOR_1_0_0" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="FREQUENCY" position="3">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="TIME_PERIOD" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList id="AttributeDescriptor">
+            <str:Attribute id="SCALE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="SCALE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SECTOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="STATUS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.0.1" agencyID="IMF_STA" id="STATUS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="NATURE_OF_DATA" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="NATURE_OF_DATA" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="BASES_OF_RECORDING_CASH__NON_CASH" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="BASES_OF_RECORDING_CASH__NON_CASH" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="BASES_OF_RECORDING_GROSS__NET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="BASES_OF_RECORDING_GROSS__NET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="VALUATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_GFS" maintainableParentVersion="1.0.0" agencyID="IMF_STA" id="VALUATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DOI" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DOI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_DISPLAY_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_DISPLAY_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="FULL_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_METHODOLOGY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_METHODOLOGY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="FULL_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SHORT_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="SHORT_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SUGGESTED_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="SUGGESTED_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_COMMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_COMMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="GEO_REGION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="GEO_REGION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_TOPIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_TOPIC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DATASET_KEYWORDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DATASET_KEYWORDS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LANGUAGE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="LANGUAGE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DEPARTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="DEPARTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLISHER" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="PUBLISHER" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CONTACT_POINT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="CONTACT_POINT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="VINTAGE_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="VINTAGE_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLICATION_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="PUBLICATION_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UPDATE_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="UPDATE_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="REVISION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="REVISION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="RELEASE_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="RELEASE_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LICENSE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="LICENSE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ALT_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="ALT_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDICATOR_DISPLAY_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="INDICATOR_DISPLAY_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDICATOR_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="INDICATOR_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT_MEASURE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="UNIT_MEASURE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEY_INDICATOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="KEY_INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ITEM_CLASSIFICATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="ITEM" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRANSFORMATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="TRANSFORMATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="REFERENCE_PERIOD_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="REFERENCE_PERIOD_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDICATOR_TOPIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="INDICATOR_TOPIC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDICATOR_KEYWORDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="INDICATOR_KEYWORDS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="METHODOLOGY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDICATOR_METHODOLOGY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="INDICATOR_METHODOLOGY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRECISION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="PRECISION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SECTOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS_DISPLAYED" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="DECIMALS_DISPLAYED" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SECTOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COUNTRY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="4.0.0" agencyID="IMF" id="COUNTRY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="OBS_VALUE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
