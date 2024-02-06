@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF70</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2024-01-24T11:30:24.140Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+    <mes:Receiver id="Unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Constraints>
+      <str:ContentConstraint id="CPI" urn="urn:sdmx:org.sdmx.infomodel.registry.ContentConstraint=IMF_STA:CPI(6.0.1)" agencyID="IMF_STA" version="6.0.1" type="Actual">
+        <com:Annotations>
+          <com:Annotation id="series_count">
+            <com:AnnotationTitle>12</com:AnnotationTitle>
+            <com:AnnotationType>sdmx_metrics</com:AnnotationType>
+          </com:Annotation>
+          <com:Annotation id="time_period_start">
+            <com:AnnotationTitle>1956-01-01</com:AnnotationTitle>
+            <com:AnnotationType>sdmx_metrics</com:AnnotationType>
+          </com:Annotation>
+          <com:Annotation id="time_period_end">
+            <com:AnnotationTitle>2023-04-01</com:AnnotationTitle>
+            <com:AnnotationType>sdmx_metrics</com:AnnotationType>
+          </com:Annotation>
+        </com:Annotations>
+        <com:Name xml:lang="en">Data Constraint</com:Name>
+        <com:Description xml:lang="en">Data Availability Constraint</com:Description>
+        <str:ConstraintAttachment>
+          <str:DataStructure>
+            <Ref id="DSD_CPI" version="6.0.1" agencyID="IMF_STA" package="datastructure" class="DataStructure"/>
+          </str:DataStructure>
+        </str:ConstraintAttachment>
+        <str:CubeRegion include="true">
+          <com:KeyValue id="COUNTRY">
+            <com:Value>111</com:Value>
+            <com:Value>134</com:Value>
+          </com:KeyValue>
+          <com:KeyValue id="FREQUENCY">
+            <com:Value>A</com:Value>
+            <com:Value>M</com:Value>
+            <com:Value>Q</com:Value>
+          </com:KeyValue>
+          <com:KeyValue id="INDICATOR">
+            <com:Value>PCPIHA_IX</com:Value>
+            <com:Value>PCPIHA_PC_CP_A_PT</com:Value>
+            <com:Value>PCPI_PC_CP_A_PT</com:Value>
+          </com:KeyValue>
+        </str:CubeRegion>
+      </str:ContentConstraint>
+    </str:Constraints>
+  </mes:Structures>
+</mes:Structure>
