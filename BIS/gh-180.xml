@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reduced from a query of https://stats.bis.org/api/v1/categoryscheme/BIS/all/latest?references=parentsandsiblings as of 2025-01-09 -->
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF8d6d5ec7-d72a-4d9c-906e-b27047b447ff</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2025-01-09T19:51:12Z</mes:Prepared>
+    <mes:Sender id="UNKNOWN"/>
+    <mes:Receiver id="not_supplied"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:CategorySchemes>
+      <str:CategoryScheme urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.CategoryScheme=BIS:BIS_DP(1.0)" isExternalReference="false" agencyID="BIS" id="BIS_DP" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Dataportal Category Scheme</com:Name>
+        <str:Category urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=BIS:BIS_DP(1.0).CPMI" id="CPMI">
+          <com:Name xml:lang="en">Payment statistics</com:Name>
+          <com:Description xml:lang="en">The BIS publishes statistics on payments and financial market infrastructures (FMIs) in member jurisdictions of the Committee on Payments and Market Infrastructures (CPMI). These statistics are also known as the Red Book statistics.</com:Description>
+          <str:Category urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=BIS:BIS_DP(1.0).CPMI.CPMI_CT" id="CPMI_CT">
+            <com:Name xml:lang="en">Retail payments, currency and related indicators</com:Name>
+            <str:Category urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=BIS:BIS_DP(1.0).CPMI.CPMI_CT.CPMI_CT_PT" id="CPMI_CT_PT">
+              <com:Name xml:lang="en">Publication Tables for the CPMI CT</com:Name>
+              <str:Category urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=BIS:BIS_DP(1.0).CPMI.CPMI_CT.CPMI_CT_PT.CPMI_CT_PT_COMPARATIVE" id="CPMI_CT_PT_COMPARATIVE">
+                <com:Name xml:lang="en">Comparative</com:Name>
+                <str:Category urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=BIS:BIS_DP(1.0).CPMI.CPMI_CT.CPMI_CT_PT.CPMI_CT_PT_COMPARATIVE.CPMI_CT_PT_COMPARATIVE_RETAIL" id="CPMI_CT_PT_COMPARATIVE_RETAIL">
+                  <com:Name xml:lang="en">Institutions, payment accounts, cards issued, payment terminals and card schemes</com:Name>
+                </str:Category>
+              </str:Category>
+            </str:Category>
+          </str:Category>
+        </str:Category>
+      </str:CategoryScheme>
+    </str:CategorySchemes>
+    <str:Categorisations>
+      <str:Categorisation urn="urn:sdmx:org.sdmx.infomodel.categoryscheme.Categorisation=BIS:00DCBE7A-033B-8A91-53EF-4DD8A1D02AA7(1.0)" isExternalReference="false" agencyID="BIS" id="00DCBE7A-033B-8A91-53EF-4DD8A1D02AA7" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Category 'BIS:BIS_DP(1.0).CPMI.CPMI_CT.CPMI_CT_PT.CPMI_CT_PT_COMPARATIVE.CPMI_CT_PT_COMPARATIVE_RETAIL' linking to PublicationTable 'BIS:CPMI_CT13B(1.0)'</com:Name>
+        <str:Source>
+          <Ref package="publicationtable" agencyID="BIS" id="CPMI_CT13B" version="1.0" class="PublicationTable"/>
+        </str:Source>
+        <str:Target>
+          <Ref maintainableParentID="BIS_DP" package="categoryscheme" maintainableParentVersion="1.0" agencyID="BIS" id="CPMI.CPMI_CT.CPMI_CT_PT.CPMI_CT_PT_COMPARATIVE.CPMI_CT_PT_COMPARATIVE_RETAIL" class="Category"/>
+        </str:Target>
+      </str:Categorisation>
+    </str:Categorisations>
+  </mes:Structures>
+</mes:Structure>
