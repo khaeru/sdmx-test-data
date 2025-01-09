@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Constructed message that includes all fields in <m:Contact>. -->
+<m:GenericData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:c="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:g="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"
+  xmlns:m="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <m:Header>
+    <m:ID>2666c277-7563-46a4-9e13-722676e254d5</m:ID>
+    <m:Test>false</m:Test>
+    <m:Prepared>2025-01-09T12:59:18</m:Prepared>
+    <m:Sender id="ID">
+      <c:Name xml:lang="en">NAME</c:Name>
+      <m:Contact>
+        <c:Name xml:lang="en">Name</c:Name>
+        <m:Department xml:lang="en">Department</m:Department>
+        <m:Role xml:lang="en">Role</m:Role>
+        <m:Email>name@example.com</m:Email>
+        <m:Fax>+1 234 567 8901</m:Fax>
+        <m:URI>https://example.com</m:URI>
+        <m:Telephone>+1 234 567 8901</m:Telephone>
+        <m:X400>+1 234 567 8901</m:X400>
+      </m:Contact>
+    </m:Sender>
+    <m:Receiver id="ZZZ"/>
+    <m:Structure dimensionAtObservation="TIME_PERIOD" structureID="STR1">
+      <c:StructureUsage>
+        <Ref id="ISOC_CI_ID_H" agencyID="ESTAT" version="1.0"/>
+      </c:StructureUsage>
+    </m:Structure>
+    <m:DataSetID>X</m:DataSetID>
+  </m:Header>
+  <m:DataSet structureRef="STR1">
+    <g:Obs>
+      <g:ObsKey>
+        <g:Value id="TIME_PERIOD" value="2002"/>
+      </g:ObsKey>
+      <g:ObsValue value="17.47"/>
+    </g:Obs>
+  </m:DataSet>
+</m:GenericData>

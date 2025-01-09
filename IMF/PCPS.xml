@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:StructureSpecificTimeSeriesData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:datastruct="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://registry.sdmx.org/schemas/v2_1/SDMXMessage.xsd">
+  <mes:Header xsi:type="mes:StructureSpecificTimeSeriesDataHeaderType">
+    <mes:ID>2666c277-7563-46a4-9e13-722676e254d5</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2025-01-09T12:59:18</mes:Prepared>
+    <mes:Sender id="1C0">
+      <com:Name xml:lang="en">IMF</com:Name>
+      <mes:Contact>
+        <mes:URI>http://www.imf.org</mes:URI>
+        <mes:Telephone>+ 1 (202) 623-6220</mes:Telephone>
+      </mes:Contact>
+    </mes:Sender>
+    <mes:Receiver id="ZZZ"/>
+    <mes:Structure structureID="DS-PCPS" schemaURL="http://dataservices.imf.org/compact/PCPS.xsd" namespace="http://dataservices.imf.org/compact/PCPS" dimensionAtObservation="TIME_PERIOD" xsi:type="com:StructureSpecificDataTimeSeriesStructureType">
+      <com:Structure xsi:type="com:DataStructureReferenceType">
+        <Ref xsi:type="com:DataStructureRefType" agencyID="IMF" id="PCPS"/>
+      </com:Structure>
+    </mes:Structure>
+    <mes:DataSetID>PCPS</mes:DataSetID>
+  </mes:Header>
+  <mes:DataSet xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:prs_PCPS="http://dataservices.imf.org/compact/PCPS" d2p1:type="prs_PCPS:DataSetType" datastruct:structureRef="DS-PCPS" datastruct:dataScope="DataStructure" d2p1:schemaLocation="http://dataservices.imf.org/compact/PCPS http://dataservices.imf.org/compact/PCPS.xsd">
+    <Series FREQ="M" REF_AREA="W00" COMMODITY="PZINC" UNIT_MEASURE="USD" UNIT_MULT="0" TIME_FORMAT="P1M">
+      <Obs TIME_PERIOD="2021-01" OBS_VALUE="2705.345"/>
+    </Series>
+  </mes:DataSet>
+</mes:StructureSpecificTimeSeriesData>
