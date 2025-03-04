@@ -1,0 +1,2659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Reduced from a query of
+  https://api.imf.org/external/sdmx/2.1/hierarchicalcodelist/ISORA/H_CL_PERIODIC_INDICATORS/latest
+  as of 2025-03-07.
+
+  This specimen has <str:Hierarchy> elements that do not use the leveled=… attribute.
+-->
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../schemas/SDMXMessage.xsd">
+  <mes:Header>
+    <mes:ID>IDREF6935</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2025-03-04T16:34:53.144942993Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:HierarchicalCodelists>
+      <str:HierarchicalCodelist urn="urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCodelist=ISORA:H_CL_PERIODIC_INDICATORS(1.0.0)" agencyID="ISORA" id="H_CL_PERIODIC_INDICATORS" version="1.0.0" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+          <com:Annotation id="owningCodelistUrn">
+            <com:AnnotationText xml:lang="en">urn:sdmx:com.epam.quanthub.sdmxplus.infomodel.Glossary=ISORA:CL_ISORA_TAX(5.0+.0)</com:AnnotationText>
+          </com:Annotation>
+        </com:Annotations>
+        <com:Name xml:lang="en">Periodic Indicators</com:Name>
+        <com:Description xml:lang="en">ISORA periodic indicators organized by category</com:Description>
+        <str:Hierarchy id="Hierarchy">
+          <com:Name xml:lang="en">Periodic Indicators</com:Name>
+          <str:HierarchicalCode id="H_CL_PERIODIC_1">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_1" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_2">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86170" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_3">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86180" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_4">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86190" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_5">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86200" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_6">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86530" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_7">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86540" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_8">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86550" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_9">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86560" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_10">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86280" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_11">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86290" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_12">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93770" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_13">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86310" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_14">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86320" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_15">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86330" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_16">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86340" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_17">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91410" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_18">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91420" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_19">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86910" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_20">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86920" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_21">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87010" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_22">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87020" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_23">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91600" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_24">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91630" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_25">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91650" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_26">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91670" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_27">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86820" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_28">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86840" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_29">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86890" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_30">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86870" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_31">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97290" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_32">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97240" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_33">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_591" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_34">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_592" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_35">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_593" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_36">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_594" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_37">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_595" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_38">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_596" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_39">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97260_597" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_40">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_598" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_41">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_599" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_42">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_600" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_43">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_601" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_44">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_602" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_45">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97270_603" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_46">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_2" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_47">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84100" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_48">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84110" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_49">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84120" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_50">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84130" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_51">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84140" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_52">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84150" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_53">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84160" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_54">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97750" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_55">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84170" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_56">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84240" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_57">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84260" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_58">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84270" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_59">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84280" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_60">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84290" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_61">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84310" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_62">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84320" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_63">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84330" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_64">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84190" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_65">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84210" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_66">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84220" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_67">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84230" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_68">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97780" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_69">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91970" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_70">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91985" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_71">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="91990" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_72">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92000" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_73">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92010" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_74">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92020" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_75">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92040" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_76">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92050" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_77">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97790" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_78">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92060" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_79">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97810" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_80">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92070" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_81">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92100" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_82">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92150" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_83">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92170" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_84">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92180" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_85">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92190" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_86">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97820" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_87">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98820" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_88">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97830" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_89">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97840" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_90">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84410" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_91">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97860" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_92">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97870" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_93">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84420" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_94">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92250" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_95">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84440" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_96">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97880" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_97">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97890" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_98">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97900" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_99">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97910" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_100">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97930" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_101">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97960" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_102">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97990" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_103">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_ISORA_TAX_SOURCE263_97" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_104">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_546" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_105">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_547" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_106">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_548" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_107">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_549" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_108">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_550" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_109">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_535" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_110">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92260_545" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_111">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92300_551" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_112">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92300_545" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_113">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92300_552" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_114">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92300_553" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_115">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_52" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_116">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_53" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_117">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_54" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_118">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_55" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_119">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_56" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_120">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81400_57" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_121">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81440_70" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_122">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81420_70" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_123">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81570" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_124">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_58" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_125">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_59" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_126">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_60" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_127">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_61" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_128">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_62" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_129">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81580_27" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_130">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_3" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_131">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86940" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_132">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98870" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_133">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86960_323" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_134">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86960_324" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_135">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86960_325" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_136">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86960_326" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_137">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86960_327" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_138">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86990" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_139">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87000" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_140">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97330" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_141">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97340" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_142">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97350" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_143">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97380" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_144">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97390" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_145">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97400" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_146">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97410" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_147">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97420" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_148">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98830" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_149">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98840" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_150">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97440" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_151">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97450" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_152">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97470" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_153">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97480" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_154">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97490" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_155">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="85230_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_156">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="85240_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_157">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="85250_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_158">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="85260_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_159">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97500" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_160">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98920" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_161">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98930" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_162">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98940" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_163">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98950" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_164">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98960" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_165">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98990" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_166">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99000" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_167">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99010" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_168">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99020" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_169">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99030" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_170">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99060" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_171">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99070" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_172">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99080" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_173">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99090" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_174">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99100" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_175">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99130" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_176">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99160" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_177">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99170" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_178">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99180" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_179">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99190" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_180">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99200" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_181">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99220" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_182">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99230" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_183">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99240" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_184">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99250" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_185">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99270" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_186">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_4" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_187">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="97540" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_188">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94060" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_189">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94260" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_190">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94070" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_191">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94270" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_192">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94080" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_193">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94280" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_194">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94090" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_195">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="94290" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_196">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87680_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_197">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87690_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_198">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87700_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_199">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87710_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_200">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87720_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_201">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87730_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_202">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87740_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_203">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87750_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_204">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87760_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_205">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87680_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_206">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87690_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_207">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87700_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_208">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87710_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_209">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87720_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_210">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87730_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_211">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87740_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_212">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87750_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_213">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="87760_2" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_214">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80650" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_215">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80670" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_216">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80680" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_217">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80690" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_218">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80700" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_219">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80710" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_220">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80720" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_221">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80730" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_222">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80740" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_223">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80750" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_224">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80760" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_225">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80770" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_226">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80780" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_227">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80790" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_228">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80800" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_229">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80810" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_230">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80820" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_231">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80830" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_232">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80840" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_233">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80850" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_234">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="80860" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_235">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_5" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_236">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99590" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_237">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99600" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_238">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98750" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_239">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98760" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_240">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93330" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_241">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_470" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_242">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_471" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_243">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_472" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_244">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_473" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_245">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_474" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_246">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93340_248" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_247">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86000" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_248">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86010_280" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_249">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86010_281" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_250">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86010_291" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_251">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="86010_292" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_252">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84700" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_253">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84710_230" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_254">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84710_231" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_255">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84710_232" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_256">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="84710_233" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_257">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98450" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_258">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98460" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_259">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98470" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_260">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98480" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_261">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98490" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_262">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98730" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_263">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98500" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_264">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98510" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+          <str:HierarchicalCode id="H_CL_PERIODIC_265">
+            <str:Code>
+              <Ref maintainableParentID="CL_RAFIT_LABELS" maintainableParentVersion="1.2.0" agencyID="ISORA" id="CL_PERIODIC_SOURCE_6" package="codelist" class="Code"/>
+            </str:Code>
+            <str:Level>
+              <Ref id="0"/>
+            </str:Level>
+            <str:HierarchicalCode id="H_CL_PERIODIC_266">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98030" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_267">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98040" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_268">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98710" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_269">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98050" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_270">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82060" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_271">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82070" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_272">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82080" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_273">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82090" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_274">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82100" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_275">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98060" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_276">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98150" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_277">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98160" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_278">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98170" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_279">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98180" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_280">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98220_620" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_281">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98220_621" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_282">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98220_622" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_283">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98190" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_284">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98200" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_285">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98210" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_286">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82210" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_287">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="92920" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_288">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82490" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_289">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82500" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_290">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99780" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_291">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93020_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_292">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93030_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_293">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="93040_1" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_294">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99820" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_295">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99790" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_296">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99800" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_297">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99810" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_298">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99890" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_299">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99920" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_300">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99950" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_301">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99900" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_302">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99930" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_303">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99960" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_304">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99910" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_305">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99940" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_306">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99970" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_307">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98620" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_308">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98630" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_309">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="81630" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_310">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98230" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_311">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98550" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_312">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98560" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_313">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98570" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_314">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98580" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_315">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98590" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_316">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="82250" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_317">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99710" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_318">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99720" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_319">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99730" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_320">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99740" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_321">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="99750" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_322">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98320" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_323">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98680" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_324">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98340" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_325">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98350" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_326">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98360" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_327">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98370" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+            <str:HierarchicalCode id="H_CL_PERIODIC_328">
+              <str:Code>
+                <Ref maintainableParentID="CL_ISORA_TAX" maintainableParentVersion="5.1.0" agencyID="ISORA" id="98380" package="codelist" class="Code"/>
+              </str:Code>
+              <str:Level>
+                <Ref id="1"/>
+              </str:Level>
+            </str:HierarchicalCode>
+          </str:HierarchicalCode>
+        </str:Hierarchy>
+      </str:HierarchicalCodelist>
+    </str:HierarchicalCodelists>
+  </mes:Structures>
+</mes:Structure>
