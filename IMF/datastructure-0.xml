@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Reduced from a query of
+  https://api.imf.org/external/sdmx/2.1/datastructure/all/all/latest
+  as of 2025-03-04.
+
+  This specimen contains both <str:ConceptIdentity> and <str:ConceptRole>, with
+  the latter referring to an external item scheme.
+-->
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../schemas/SDMXMessage.xsd">
+  <mes:Header>
+    <mes:ID>IDREF1157</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2025-03-04T16:46:30.032131342Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:DataStructures>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.FAD:DSD_FM_LIVE(2.0.0)" agencyID="IMF.FAD" id="DSD_FM_LIVE" version="2.0.0" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Fiscal Monitor (FM) Live</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor">
+            <str:Dimension id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD:DSD_FM_LIVE(2.0.0).COUNTRY" position="0">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_FM_LIVE" maintainableParentVersion="2.0.0" agencyID="IMF.FAD" id="COUNTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD:DSD_FM_LIVE(2.0.0).INDICATOR" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_FM_LIVE" maintainableParentVersion="2.0.0" agencyID="IMF.FAD" id="INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="FREQUENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD:DSD_FM_LIVE(2.0.0).FREQUENCY" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:ConceptRole>
+                <Ref maintainableParentID="SDMX_CONCEPT_ROLES" maintainableParentVersion="1.0" agencyID="SDMX" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptRole>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF.FAD:DSD_FM_LIVE(2.0.0).TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="TIME_PERIOD" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList id="AttributeDescriptor">
+            <str:Attribute id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SCALE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="SCALE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).PRECISION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="PRECISION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).DECIMALS_DISPLAYED" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="DECIMALS_DISPLAYED" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="MFS_INSTR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).MFS_INSTR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="MFS_INSTR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INSTR_ASSET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).INSTR_ASSET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INSTR_ASSET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).FUNCTIONAL_CAT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FUNCTIONAL_CAT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).INT_ACC_ITEM" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INT_ACC_ITEM" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="NA_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).NA_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="NA_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACTIVITY_ISIC4" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).ACTIVITY_ISIC4" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACTIVITY_ISIC4" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="GFS_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).GFS_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="GFS_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COICOP_1999" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).COICOP_1999" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="COICOP_1999" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INT_TTC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).INT_TTC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INT_TTC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRADE_FLOW" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).TRADE_FLOW" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TRADE_FLOW" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COMMODITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).COMMODITY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="COMMODITY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOC_CONCEPTS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SOC_CONCEPTS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SOC_CONCEPTS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SECTOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SECTOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).ACCOUNTING_ENTRY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCOUNTING_ENTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FI_MATURITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).FI_MATURITY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FI_MATURITY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDEX_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).INDEX_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INDEX_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRICES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).PRICES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PRICES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="S_ADJUSTMENT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).S_ADJUSTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="S_ADJUSTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="STATISTICAL_MEASURES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).STATISTICAL_MEASURES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="STATISTICAL_MEASURES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRANSFORMATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).TRANSFORMATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TRANSFORMATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).UNIT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="UNIT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="REPORTING_PERIOD_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).REPORTING_PERIOD_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="REPORTING_PERIOD_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).DERIVATION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DERIVATION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).OVERLAP" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="OVERLAP" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DOI" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).DOI" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DOI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_DESCRIPTION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).FULL_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FULL_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLISHER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).PUBLISHER" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PUBLISHER" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DEPARTMENT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).DEPARTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DEPARTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CONTACT_POINT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).CONTACT_POINT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="CONTACT_POINT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).TOPIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TOPIC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).TOPIC_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TOPIC_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).KEYWORDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEYWORDS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).KEYWORDS_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEYWORDS_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LANGUAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).LANGUAGE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="LANGUAGE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLICATION_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).PUBLICATION_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PUBLICATION_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).UPDATE_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="UPDATE_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CLASSIFICATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).CLASSIFICATION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="CLASSIFICATION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).METHODOLOGY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="METHODOLOGY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).METHODOLOGY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="METHODOLOGY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).ACCESS_SHARING_LEVEL" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCESS_SHARING_LEVEL" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).ACCESS_SHARING_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCESS_SHARING_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECURITY_CLASSIFICATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SECURITY_CLASSIFICATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SECURITY_CLASSIFICATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SOURCE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SOURCE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SHORT_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SHORT_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SHORT_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).FULL_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FULL_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LICENSE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).LICENSE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="LICENSE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SUGGESTED_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SUGGESTED_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SUGGESTED_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEY_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).KEY_INDICATOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEY_INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SERIES_NAME" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD:DSD_FM_LIVE(2.0.0).SERIES_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SERIES_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF.FAD:DSD_FM_LIVE(2.0.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="OBS_VALUE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.FAD.FM:DSD_FM_LIVE(2.0.0)" agencyID="IMF.FAD.FM" id="DSD_FM_LIVE" version="2.0.0" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Fiscal Monitor (FM) Live</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor">
+            <str:Dimension id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).COUNTRY" position="0">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_FM_LIVE" maintainableParentVersion="2.0.0" agencyID="IMF.FAD.FM" id="COUNTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).INDICATOR" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_FM_LIVE" maintainableParentVersion="2.0.0" agencyID="IMF.FAD.FM" id="INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="FREQUENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).FREQUENCY" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:ConceptRole>
+                <Ref maintainableParentID="SDMX_CONCEPT_ROLES" maintainableParentVersion="1.0" agencyID="SDMX" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptRole>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="TIME_PERIOD" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList id="AttributeDescriptor">
+            <str:Attribute id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SCALE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="SCALE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).PRECISION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="PRECISION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).DECIMALS_DISPLAYED" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="DECIMALS_DISPLAYED" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="MFS_INSTR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).MFS_INSTR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="MFS_INSTR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INSTR_ASSET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).INSTR_ASSET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INSTR_ASSET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).FUNCTIONAL_CAT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FUNCTIONAL_CAT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).INT_ACC_ITEM" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INT_ACC_ITEM" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="NA_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).NA_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="NA_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACTIVITY_ISIC4" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).ACTIVITY_ISIC4" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACTIVITY_ISIC4" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="GFS_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).GFS_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="GFS_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COICOP_1999" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).COICOP_1999" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="COICOP_1999" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INT_TTC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).INT_TTC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INT_TTC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRADE_FLOW" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).TRADE_FLOW" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TRADE_FLOW" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COMMODITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).COMMODITY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="COMMODITY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOC_CONCEPTS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SOC_CONCEPTS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SOC_CONCEPTS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SECTOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SECTOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).ACCOUNTING_ENTRY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCOUNTING_ENTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FI_MATURITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).FI_MATURITY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FI_MATURITY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDEX_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).INDEX_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="INDEX_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRICES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).PRICES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PRICES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="S_ADJUSTMENT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).S_ADJUSTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="S_ADJUSTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="STATISTICAL_MEASURES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).STATISTICAL_MEASURES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="STATISTICAL_MEASURES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRANSFORMATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).TRANSFORMATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TRANSFORMATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).UNIT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="UNIT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="REPORTING_PERIOD_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).REPORTING_PERIOD_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="REPORTING_PERIOD_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).DERIVATION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DERIVATION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).OVERLAP" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="OVERLAP" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DOI" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).DOI" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DOI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_DESCRIPTION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).FULL_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FULL_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLISHER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).PUBLISHER" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PUBLISHER" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DEPARTMENT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).DEPARTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="DEPARTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CONTACT_POINT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).CONTACT_POINT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="CONTACT_POINT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).TOPIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TOPIC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).TOPIC_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="TOPIC_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).KEYWORDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEYWORDS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).KEYWORDS_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEYWORDS_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LANGUAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).LANGUAGE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="LANGUAGE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLICATION_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).PUBLICATION_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="PUBLICATION_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).UPDATE_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="UPDATE_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CLASSIFICATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).CLASSIFICATION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="CLASSIFICATION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).METHODOLOGY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="METHODOLOGY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).METHODOLOGY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="METHODOLOGY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).ACCESS_SHARING_LEVEL" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCESS_SHARING_LEVEL" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).ACCESS_SHARING_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="ACCESS_SHARING_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECURITY_CLASSIFICATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SECURITY_CLASSIFICATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SECURITY_CLASSIFICATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SOURCE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SOURCE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SHORT_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SHORT_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SHORT_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).FULL_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="FULL_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LICENSE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).LICENSE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="LICENSE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SUGGESTED_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SUGGESTED_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SUGGESTED_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEY_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).KEY_INDICATOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="KEY_INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SERIES_NAME" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).SERIES_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="1.3.1" agencyID="IMF" id="SERIES_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF.FAD.FM:DSD_FM_LIVE(2.0.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.3" agencyID="IMF" id="OBS_VALUE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
