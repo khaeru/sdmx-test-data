@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/message ../../schemas/SDMXMessage.xsd">
+  <message:Header>
+    <message:ID>IDREF7108</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-02-01T14:42:46.923340698Z</message:Prepared>
+    <message:Sender id="unknown"/>
+  </message:Header>
+  <message:Structures>
+    <structure:ConceptSchemes>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:SDMX_CONCEPT_ROLES(1.0)" agencyID="SDMX" id="SDMX_CONCEPT_ROLES" version="1.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-03-27T20:36:09.933747Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">SDMX Concept Scheme for Concept Roles</common:Name>
+        <common:Description xml:lang="en">A concept role gives a particular context to a concept for easy and systematic interpretation by machine processing and visualization tools. For example, the concepts REPORTING_AREA and COUNTERPART_AREA are different concepts but they are both geographical characteristics, therefore they can be associated with the same concept role ID: “GEO”. This allows visualization systems to interpret these concepts as geographical data in order to generate maps. For any question, comment or correction, feel free to contact the SDMX Statistical Working Group (SWG) at the following address: swg@sdmx.org.</common:Description>
+        <structure:Concept id="GEO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).GEO">
+          <common:Name xml:lang="en">Geographical</common:Name>
+          <common:Description xml:lang="en">Geographic area to which the measured statistical phenomenon relates.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).FLAG">
+          <common:Name xml:lang="en">Flag</common:Name>
+          <common:Description xml:lang="en">Coded attribute in a data set that represents qualitative information for the cell or partial key (e.g. series) value.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).FREQ">
+          <common:Name xml:lang="en">Frequency</common:Name>
+          <common:Description xml:lang="en">Time interval at which the source data are collected.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="ENTITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).ENTITY">
+          <common:Name xml:lang="en">Entity</common:Name>
+          <common:Description xml:lang="en">Describes the subject of the data set (e.g. a country).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COMMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).COMMENT">
+          <common:Name xml:lang="en">Comment</common:Name>
+          <common:Description xml:lang="en">Descriptive text which can be attached to data or metadata.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="VARIABLE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).VARIABLE">
+          <common:Name xml:lang="en">Variable</common:Name>
+          <common:Description xml:lang="en">Characteristic of a unit being observed that may assume more than one of a set of values to which a numerical measure or a category from a classification can be assigned.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="OPERATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).OPERATION">
+          <common:Name xml:lang="en">Statistical operation</common:Name>
+          <common:Description xml:lang="en">Signifies statistical operations have been done on the observations.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER(2.2.0)" agencyID="IMF" id="CS_MASTER" version="2.2.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-08-16T01:47:21.912921Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Master Metadata Concepts</common:Name>
+        <common:Description xml:lang="en">Standardized definitions for common data elements used across multiple datasets. These elements include attributes like identification and provenance, access controls, methodology and other general descriptive characteristics.</common:Description>
+        <structure:Concept id="DOI" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).DOI">
+          <common:Name xml:lang="en">DOI</common:Name>
+          <common:Description xml:lang="en">A public identifier (unique alphanumeric string) assigned to a digital object, typically a publication or dataset, to provide a persistent link to its location on the internet.Users use it for citing the resource. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SERIES_NAME" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).SERIES_NAME">
+          <common:Name xml:lang="en">Series Name</common:Name>
+          <common:Description xml:lang="en">A  label  given to a specific series. This name helps to distinguish it from other series data and provides context for what the data represents.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="AUTHOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).AUTHOR">
+          <common:Name xml:lang="en">Author</common:Name>
+          <common:Description xml:lang="en">The person or organization responsible for resource’s substantive and intellectual content.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="PUBLISHER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).PUBLISHER">
+          <common:Name xml:lang="en">Publisher</common:Name>
+          <common:Description xml:lang="en">The organization or institution responsible for making a resource available to the public or a specific audience. For datasets, the publisher is responsible for preparing and releasing the dataset for public or private use. This includes ensuring the dataset's quality, accuracy, and accessibility.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="DEPARTMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).DEPARTMENT">
+          <common:Name xml:lang="en">Department</common:Name>
+          <common:Description xml:lang="en">The specific division or unit within an organization (e.g., the IMF) that is ultimately accountable for the creation, maintenance, and dissemination of a resource.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_DEPARTMENT(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CREATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).CREATOR">
+          <common:Name xml:lang="en">Creator</common:Name>
+          <common:Description xml:lang="en">The creator is the entity primarily responsible for creating the resource. Institution responsible for producing official statistics.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="DATA_OWNER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).DATA_OWNER">
+          <common:Name xml:lang="en">Data Owner</common:Name>
+          <common:Description xml:lang="en">Institution that holds the legal ownership and accountability for the data, ensuring it aligns with national or international policies.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="DATA_STEWARD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).DATA_STEWARD">
+          <common:Name xml:lang="en">Data Steward</common:Name>
+          <common:Description xml:lang="en">Institution that ensures the quality and metadata of the data, and that it adheres to relevant standards.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="PUBLICATION_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).PUBLICATION_DATE">
+          <common:Name xml:lang="en">Publication Date</common:Name>
+          <common:Description xml:lang="en">The date when a resource was formally issued or made available to the public or a specific audience. This applies to datasets that have major releases, but the data may have minor updates throughout the year. In most cases where the data is regularly updated, the publication date is the same as the update date.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="DateTime"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).UPDATE_DATE">
+          <common:Name xml:lang="en">Update Date</common:Name>
+          <common:Description xml:lang="en">The most recent date on which a resource was modified or updated, including changes to data or metadata.  For a dataset, the update date is the time when the data within a dataset was last modified, or the metadata was modified.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="DateTime"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).SOURCE">
+          <common:Name xml:lang="en">Source Organization</common:Name>
+          <common:Description xml:lang="en">The entity responsible for producing or collecting the original data used in a resource. This could be a government agency, a research institution, a private company, or any other entity that generates data. When citing or referencing information, it is important to identify the source organization to ensure credibility and accuracy.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SHORT_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).SHORT_SOURCE_CITATION">
+          <common:Name xml:lang="en">Short Source Citation</common:Name>
+          <common:Description xml:lang="en">A brief reference to the source of data or information used in a resource, typically including the author, title, and year of publication.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FULL_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).FULL_SOURCE_CITATION">
+          <common:Name xml:lang="en">Full Source Citation </common:Name>
+          <common:Description xml:lang="en">A complete reference to the source of data or information used in a resource, providing all necessary details to locate and verify the original source.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SUGGESTED_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).SUGGESTED_CITATION">
+          <common:Name xml:lang="en">Suggested Citation </common:Name>
+          <common:Description xml:lang="en">A recommended format for citing a resource in academic or professional works, ensuring proper attribution and acknowledgement of the source.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FULL_DESCRIPTION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).FULL_DESCRIPTION">
+          <common:Name xml:lang="en">Full Description</common:Name>
+          <common:Description xml:lang="en">A comprehensive description of the dataset, encompassing its content, scope, underlying concepts, coverage, classifications, and statistical techniques employed in its creation and analysis. This may include references to detailed methodological documents or papers that provide further elaboration on these aspects.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TOPIC" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).TOPIC">
+          <common:Name xml:lang="en">Topic</common:Name>
+          <common:Description xml:lang="en">A topic of the resource. A high-level categorization of the resource's subject matter, indicating the main area or domain to which the data pertains.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TOPIC(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TOPIC_DATASET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).TOPIC_DATASET">
+          <common:Name xml:lang="en">Topic Dataset</common:Name>
+          <common:Description xml:lang="en">A topic of the dataset.  A high-level categorization of the dataset's subject matter, indicating the main area or domain to which the data pertains.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TOPIC(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="KEYWORDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).KEYWORDS">
+          <common:Name xml:lang="en">Keywords</common:Name>
+          <common:Description xml:lang="en">A set of words or phrases that describe the content and subject matter of a resource.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="KEYWORDS_DATASET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).KEYWORDS_DATASET">
+          <common:Name xml:lang="en">Keywords Dataset</common:Name>
+          <common:Description xml:lang="en">A set of words or phrases that describe the content and subject matter of a dataset.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="KEY_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).KEY_INDICATOR">
+          <common:Name xml:lang="en">Key Indicator</common:Name>
+          <common:Description xml:lang="en">A flag or indicator that identifies a data element or indicator as being of particular importance or significance for a specific analysis or purpose.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="Boolean"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="LANGUAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).LANGUAGE">
+          <common:Name xml:lang="en">Language</common:Name>
+          <common:Description xml:lang="en">It refers to the language of the intellectual content of the resource. It can be applied to any type of resource, including documents, datasets, images, audio recordings, etc.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_LANGUAGE(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TEMPORAL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).TEMPORAL_COVERAGE">
+          <common:Name xml:lang="en">Temporal Coverage</common:Name>
+          <common:Description xml:lang="en">This field represents the temporal coverage of the data, expressed using the ISO 8601 standard. The data spans the time interval from 1997 to 2009 (inclusive), indicated as 1997/2009.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FREQUENCY_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).FREQUENCY_COVERAGE">
+          <common:Name xml:lang="en">Frequency Coverage</common:Name>
+          <common:Description xml:lang="en">Frequency Coverage in a dataset like annual or monthly refers to the range of time periods for which data is available. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FREQ(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="GEOGRAPHICAL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).GEOGRAPHICAL_COVERAGE">
+          <common:Name xml:lang="en">Geographical Coverage</common:Name>
+          <common:Description xml:lang="en">This field specifies the spatial extent of the data, detailing the geographic areas or regions included in the dataset. It may be represented by countries, continents, coordinates, or specific boundaries such as cities, regions, or global coverage.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).METHODOLOGY">
+          <common:Name xml:lang="en">Methodology</common:Name>
+          <common:Description xml:lang="en">Reference to the conceptual statistical framework and underlying statistical methodology  used for the dataset (e.g. country specific).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_METHODOLOGY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).METHODOLOGY_NOTES">
+          <common:Name xml:lang="en">Methodology Notes</common:Name>
+          <common:Description xml:lang="en">Additional details or explanations regarding the methodology used for a specific dataset or indicator. These notes outline the conceptual frameworks and statistical methods used to collect, process, and analyze the data, and can vary in level of detail depending on the data's complexity. For example: a) At the country level, methodology notes describe the specific methods used by each country to calculate particular indicators. b) At the time series level, methodology notes provide a detailed explanation of how an indicator is generated for a specific country.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CONTACT_POINT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).CONTACT_POINT">
+          <common:Name xml:lang="en">Contact Point</common:Name>
+          <common:Description xml:lang="en">The primary individual or group responsible for handling inquiries and providing information about a resource. For datasets published on the IMF data portal, the point of contact shown to public users is standardized as a common help email address.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SECURITY_CLASSIFICATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).SECURITY_CLASSIFICATION">
+          <common:Name xml:lang="en">Security Classification</common:Name>
+          <common:Description xml:lang="en">A data classification assigned to data based on its sensitivity, value, and the potential impact of unauthorized access, disclosure, alteration, or destruction, resulting in the assignment of a tag that designates the data's sensitivity level.  This attribute is assigned at lower levels of data when a dataset contains a mix of data access levels, with some series designated as public and others as confidential.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SEC_CLASSIFICATION(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="ACCESS_SHARING_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).ACCESS_SHARING_LEVEL">
+          <common:Annotations>
+            <common:Annotation id="indexed">
+              <common:AnnotationType>INDEX_CONCEPTS</common:AnnotationType>
+              <common:AnnotationValue>true</common:AnnotationValue>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Access and Sharing Level</common:Name>
+          <common:Description xml:lang="en">A classification that specifies the extent to which a resource can be shared with others, including restrictions on access, use, and distribution.  It specifies who can access the data (e.g., public, specific groups, authorized personnel) and what actions they can take with it. The appropriate sharing level depends on the sensitivity and intended use of the data, ranging from open access for public data to restricted access for confidential information. This attribute is assigned at lower levels of data when a dataset contains a mix of data access levels, with some series designated as public and others as restricted.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ACCESS_SHARING_LEVEL(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="ACCESS_SHARING_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).ACCESS_SHARING_NOTES">
+          <common:Name xml:lang="en">Access and Sharing Notes</common:Name>
+          <common:Description xml:lang="en">Additional notes involves documenting any нюances or complexities beyond the standard access and sharing levels.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="ACCESS_INSTRUCTIONS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).ACCESS_INSTRUCTIONS">
+          <common:Name xml:lang="en">Access Instructions</common:Name>
+          <common:Description xml:lang="en">Detailed guidance on how to obtain or access a resource, particularly relevant for datasets. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="USAGE_RIGHTS_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).USAGE_RIGHTS_NOTES">
+          <common:Name xml:lang="en">Usage Rights Notes</common:Name>
+          <common:Description xml:lang="en">Additional notes or explanations regarding the licensing terms for the source data used in a dataset.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="LICENSE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).LICENSE">
+          <common:Name xml:lang="en">License</common:Name>
+          <common:Description xml:lang="en">Information on the licence for distribution /  legal agreement that defines the terms under which a resource can be used, shared, or distributed.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="URL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.2.0).URL">
+          <common:Name xml:lang="en">URL</common:Name>
+          <common:Description xml:lang="en">Direct link to the dataset on the external source's platform.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_DOMAIN(1.0.0)" agencyID="IMF" id="CS_MASTER_DOMAIN" version="1.0.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-03-27T20:38:52.248835Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Master Domain Concepts</common:Name>
+        <common:Description xml:lang="en">Standardized definitions for data elements specific to particular domains or subject areas. This includes concepts and attributes related to macroeconomics, finance, socio-demographics, and other specialized fields.</common:Description>
+        <structure:Concept id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).ACCOUNTING_ENTRY">
+          <common:Name xml:lang="en">Accounting Entry</common:Name>
+          <common:Description xml:lang="en">A classification that identifies whether a transaction represents a use of resources, a source of funds, an asset, a liability, or a change in equity.  </common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ACCOUNTING_ENTRY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COMMODITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COMMODITY">
+          <common:Name xml:lang="en">Commodity</common:Name>
+          <common:Description xml:lang="en"> Comprehensive list of all the different commodity codes used in IMF.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COMMODITY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).SECTOR">
+          <common:Name xml:lang="en">Sector</common:Name>
+          <common:Description xml:lang="en">A classification of economic entities based on their primary function and economic behavior, such as households, corporations, government, or non-profit institutions.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SECTOR(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COUNTERPART_SECTOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COUNTERPART_SECTOR">
+          <common:Name xml:lang="en">Counterpart Sector</common:Name>
+          <common:Description xml:lang="en">In the context of a specific transaction or economic flow, the counterpart sector refers to the institutional sector on the opposite side of the transaction.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SECTOR(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="EXRATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).EXRATE">
+          <common:Name xml:lang="en">Exchange Rate</common:Name>
+          <common:Description xml:lang="en">Represents a set of codes identifying the exchange rate between two currencies. An exchange rate indicates how much of one currency is needed to buy one unit of another currency.  It is derived by comparing the value of one currency to another, often influenced by economic factors like interest rates, inflation, and government policy. This codelist includes various exchange rate calculations, such as period averages, pre-Euro rates, and those involving Special Drawing Rights (SDRs).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_EXRATE(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FLOW_STOCK_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FLOW_STOCK_ENTRY">
+          <common:Name xml:lang="en">Flow or stock entry</common:Name>
+          <common:Description xml:lang="en">A classification that indicates whether a data point represents a flow (a quantity measured over a period of time) or a stock (a quantity measured at a specific point in time).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FSENTRY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FUNCTIONAL_CAT">
+          <common:Name xml:lang="en">Functional category</common:Name>
+          <common:Description xml:lang="en">A classification used to categorize investments based on their purpose or function, such as equity investments, debt investments, or other investments.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FUNCTIONAL_CAT(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="GFS_STO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).GFS_STO">
+          <common:Name xml:lang="en">GFS Stocks, Transactions, Other Flows</common:Name>
+          <common:Description xml:lang="en">A classification of data items used in the Government Finance Statistics (GFS) framework, distinguishing between stocks (levels at a point in time), transactions (changes over a period), and other flows.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_GFS_STO(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INDEX_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INDEX_TYPE">
+          <common:Name xml:lang="en">Index type</common:Name>
+          <common:Description xml:lang="en">Type of index prices. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_INDEX_TYPE(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INT_TTC" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INT_TTC">
+          <common:Name xml:lang="en">Interest Rate types, Terms and Conditions</common:Name>
+          <common:Description xml:lang="en">A classification of interest rates based on their type (fixed or floating), terms (maturity), and other conditions (e.g., collateralization, reference rates).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_INT_TTC(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INSTR_ASSET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INSTR_ASSET">
+          <common:Name xml:lang="en">Instrument and Assets Classification</common:Name>
+          <common:Description xml:lang="en">Because of the symmetry of financial assets and liabilities, the term ‘instrument’ is used to relate to both the asset and the liability aspect of financial transactions, other flows and financial balance sheets.  (Source: Handbook of National Accounting, 2013)</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_INSTR_ASSET(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INT_ACC_ITEM">
+          <common:Name xml:lang="en">International Accounts Item</common:Name>
+          <common:Description xml:lang="en">A classification of transactions in the balance of payments, such as trade in goods, services, income, and financial flows.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_INT_ACC_ITEM(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="ACCOUNTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).ACCOUNTS">
+          <common:Name xml:lang="en">Macroeconomic and Financial Accounts</common:Name>
+          <common:Description xml:lang="en">A framework for organizing macroeconomic and financial data into a set of integrated accounts and tables that provide a comprehensive overview of an economy.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ACCOUNTS(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FI_MATURITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FI_MATURITY">
+          <common:Name xml:lang="en">Maturity of Financial Instrument</common:Name>
+          <common:Description xml:lang="en">A classification of financial instruments based on their remaining time to maturity or expiration.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FI_MATURITY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="MFS_INSTR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).MFS_INSTR">
+          <common:Name xml:lang="en">Monetary and Financial Instruments</common:Name>
+          <common:Description xml:lang="en">A classification of financial instruments used in monetary and financial statistics, including currency, deposits, loans, securities, and derivatives.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_MFS_INSTR(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="NA_STO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).NA_STO">
+          <common:Name xml:lang="en">Stocks, Transactions, Other Flows</common:Name>
+          <common:Description xml:lang="en">A classification of data items used in the System of National Accounts (SNA) framework, distinguishing between stocks (levels at a point in time), transactions (changes over a period), and other flows.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_NA_STO(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="PRICES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).PRICES">
+          <common:Name xml:lang="en">Prices</common:Name>
+          <common:Description xml:lang="en">Represents different types of prices or price adjustments, including those that have been adjusted for inflation (real or constant prices) and those that have not (nominal or current prices). It also includes various methods for adjusting prices for inflation, such as using deflators or converting to a constant base period.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_PRICES(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="STATISTICAL_MEASURES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).STATISTICAL_MEASURES">
+          <common:Name xml:lang="en">Statistical Measures</common:Name>
+          <common:Description xml:lang="en">Describe characteristics of a group of data. They summarize the distribution, central tendency, or spread of multiple values.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_STATISTICAL_MEASURES(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TRADE_FLOW" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).TRADE_FLOW">
+          <common:Name xml:lang="en">Trade flow</common:Name>
+          <common:Description xml:lang="en">Data related to the movement of goods and services between countries, including exports and imports.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TRADE_FLOW(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).VALUATION">
+          <common:Name xml:lang="en">Valuation</common:Name>
+          <common:Description xml:lang="en">Valuation refers to the rules and conventions used for recording monetary flows and stocks in macroeconomic statistics. Standard national accounts valuations include the basic price (what the seller receives) and the purchaser's price (what the purchaser pays). The purchaser's price is the basic price, plus taxes less subsidies on products, plus invoiced transportation and insurance services, plus distribution margin. International trade in goods considers the free on board (fob) price and cost-insurance-freight price, among others. Other valuation types include prices used in financial markets (e.g., buy and sell prices).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_VALUATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SOC_CONCEPTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).SOC_CONCEPTS">
+          <common:Name xml:lang="en">Social Concepts</common:Name>
+          <common:Description xml:lang="en">A broad category encompassing various social indicators, such as tourism and labor concepts.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SOC_CONCEPTS(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COFOG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COFOG">
+          <common:Name xml:lang="en">COFOG</common:Name>
+          <common:Description xml:lang="en">The Classification of the Functions of Government, a standardized system for classifying government expenditures by purpose.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COFOG(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COICOP_1999" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COICOP_1999">
+          <common:Name xml:lang="en">Expenditure Category</common:Name>
+          <common:Description xml:lang="en">The Classification of Individual Consumption According to Purpose (COICOP) 1999 is a standardized classification system developed by the United Nations Statistics Division to categorize household consumption expenditures by purpose. It includes 14 divisions, 47 groups, and 117 classes.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COICOP_1999(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COICOP_2018" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COICOP_2018">
+          <common:Name xml:lang="en">Expenditure Category (COICOP 2018)</common:Name>
+          <common:Description xml:lang="en">The Classification of Individual Consumption According to Purpose (COICOP) 2018 is an updated and expanded version of the COICOP classification system, designed to better reflect the evolving consumption patterns of the 21st century. It includes 14 divisions, 50 groups, 153 classes, and 449 subclasses.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COICOP_2018(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF.STA:CS_MASTER(1.0.0)" agencyID="IMF.STA" id="CS_MASTER" version="1.0.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-03-27T21:51:50.142609Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">STA: Master Concepts</common:Name>
+        <common:Description xml:lang="en">A standardized set of concepts and definitions that classify and describe the data elements used within STA.</common:Description>
+        <structure:Concept id="STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_MASTER(1.0.0).STATUS">
+          <common:Name xml:lang="en">Status</common:Name>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COMMON_REFERENCE_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_MASTER(1.0.0).COMMON_REFERENCE_PERIOD">
+          <common:Name xml:lang="en">Common Reference Period</common:Name>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="IFS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_MASTER(1.0.0).IFS_FLAG">
+          <common:Name xml:lang="en">IFS flag</common:Name>
+          <common:Description xml:lang="en">A key indicator flag is used to identify and mark indicators that were part of the IFS data product. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="Boolean"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_DATA(1.0.0)" agencyID="IMF" id="CS_MASTER_DATA" version="1.0.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-03-27T20:36:46.596896Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Master Data Concepts</common:Name>
+        <common:Description xml:lang="en">Standardized concepts and definitions for describing data elements across datasets, covering cross-cutting data attributes such as temporal information, country, unit of measure, transformation. </common:Description>
+        <structure:Concept id="COMMENTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COMMENTS">
+          <common:Name xml:lang="en">Comments</common:Name>
+          <common:Description xml:lang="en">Additional notes, explanations, or remarks regarding the data, methodology, or other aspects of an observation.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String" isMultiLingual="true"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).OBS_STATUS">
+          <common:Name xml:lang="en">Observation Status</common:Name>
+          <common:Description xml:lang="en">Indicates the status of an observation within a dataset, such as whether it is a provisional value, an estimated value, a final figure, or a value where a time series break occurs. (Source: SDMX)</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_OBS_STATUS(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).DERIVATION_TYPE">
+          <common:Name xml:lang="en">Derivation Type</common:Name>
+          <common:Description xml:lang="en">Identifies the specific method used to derive a new data element or indicator from source data. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_DERIVATION_TYPE(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).OVERLAP">
+          <common:Name xml:lang="en">IMF Data Overlap</common:Name>
+          <common:Description xml:lang="en">Indicates the potential for overlap within IMF data.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_OVERLAP(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CONF_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CONF_STATUS">
+          <common:Name xml:lang="en">Confidentiality Status</common:Name>
+          <common:Description xml:lang="en">This classification provides information about the sensitivity and confidentiality status of the data. (Source:SDMX)</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_CONF_STATUS(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="REPORTING_PERIOD_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).REPORTING_PERIOD_TYPE">
+          <common:Name xml:lang="en">Reporting Period Type</common:Name>
+          <common:Description xml:lang="en">It is used to identify and distinguish between different types of time periods in economic and financial reporting.  The specific start and end dates for a fiscal year (FY) can vary depending on the country, organization, or industry. When reporting data using this codelist, it is essential to specify the exact start and end dates of the fiscal year being referenced.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_REPORTING_PERIOD_TYPE(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="REFERENCE_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).REFERENCE_PERIOD">
+          <common:Name xml:lang="en">Reference Period</common:Name>
+          <common:Description xml:lang="en">A time interval defined by a start date and an end date, used to constrain and specify the timeframe for reporting data. </common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="BASE_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).BASE_YEAR">
+          <common:Name xml:lang="en">Base year</common:Name>
+          <common:Description xml:lang="en">The reference year used for comparison in the calculation of index numbers or other statistical measures. Changes in values over time are typically expressed as percentage deviations from the base year.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CALENDAR_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CALENDAR_YEAR">
+          <common:Name xml:lang="en">Calendar year</common:Name>
+          <common:Description xml:lang="en">A period of twelve consecutive months starting on January 1st and ending on December 31st, as per the Gregorian calendar.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FISCAL_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).FISCAL_YEAR">
+          <common:Name xml:lang="en">Fiscal year</common:Name>
+          <common:Description xml:lang="en">A twelve-month period used by governments and businesses for accounting and financial reporting purposes. The start and end dates of a fiscal year can vary depending on the organization and country but often differ from the calendar year.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COUNTRY">
+          <common:Annotations>
+            <common:Annotation id="indexed">
+              <common:AnnotationType>INDEX_CONCEPTS</common:AnnotationType>
+              <common:AnnotationValue>true</common:AnnotationValue>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Country</common:Name>
+          <common:Description xml:lang="en">The country or region for which the data or statistics in a resource are collected or reported.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COUNTRY(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="COUNTERPART_COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COUNTERPART_COUNTRY">
+          <common:Name xml:lang="en">Counterpart Country</common:Name>
+          <common:Description xml:lang="en">The country or region with which a transaction or interaction occurs in the context of international statistics or data.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_COUNTRY(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).UNIT">
+          <common:Name xml:lang="en">Unit of Measure</common:Name>
+          <common:Description xml:lang="en">The standard unit used to quantify a particular data element or indicator.I It encompasses various units, including currency, physical units, percentages, and other standardized measures.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_UNIT(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CURRENCY">
+          <common:Name xml:lang="en">Currency</common:Name>
+          <common:Description xml:lang="en">Denominated in Currency specifies the currency in which a financial instrument is valued and settled.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_CURRENCY(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TRANSFORMATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).TRANSFORMATION">
+          <common:Name xml:lang="en">Transformation</common:Name>
+          <common:Description xml:lang="en">Represents a set of codes identifying the specific transformations or calculations applied to source data to derive new data elements or indicators. A transformation involves a computation with one or more input values (either base variables obtained by observation or derived variables from prior transformations) that results in a single output value (the value of a new derived variable).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TRANSFORMATION(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="S_ADJUSTMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).S_ADJUSTMENT">
+          <common:Name xml:lang="en">Seasonal Adjustment</common:Name>
+          <common:Description xml:lang="en">Specific adjustment for the time series (e.g. seasonally adjusted).</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_S_ADJUSTMENT(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="GENDER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).GENDER">
+          <common:Name xml:lang="en">Gender</common:Name>
+          <common:Description xml:lang="en">Gender identity refers to each person’s internal and individual experience of gender. One's gender identity can be the same or different from their sex assigned at birth. (Source: UNECE 2023 Gender and salutation code lists)</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_GENDER(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).SEX">
+          <common:Name xml:lang="en">Sex</common:Name>
+          <common:Description xml:lang="en">An individual’s sex may be defined by one’s assigned sex at birth and/or one’s biological attributes which includes a combination of hormones, chromosomes, physiology, and anatomy. It  includes both binary options as well as X and intersex. (Source: UNECE 2023 Gender and salutation code lists)</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SEX(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CIVIL_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CIVIL_STATUS">
+          <common:Name xml:lang="en">Civil (or Marital) Status</common:Name>
+          <common:Description xml:lang="en">The legal status of an individual regarding marriage, such as single, married, widowed, or divorced.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_CIVIL_STATUS(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_SYSTEM(1.0.2)" agencyID="IMF" id="CS_MASTER_SYSTEM" version="1.0.2" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="dataEngineSettings">
+            <common:AnnotationValue>{}</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-03-27T20:36:46.569972Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">CS_MASTER_SYSTEM</common:Name>
+        <structure:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).FREQ">
+          <common:Name xml:lang="en">Frequency</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FREQ(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).SCALE">
+          <common:Name xml:lang="en">Scale</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_UNIT_MULT(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).PRECISION">
+          <common:Name xml:lang="en">Precision</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_UNIT_MULT(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).DECIMALS_DISPLAYED">
+          <common:Name xml:lang="en">Decimals Displayed</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_DECIMALS(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).OBS_VALUE">
+          <common:Name xml:lang="en">Observation value</common:Name>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="Decimal"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).TIME_PERIOD">
+          <common:Annotations>
+            <common:Annotation id="indexed">
+              <common:AnnotationTitle/>
+              <common:AnnotationType>INDEX_CONCEPTS</common:AnnotationType>
+              <common:AnnotationValue>true</common:AnnotationValue>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Time Period</common:Name>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="ObservationalTimePeriod"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+      <structure:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF.STA:CS_BOP(17.0.0)" agencyID="IMF.STA" id="CS_BOP" version="17.0.0" isExternalReference="false" isPartial="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-06-03T15:18:09.970672Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Balance of Payment (BOP)</common:Name>
+        <structure:Concept id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).COUNTRY">
+          <common:Name xml:lang="en">Country</common:Name>
+          <common:Description xml:lang="en">Country</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_COUNTRY(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).INDICATOR">
+          <common:Name xml:lang="en">Indicator</common:Name>
+          <common:Description xml:lang="en">A variable that sheds light on some phenomenon or situation.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_INDICATOR(10.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="BOP_ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).BOP_ACCOUNTING_ENTRY">
+          <common:Name xml:lang="en">BOP/IIP Accounting Entry</common:Name>
+          <common:Description xml:lang="en">BOP/IIP Accounting Entry</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_ACCOUNTING_ENTRY(3.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="BOP_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).BOP_TYPE">
+          <common:Name xml:lang="en">BOP Type</common:Name>
+          <common:Description xml:lang="en">Balance of Payment Type</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_BOP_TYPE(2.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="AL_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).AL_TYPE">
+          <common:Name xml:lang="en">Asset/Liabilities Type</common:Name>
+          <common:Description xml:lang="en">Asset/Liabilities Type</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_ASSET_LIABILITY_TYPE(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FR_ADJ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).FR_ADJ">
+          <common:Name xml:lang="en">Adjustments Using IMF Accounting Records </common:Name>
+          <common:Description xml:lang="en">Adjustments Using IMF Accounting Records </common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_FR_ADJ(1.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="BPM6_BASIS_START_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).BPM6_BASIS_START_DATE">
+          <common:Name xml:lang="en">BPM6 Basis Start Date</common:Name>
+          <common:Description xml:lang="en">BPM6 Basis Start Date for Balance of Payments (BOP) or International Investment Position (IIP) depends on the dataflow</common:Description>
+          <structure:CoreRepresentation>
+            <structure:TextFormat textType="String"/>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0.0).CURRENCY">
+          <common:Name xml:lang="en">Currency</common:Name>
+          <common:Description xml:lang="en">This codelist provides a standardized list of currency codes and names, based on the ISO 4217 standard, representing the various currencies used globally for economic and financial transactions.</common:Description>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF.STA:CL_BOP_CURRENCY(3.0+.0)</structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+    </structure:ConceptSchemes>
+    <structure:DataStructures>
+      <structure:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.STA:DSD_BOP(24.0.0)" agencyID="IMF.STA" id="DSD_BOP" version="24.0.0" isExternalReference="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-06-03T15:18:10.005430Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Balance of Payments (BOP)</common:Name>
+        <structure:DataStructureComponents>
+          <structure:DimensionList id="DimensionDescriptor">
+            <structure:Dimension id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.STA:DSD_BOP(24.0.0).COUNTRY" position="0">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).COUNTRY</structure:ConceptIdentity>
+            </structure:Dimension>
+            <structure:Dimension id="BOP_ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.STA:DSD_BOP(24.0.0).BOP_ACCOUNTING_ENTRY" position="1">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).BOP_ACCOUNTING_ENTRY</structure:ConceptIdentity>
+            </structure:Dimension>
+            <structure:Dimension id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.STA:DSD_BOP(24.0.0).INDICATOR" position="2">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).INDICATOR</structure:ConceptIdentity>
+            </structure:Dimension>
+            <structure:Dimension id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.STA:DSD_BOP(24.0.0).UNIT" position="3">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0+.0).UNIT</structure:ConceptIdentity>
+            </structure:Dimension>
+            <structure:Dimension id="FREQUENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.STA:DSD_BOP(24.0.0).FREQUENCY" position="4">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).FREQ</structure:ConceptIdentity>
+              <structure:ConceptRole>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).FREQ</structure:ConceptRole>
+            </structure:Dimension>
+            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF.STA:DSD_BOP(24.0.0).TIME_PERIOD">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).TIME_PERIOD</structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="ObservationalTimePeriod"/>
+              </structure:LocalRepresentation>
+            </structure:TimeDimension>
+          </structure:DimensionList>
+          <structure:Group id="GROUP_BOP_ACCOUNTING_ENTRY__INDICATOR__UNIT">
+            <structure:GroupDimension>
+              <structure:DimensionReference>BOP_ACCOUNTING_ENTRY</structure:DimensionReference>
+            </structure:GroupDimension>
+            <structure:GroupDimension>
+              <structure:DimensionReference>INDICATOR</structure:DimensionReference>
+            </structure:GroupDimension>
+            <structure:GroupDimension>
+              <structure:DimensionReference>UNIT</structure:DimensionReference>
+            </structure:GroupDimension>
+          </structure:Group>
+          <structure:Group id="GROUP_BOP_ACCOUNTING_ENTRY">
+            <structure:GroupDimension>
+              <structure:DimensionReference>BOP_ACCOUNTING_ENTRY</structure:DimensionReference>
+            </structure:GroupDimension>
+          </structure:Group>
+          <structure:Group id="GROUP_COUNTRY">
+            <structure:GroupDimension>
+              <structure:DimensionReference>COUNTRY</structure:DimensionReference>
+            </structure:GroupDimension>
+          </structure:Group>
+          <structure:AttributeList id="AttributeDescriptor">
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).DOI">
+              <structure:MetadataAttributeReference>DOI</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).FULL_DESCRIPTION">
+              <structure:MetadataAttributeReference>FULL_DESCRIPTION</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).PUBLISHER">
+              <structure:MetadataAttributeReference>PUBLISHER</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).DEPARTMENT">
+              <structure:MetadataAttributeReference>DEPARTMENT</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).AUTHOR">
+              <structure:MetadataAttributeReference>AUTHOR</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).CONTACT_POINT">
+              <structure:MetadataAttributeReference>CONTACT_POINT</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).TOPIC">
+              <structure:MetadataAttributeReference>TOPIC</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).TOPIC_DATASET">
+              <structure:MetadataAttributeReference>TOPIC_DATASET</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).KEYWORDS">
+              <structure:MetadataAttributeReference>KEYWORDS</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).KEYWORDS_DATASET">
+              <structure:MetadataAttributeReference>KEYWORDS_DATASET</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).LANGUAGE">
+              <structure:MetadataAttributeReference>LANGUAGE</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).PUBLICATION_DATE">
+              <structure:MetadataAttributeReference>PUBLICATION_DATE</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).UPDATE_DATE">
+              <structure:MetadataAttributeReference>UPDATE_DATE</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).METHODOLOGY">
+              <structure:MetadataAttributeReference>METHODOLOGY</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>FREQUENCY</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).METHODOLOGY_NOTES">
+              <structure:MetadataAttributeReference>METHODOLOGY_NOTES</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).ACCESS_SHARING_LEVEL">
+              <structure:MetadataAttributeReference>ACCESS_SHARING_LEVEL</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).ACCESS_SHARING_NOTES">
+              <structure:MetadataAttributeReference>ACCESS_SHARING_NOTES</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).SECURITY_CLASSIFICATION">
+              <structure:MetadataAttributeReference>SECURITY_CLASSIFICATION</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).SOURCE">
+              <structure:MetadataAttributeReference>SOURCE</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).SHORT_SOURCE_CITATION">
+              <structure:MetadataAttributeReference>SHORT_SOURCE_CITATION</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).FULL_SOURCE_CITATION">
+              <structure:MetadataAttributeReference>FULL_SOURCE_CITATION</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).LICENSE">
+              <structure:MetadataAttributeReference>LICENSE</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).SUGGESTED_CITATION">
+              <structure:MetadataAttributeReference>SUGGESTED_CITATION</structure:MetadataAttributeReference>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).KEY_INDICATOR">
+              <structure:MetadataAttributeReference>KEY_INDICATOR</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:MetadataAttributeUsage urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataAttribute=IMF.STA:DSD_BOP(24.0.0).SERIES_NAME">
+              <structure:MetadataAttributeReference>SERIES_NAME</structure:MetadataAttributeReference>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:MetadataAttributeUsage>
+            <structure:Attribute id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).SCALE" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).SCALE</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>FREQUENCY</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).PRECISION" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).PRECISION</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).DECIMALS_DISPLAYED" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).DECIMALS_DISPLAYED</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>FREQUENCY</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="INSTR_ASSET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).INSTR_ASSET" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).INSTR_ASSET</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).FUNCTIONAL_CAT" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).FUNCTIONAL_CAT</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).INT_ACC_ITEM" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).INT_ACC_ITEM</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).SECTOR" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).SECTOR</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).ACCOUNTING_ENTRY" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).ACCOUNTING_ENTRY</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="ACCOUNTS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).ACCOUNTS" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).ACCOUNTS</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="FLOW_STOCK_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).FLOW_STOCK_ENTRY" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).FLOW_STOCK_ENTRY</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="FI_MATURITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).FI_MATURITY" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).FI_MATURITY</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).VALUATION" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0+.0).VALUATION</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="AL_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).AL_TYPE" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).AL_TYPE</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).DERIVATION_TYPE" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0+.0).DERIVATION_TYPE</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="BOP_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).BOP_TYPE" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).BOP_TYPE</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).OVERLAP" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0+.0).OVERLAP</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>FREQUENCY</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="FR_ADJ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).FR_ADJ" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).FR_ADJ</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="IFS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).IFS_FLAG" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_MASTER(1.0+.0).IFS_FLAG</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+                <structure:Dimension>BOP_ACCOUNTING_ENTRY</structure:Dimension>
+                <structure:Dimension>INDICATOR</structure:Dimension>
+                <structure:Dimension>FREQUENCY</structure:Dimension>
+                <structure:Dimension>UNIT</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="BPM6_BASIS_START_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).BPM6_BASIS_START_DATE" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_BOP(17.0+.0).BPM6_BASIS_START_DATE</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Dimension>COUNTRY</structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.STA:DSD_BOP(24.0.0).STATUS" usage="optional">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.STA:CS_MASTER(1.0+.0).STATUS</structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:Observation/>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+          </structure:AttributeList>
+          <structure:MeasureList id="MeasureDescriptor">
+            <structure:Measure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Measure=IMF.STA:DSD_BOP(24.0.0).OBS_VALUE">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0+.0).OBS_VALUE</structure:ConceptIdentity>
+            </structure:Measure>
+          </structure:MeasureList>
+        </structure:DataStructureComponents>
+        <structure:Metadata>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IMF:MSD_REF_IMF_DATASET(2.0+.0)</structure:Metadata>
+      </structure:DataStructure>
+    </structure:DataStructures>
+    <structure:Dataflows>
+      <structure:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IMF.STA:BOP(21.0.0)" agencyID="IMF.STA" id="BOP" version="21.0.0" isExternalReference="false">
+        <common:Annotations>
+          <common:Annotation id="@IMF">
+            <common:AnnotationTitle>H_BOP_BOP_AGG_STANDARD_PRESENTATION</common:AnnotationTitle>
+            <common:AnnotationType>DATAFLOW_PRESENTATION</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">presentation_title=Balance of Payments: Aggregated Standard Presentation ; presentation_description=Balance of Payments: Aggregated Standard Presentation </common:AnnotationText>
+            <common:AnnotationValue>hierarchy=IMF.STA:H_BOP_BOP_AGG_STANDARD_PRESENTATION(1.13.0);default_values=UNIT=USD</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="@IMF">
+            <common:AnnotationTitle>H_BOP_BOP_AGG_ANALYTIC_PRESENTATION</common:AnnotationTitle>
+            <common:AnnotationType>DATAFLOW_PRESENTATION</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">presentation_title=Balance of Payments: Aggregated Analytic Presentation ; presentation_description=Balance of Payments: Aggregated Analytic Presentation </common:AnnotationText>
+            <common:AnnotationValue>hierarchy=IMF.STA:H_BOP_BOP_AGG_ANALYTIC_PRESENTATION(1.13.0);default_values=UNIT=USD</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="dataEngineSettings">
+            <common:AnnotationValue>{"historySettingType":"FULL_HISTORY"}</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="DataEngine">
+            <common:AnnotationTitle>timeseries_v2</common:AnnotationTitle>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-06-03T15:18:10.039558Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Balance of Payments (BOP)</common:Name>
+        <common:Description xml:lang="en">The Balance of Payments (BOP) is a statistical statement that summarizes transactions between residents and nonresidents during a period. It consists of the goods and services account, the primary income account, the secondary income account, the capital account, and the financial account.</common:Description>
+        <structure:Structure>urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.STA:DSD_BOP(24.0+.0)</structure:Structure>
+      </structure:Dataflow>
+    </structure:Dataflows>
+    <structure:MetadataStructures>
+      <structure:MetadataStructure urn="urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IMF:MSD_REF_IMF_DATASET(2.2.0)" agencyID="IMF" id="MSD_REF_IMF_DATASET" version="2.2.0" isExternalReference="false">
+        <common:Annotations>
+          <common:Annotation id="origin">
+            <common:AnnotationValue>INTEGRATION</common:AnnotationValue>
+          </common:Annotation>
+          <common:Annotation id="isFinal"/>
+          <common:Annotation id="lastUpdatedAt">
+            <common:AnnotationValue>2025-08-18T17:36:48.870285Z</common:AnnotationValue>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Reference Metadata Structure for IMF Datasets</common:Name>
+        <common:Description xml:lang="en">A subset of the Enterprise Metadata Standard (EMS) consisting of standardized set of descriptive elements that apply across all datasets created and maintained within the International Monetary Fund (IMF). These elements, such as data source, definitions, methodology, quality flags, topics, keywords, data permissions facilitate discoverability, understanding, and appropriate use of IMF data.</common:Description>
+        <structure:MetadataStructureComponents>
+          <structure:MetadataAttributeList>
+            <structure:MetadataAttribute id="DOI" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).DOI</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="FULL_DESCRIPTION" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).FULL_DESCRIPTION</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="AUTHOR" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).AUTHOR</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="PUBLISHER" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).PUBLISHER</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DEPARTMENT" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).DEPARTMENT</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="CONTACT_POINT" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).CONTACT_POINT</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="CREATOR" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).CREATOR</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_OWNER" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).DATA_OWNER</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="DATA_STEWARD" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).DATA_STEWARD</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="TOPIC" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).TOPIC</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="TOPIC_DATASET" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).TOPIC_DATASET</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="KEYWORDS" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).KEYWORDS</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="KEYWORDS_DATASET" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).KEYWORDS_DATASET</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="LANGUAGE" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).LANGUAGE</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="PUBLICATION_DATE" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).PUBLICATION_DATE</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="UPDATE_DATE" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).UPDATE_DATE</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="METHODOLOGY" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).METHODOLOGY</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="METHODOLOGY_NOTES" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).METHODOLOGY_NOTES</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="ACCESS_SHARING_LEVEL" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).ACCESS_SHARING_LEVEL</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="ACCESS_SHARING_NOTES" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).ACCESS_SHARING_NOTES</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SECURITY_CLASSIFICATION" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).SECURITY_CLASSIFICATION</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SOURCE" minOccurs="0" maxOccurs="25" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).SOURCE</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SHORT_SOURCE_CITATION" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).SHORT_SOURCE_CITATION</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="FULL_SOURCE_CITATION" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).FULL_SOURCE_CITATION</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="LICENSE" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).LICENSE</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SUGGESTED_CITATION" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).SUGGESTED_CITATION</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="KEY_INDICATOR" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).KEY_INDICATOR</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+            <structure:MetadataAttribute id="SERIES_NAME" minOccurs="0" maxOccurs="1" isPresentational="false">
+              <structure:ConceptIdentity>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.0+.0).SERIES_NAME</structure:ConceptIdentity>
+            </structure:MetadataAttribute>
+          </structure:MetadataAttributeList>
+        </structure:MetadataStructureComponents>
+      </structure:MetadataStructure>
+    </structure:MetadataStructures>
+  </message:Structures>
+</message:Structure>
