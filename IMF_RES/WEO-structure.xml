@@ -1,0 +1,2843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../schemas/SDMXMessage.xsd">
+  <mes:Header>
+    <mes:ID>IDREF5922</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2026-04-02T16:52:33.660364417Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Dataflows>
+      <str:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IMF.RES:WEO(9.0.0)" agencyID="IMF.RES" id="WEO" version="9.0.0" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="@IMF">
+            <com:AnnotationTitle>H_WEO_PROJECTIONS</com:AnnotationTitle>
+            <com:AnnotationType>DATAFLOW_PRESENTATION</com:AnnotationType>
+            <com:AnnotationText xml:lang="en">presentation_title=WEO Projections; presentation_description=Real GDP growth (NGDP_RPCH) projections for aggregates and key economies</com:AnnotationText>
+          </com:Annotation>
+          <com:Annotation id="dataEngineSettings"/>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="DataEngine">
+            <com:AnnotationTitle>timeseries_v2</com:AnnotationTitle>
+          </com:Annotation>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">World Economic Outlook (WEO)</com:Name>
+        <com:Description xml:lang="en">The World Economic Outlook (WEO) database is created during the biannual WEO exercise, which begins in January and June of each year and results in the April and September/October WEO publication. Selected series from the publication are available in a database format. </com:Description>
+        <str:Structure>
+          <Ref agencyID="IMF.RES" id="DSD_WEO" version="9.0.0" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+    </str:Dataflows>
+    <str:Codelists>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_SEC_CLASSIFICATION(1.0.1)" agencyID="IMF" id="CL_SEC_CLASSIFICATION" version="1.0.1" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Security Classification</com:Name>
+        <com:Description xml:lang="en">This codelist designates the level of sensitivity or confidentiality associated with data, dictating the protective measures required for its handling, storage, and transmission.</com:Description>
+        <str:Code id="PUB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_SEC_CLASSIFICATION(1.0.1).PUB">
+          <com:Name xml:lang="en">Public or Unrestricted</com:Name>
+          <com:Description xml:lang="en">Information that has been published in full by the Fund and has been approved to be made available inside and outside the Fund without restriction is “Public” or “Unclassified.”</com:Description>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_DEPARTMENT(1.0.2)" agencyID="IMF" id="CL_DEPARTMENT" version="1.0.2" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Department</com:Name>
+        <com:Description xml:lang="en">This codelist identifies the internal departments or organizational units within an institution (e.g., the IMF) that are primarily responsible for the creation, maintenance, or dissemination of a specific data resource.</com:Description>
+        <str:Code id="RES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_DEPARTMENT(1.0.2).RES">
+          <com:Name xml:lang="en">Research Department (RES)</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ORGANIZATION(2.4.0)" agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Organization</com:Name>
+        <com:Description xml:lang="en">This codelist identifies and categorizes institutions relevant to economic, financial, and statistical data, providing standardized codes and corresponding names. It includes international organizations, central banks, and government institutions involved in data collection and dissemination.</com:Description>
+        <str:Code id="IMF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_ORGANIZATION(2.4.0).IMF">
+          <com:Name xml:lang="en">International Monetary Fund (IMF)</com:Name>
+          <com:Description xml:lang="en">https://www.imf.org/en/Home</com:Description>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TOPIC(2.3.0)" agencyID="IMF" id="CL_TOPIC" version="2.3.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Topic</com:Name>
+        <com:Description xml:lang="en">This codelist provides a high-level categorization of the resource's subject matter, indicating the main area or domain to which the data pertains.</com:Description>
+        <str:Code id="DEM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).DEM">
+          <com:Name xml:lang="en">Demographic and social</com:Name>
+          <com:Description xml:lang="en">Population demographics, social indicators, and labor market statistics.</com:Description>
+        </str:Code>
+        <str:Code id="J20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J20">
+          <com:Name xml:lang="en">Labor markets</com:Name>
+          <com:Description xml:lang="en">The labor market, encompassing employment, unemployment, labor force participation, wages, and other labor-related indicators.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J21">
+          <com:Name xml:lang="en">Labor force</com:Name>
+          <com:Description xml:lang="en">The total number of people employed and unemployed who are willing and able to work. This provides insights into the size and composition of the workforce and is used to analyze labor market trends and calculate unemployment rates.</com:Description>
+          <str:Parent>
+            <Ref id="J20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J64" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J64">
+          <com:Name xml:lang="en">Unemployment</com:Name>
+          <com:Description xml:lang="en">The number of people who are actively seeking employment but cannot find a job. This is used to calculate the unemployment rate, a key indicator of economic performance and social well-being.</com:Description>
+          <str:Parent>
+            <Ref id="J20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E24">
+          <com:Name xml:lang="en">Employment</com:Name>
+          <com:Description xml:lang="en">The number of people currently employed, including information on the types of jobs, industries, and occupations.</com:Description>
+          <str:Parent>
+            <Ref id="J20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J30">
+          <com:Name xml:lang="en">Wages</com:Name>
+          <com:Description xml:lang="en">The earnings of employees, including hourly wages, salaries, and other forms of compensation. This is used to analyze income inequality, measure labor costs, and assess the standard of living.</com:Description>
+          <str:Parent>
+            <Ref id="J20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J10">
+          <com:Name xml:lang="en">Population and demographics</com:Name>
+          <com:Description xml:lang="en">The size, structure, and distribution of a population.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J10_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J10_P">
+          <com:Name xml:lang="en">Population</com:Name>
+          <com:Description xml:lang="en">The total number of people residing in a specific geographic area, such as a country, region, or city. This is essential for demographic analysis, resource allocation, and policy planning.</com:Description>
+          <str:Parent>
+            <Ref id="J10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J11">
+          <com:Name xml:lang="en">Demographic change</com:Name>
+          <com:Description xml:lang="en">The changes in the size, composition, and distribution of a population over time. This includes information on birth rates, death rates, age structure, migration patterns, and other demographic factors.</com:Description>
+          <str:Parent>
+            <Ref id="J10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F22">
+          <com:Name xml:lang="en">Migration</com:Name>
+          <com:Description xml:lang="en">The movement of people across geographical boundaries, including both internal and international migration.</com:Description>
+          <str:Parent>
+            <Ref id="J10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="I20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).I20">
+          <com:Name xml:lang="en">Education</com:Name>
+          <com:Description xml:lang="en">Education, encompassing enrollment rates, educational attainment, literacy levels, and educational expenditures.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="I10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).I10">
+          <com:Name xml:lang="en">Health</com:Name>
+          <com:Description xml:lang="en">The health of a population.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J16">
+          <com:Name xml:lang="en">Inclusion and gender</com:Name>
+          <com:Description xml:lang="en">Gender, encompassing measures of equality, diversity, and social participation across different demographic groups.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="J16_W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).J16_W">
+          <com:Name xml:lang="en">Women</com:Name>
+          <com:Description xml:lang="en">The social, economic, and political status of women, including indicators of gender equality, labor force participation, education, health, and political representation.</com:Description>
+          <str:Parent>
+            <Ref id="J16"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G30_SME" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G30_SME">
+          <com:Name xml:lang="en">SME finance</com:Name>
+          <com:Description xml:lang="en">The financing of small and medium-sized enterprises (SMEs), including information on loan volumes, interest rates, and access to credit.</com:Description>
+          <str:Parent>
+            <Ref id="J16"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="O30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).O30">
+          <com:Name xml:lang="en">Technology</com:Name>
+          <com:Description xml:lang="en">Technological innovation, adoption, and impact.</com:Description>
+          <str:Parent>
+            <Ref id="DEM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E42" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E42">
+          <com:Name xml:lang="en">Fintech</com:Name>
+          <com:Description xml:lang="en">Financial technology innovations, including digital payments, peer-to-peer lending, robo-advisors, and blockchain-based solutions.</com:Description>
+          <str:Parent>
+            <Ref id="O30"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="CLM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).CLM">
+          <com:Name xml:lang="en">Environment and climate</com:Name>
+          <com:Description xml:lang="en">Environmental conditions, climate change, and natural resource use.</com:Description>
+        </str:Code>
+        <str:Code id="Q54" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54">
+          <com:Name xml:lang="en">Climate</com:Name>
+          <com:Description xml:lang="en">Climate patterns, trends, and impacts.</com:Description>
+          <str:Parent>
+            <Ref id="CLM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_CC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_CC">
+          <com:Name xml:lang="en">Climate change</com:Name>
+          <com:Description xml:lang="en">Observed changes in temperature, precipitation, sea level, and other climate variables, as well as projections of future climate change under different scenarios.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_ND" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_ND">
+          <com:Name xml:lang="en">Natural disasters</com:Name>
+          <com:Description xml:lang="en">The occurrence, frequency, intensity, and impact of natural disasters, such as earthquakes, floods, droughts, storms, and wildfires.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_CCA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_CCA">
+          <com:Name xml:lang="en">Climate change adaptation</com:Name>
+          <com:Description xml:lang="en">The strategies, measures, and investments aimed at reducing the vulnerability of natural and human systems to the impacts of climate change. This includes information on infrastructure resilience, early warning systems, and agricultural practices.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q58" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q58">
+          <com:Name xml:lang="en">Climate change mitigation</com:Name>
+          <com:Description xml:lang="en">The actions taken to reduce greenhouse gas emissions and enhance carbon sinks, such as transitioning to renewable energy, improving energy efficiency, and promoting sustainable land use practices.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q50" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q50">
+          <com:Name xml:lang="en">Climate finance</com:Name>
+          <com:Description xml:lang="en">The financial flows channeled towards climate change mitigation and adaptation projects and programs, including both public and private investments, as well as international climate finance mechanisms.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_CR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_CR">
+          <com:Name xml:lang="en">Climate risks</com:Name>
+          <com:Description xml:lang="en">The potential adverse consequences of climate change for various sectors and systems, including physical risks (e.g., extreme weather events, sea-level rise), transition risks (e.g., policy changes, technological shifts), and liability risks (e.g., legal claims, reputational damage).</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_GGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_GGE">
+          <com:Name xml:lang="en">Greenhouse gas emissions</com:Name>
+          <com:Description xml:lang="en">The amount of greenhouse gases, such as carbon dioxide, methane, and nitrous oxide, released into the atmosphere from various sources, including energy production, industry, agriculture, and transportation.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_W">
+          <com:Name xml:lang="en">Climate and weather</com:Name>
+          <com:Description xml:lang="en">The long-term patterns and average conditions of temperature, humidity, precipitation, wind, etc. in a specific region (climate), as well as the day-to-day state of the atmosphere (weather).</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q54_LCE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q54_LCE">
+          <com:Name xml:lang="en">Transition to a low carbon economy</com:Name>
+          <com:Description xml:lang="en">The global shift away from economic activities that rely heavily on fossil fuels (like coal, oil, and natural gas) and towards systems that generate minimal greenhouse gas emissions. This includes data on renewable energy adoption, energy efficiency improvements, and sustainable technology development.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q57" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q57">
+          <com:Name xml:lang="en">Physical and transition risk indicators</com:Name>
+          <com:Description xml:lang="en">Physical and transition risks related to climate change. Physical risks refer to the potential impact of climate change on physical assets, while transition risks are related to the shift to a low-carbon economy and include factors such as policy changes and technological innovations.</com:Description>
+          <str:Parent>
+            <Ref id="Q54"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q56" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q56">
+          <com:Name xml:lang="en">Environment</com:Name>
+          <com:Description xml:lang="en">The natural environment and its interactions with human activities.</com:Description>
+          <str:Parent>
+            <Ref id="CLM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="ECP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).ECP">
+          <com:Name xml:lang="en">Economy and prices</com:Name>
+          <com:Description xml:lang="en">Economic activity, prices, and national accounts.</com:Description>
+        </str:Code>
+        <str:Code id="E10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E10">
+          <com:Name xml:lang="en">National accounts</com:Name>
+          <com:Description xml:lang="en">Describes and measures the economic activity of a country or region. It provides a comprehensive overview of the economy's structure, performance, and interactions between different sectors. This data is compiled within a standardized framework, the System of National Accounts (SNA).</com:Description>
+          <str:Parent>
+            <Ref id="ECP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E10_GDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E10_GDP">
+          <com:Name xml:lang="en">Gross domestic product (GDP)</com:Name>
+          <com:Description xml:lang="en">The total value of goods and services produced within a country's borders over a specific period.</com:Description>
+          <str:Parent>
+            <Ref id="E10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E01">
+          <com:Name xml:lang="en">National income</com:Name>
+          <com:Description xml:lang="en">The total income earned by a country's residents, including wages, profits, rents, and interest.</com:Description>
+          <str:Parent>
+            <Ref id="E10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E10_SA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E10_SA">
+          <com:Name xml:lang="en">Sector accounts</com:Name>
+          <com:Description xml:lang="en">The economic activity of specific sectors within the economy, such as agriculture, manufacturing, construction, and services.</com:Description>
+          <str:Parent>
+            <Ref id="E10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E23" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E23">
+          <com:Name xml:lang="en">Industrial production</com:Name>
+          <com:Description xml:lang="en">The output of industrial establishments, including manufacturing, mining, and utilities. This is used to track industrial activity, assess productivity, and monitor economic cycles.</com:Description>
+          <str:Parent>
+            <Ref id="E10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31">
+          <com:Name xml:lang="en">Prices</com:Name>
+          <com:Description xml:lang="en">Statistical information that captures the monetary values at which goods, services, assets, or other items are bought, sold, or exchanged in a market. This can encompass various aspects of prices.</com:Description>
+          <str:Parent>
+            <Ref id="ECP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_CP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_CP">
+          <com:Name xml:lang="en">Consumer prices</com:Name>
+          <com:Description xml:lang="en">The average change over time in the prices paid by consumers for a basket of goods and services.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_PP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_PP">
+          <com:Name xml:lang="en">Producer prices</com:Name>
+          <com:Description xml:lang="en">The average change over time in the selling prices received by domestic producers for their output.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="R30" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).R30">
+          <com:Name xml:lang="en">Real estate prices</com:Name>
+          <com:Description xml:lang="en">The prices of houses, apartments, land, and other real estate properties.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="Q02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).Q02">
+          <com:Name xml:lang="en">Commodity prices</com:Name>
+          <com:Description xml:lang="en">The prices of raw materials and primary agricultural products, such as oil, gas, metals, grains, and livestock.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_EPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_EPI">
+          <com:Name xml:lang="en">Export price indexes</com:Name>
+          <com:Description xml:lang="en">The average change in prices of goods and services exported by a country.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_PPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_PPI">
+          <com:Name xml:lang="en">Producer price indexes (PPI)</com:Name>
+          <com:Description xml:lang="en">The average change in prices received by domestic producers for their output.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_IPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_IPI">
+          <com:Name xml:lang="en">Import price indexes</com:Name>
+          <com:Description xml:lang="en">The average change in prices of goods and services imported by a country.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E31_WPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E31_WPI">
+          <com:Name xml:lang="en">Wholesale price indexes</com:Name>
+          <com:Description xml:lang="en">The average change in prices of goods sold in bulk by wholesalers to retailers.</com:Description>
+          <str:Parent>
+            <Ref id="E31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F10">
+          <com:Name xml:lang="en">International trade</com:Name>
+          <com:Description xml:lang="en">The exchange of goods and services between countries.</com:Description>
+          <str:Parent>
+            <Ref id="ECP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F14">
+          <com:Name xml:lang="en">Trade in services</com:Name>
+          <com:Description xml:lang="en">The value of intangible services (e.g., tourism, transportation, financial services) exchanged between countries.</com:Description>
+          <str:Parent>
+            <Ref id="F10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="L81" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).L81">
+          <com:Name xml:lang="en">Trade in goods</com:Name>
+          <com:Description xml:lang="en">The value and volume of physical goods (e.g., merchandise, commodities) that are exported and imported.</com:Description>
+          <str:Parent>
+            <Ref id="F10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F10_E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F10_E">
+          <com:Name xml:lang="en">Exports</com:Name>
+          <com:Description xml:lang="en">The value and volume of goods and services sold to other countries.</com:Description>
+          <str:Parent>
+            <Ref id="F10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F10_I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F10_I">
+          <com:Name xml:lang="en">Imports</com:Name>
+          <com:Description xml:lang="en">The value and volume of goods and services purchased from other countries.</com:Description>
+          <str:Parent>
+            <Ref id="F10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E23_P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E23_P">
+          <com:Name xml:lang="en">Production</com:Name>
+          <com:Description xml:lang="en">The output of goods and services in various sectors of the economy.</com:Description>
+          <str:Parent>
+            <Ref id="ECP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="L83" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).L83">
+          <com:Name xml:lang="en">Tourism</com:Name>
+          <com:Description xml:lang="en">The number of tourists visiting a country and their spending.</com:Description>
+          <str:Parent>
+            <Ref id="ECP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F00" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F00">
+          <com:Name xml:lang="en">External sector</com:Name>
+          <com:Description xml:lang="en">International trade, balance of payments, and external debt.</com:Description>
+        </str:Code>
+        <str:Code id="F32" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F32">
+          <com:Name xml:lang="en">Balance of payments</com:Name>
+          <com:Description xml:lang="en">The recording of all economic transactions between residents of a country and the rest of the world over a specific period, usually a year. This includes transactions related to goods, services, income, and financial assets.</com:Description>
+          <str:Parent>
+            <Ref id="F00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F32_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F32_CA">
+          <com:Name xml:lang="en">Current account</com:Name>
+          <com:Description xml:lang="en">A country's transactions with the rest of the world, including the balance of trade in goods and services, net income from abroad, and net current transfers.</com:Description>
+          <str:Parent>
+            <Ref id="F32"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F32_CAPA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F32_CAPA">
+          <com:Name xml:lang="en">Capital account</com:Name>
+          <com:Description xml:lang="en">A country's transactions related to capital transfers and the acquisition and disposal of non-produced, non-financial assets.</com:Description>
+          <str:Parent>
+            <Ref id="F32"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F32_FA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F32_FA">
+          <com:Name xml:lang="en">Financial account</com:Name>
+          <com:Description xml:lang="en">A country's transactions related to financial assets and liabilities, including direct investment, portfolio investment, and other investments.</com:Description>
+          <str:Parent>
+            <Ref id="F32"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F32_FPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F32_FPI">
+          <com:Name xml:lang="en">Foreign portfolio investment (FPI)</com:Name>
+          <com:Description xml:lang="en">Cross-border investments in financial assets, such as stocks, bonds, and other securities, where investors do not have a controlling stake in the underlying companies.</com:Description>
+          <str:Parent>
+            <Ref id="F32"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F21">
+          <com:Name xml:lang="en">Foreign direct investment (FDI)</com:Name>
+          <com:Description xml:lang="en">Cross-border investments in which an investor establishes a lasting interest in an enterprise operating in another country. This includes data on mergers and acquisitions, greenfield investments, and the establishment of subsidiaries or branches.</com:Description>
+          <str:Parent>
+            <Ref id="F32"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F21_EP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F21_EP">
+          <com:Name xml:lang="en">External position</com:Name>
+          <com:Description xml:lang="en">A country's overall financial position with respect to the rest of the world at a specific point in time. It combines data from the balance of payments and international investment position (IIP) to provide a snapshot of a country's external assets, liabilities, and net worth.</com:Description>
+          <str:Parent>
+            <Ref id="F00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F21_IIP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F21_IIP">
+          <com:Name xml:lang="en">International investment position (IIP)</com:Name>
+          <com:Description xml:lang="en">A country's stock of external financial assets and liabilities at a specific point in time, including direct investment, portfolio investment, other investments, and reserve assets.</com:Description>
+          <str:Parent>
+            <Ref id="F21_EP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F34" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F34">
+          <com:Name xml:lang="en">External debt</com:Name>
+          <com:Description xml:lang="en">The total amount of money owed by a country's government, businesses, and individuals to foreign creditors.</com:Description>
+          <str:Parent>
+            <Ref id="F00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="H00" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).H00">
+          <com:Name xml:lang="en">Fiscal sector</com:Name>
+          <com:Description xml:lang="en">Government revenue, expenditure, and debt.</com:Description>
+        </str:Code>
+        <str:Code id="H20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).H20">
+          <com:Name xml:lang="en">Revenue administration</com:Name>
+          <com:Description xml:lang="en">The collection of government revenue, primarily through taxes, fees, and other levies.</com:Description>
+          <str:Parent>
+            <Ref id="H00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="H50" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).H50">
+          <com:Name xml:lang="en">Expenditure</com:Name>
+          <com:Description xml:lang="en">Government spending on goods, services, and transfer payments, including details on budget allocations, actual expenditures, and program outcomes.</com:Description>
+          <str:Parent>
+            <Ref id="H00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="H63" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).H63">
+          <com:Name xml:lang="en">Public debt</com:Name>
+          <com:Description xml:lang="en">The total outstanding debt owed by a government, encompassing both domestic and external debt, as well as information on the types of debt instruments, interest rates, maturity profiles, and debt-to-GDP ratios.</com:Description>
+          <str:Parent>
+            <Ref id="H00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G00" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G00">
+          <com:Name xml:lang="en">Financial and monetary sector</com:Name>
+          <com:Description xml:lang="en">Financial institutions, monetary aggregates, and interest rates.</com:Description>
+        </str:Code>
+        <str:Code id="F31" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F31">
+          <com:Name xml:lang="en">Foreign exchange</com:Name>
+          <com:Description xml:lang="en">The exchange rates between different currencies, including spot rates, forward rates, and exchange rate regimes, as well as information on foreign exchange reserves, capital flows, and international trade.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E52_IR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E52_IR">
+          <com:Name xml:lang="en">International reserves</com:Name>
+          <com:Description xml:lang="en">A country's holdings of external assets, such as foreign currencies, gold, and Special Drawing Rights (SDRs), held by the central bank to meet external financial obligations and stabilize exchange rates.</com:Description>
+          <str:Parent>
+            <Ref id="F31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="F31_ER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).F31_ER">
+          <com:Name xml:lang="en">Exchange rates</com:Name>
+          <com:Description xml:lang="en">The price of one currency in terms of another, reflecting the value of a currency relative to other currencies. This includes spot exchange rates, forward rates, and exchange rate regimes.</com:Description>
+          <str:Parent>
+            <Ref id="F31"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E58" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E58">
+          <com:Name xml:lang="en">Central banks</com:Name>
+          <com:Description xml:lang="en">The activities of central banks, such as monetary policy decisions, interest rate setting, open market operations, reserve management, and financial stability measures.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G21" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G21">
+          <com:Name xml:lang="en">Banking</com:Name>
+          <com:Description xml:lang="en">The activities and performance of the banking sector, including assets, liabilities, capital, deposits, loans, and profitability. This is used to monitor the health and stability of the banking system.</com:Description>
+          <str:Parent>
+            <Ref id="E58"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E58_CBBS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E58_CBBS">
+          <com:Name xml:lang="en">Central bank balance sheet</com:Name>
+          <com:Description xml:lang="en">The assets and liabilities of the central bank, including foreign reserves, government securities, and loans to commercial banks. This provides insights into the central bank's monetary policy operations and its role in the economy.</com:Description>
+          <str:Parent>
+            <Ref id="E58"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E58_CBC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E58_CBC">
+          <com:Name xml:lang="en">Central bank credit</com:Name>
+          <com:Description xml:lang="en">The credit extended by the central bank to the banking sector and the government, including discount window lending, repurchase agreements, and emergency lending facilities.</com:Description>
+          <str:Parent>
+            <Ref id="E58"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G10">
+          <com:Name xml:lang="en">Financial markets, services and instruments</com:Name>
+          <com:Description xml:lang="en">The trading and pricing of financial assets, such as stocks, bonds, derivatives, and currencies, as well as information on financial institutions, market infrastructure, and regulatory frameworks.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G23" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G23">
+          <com:Name xml:lang="en">Financial instruments</com:Name>
+          <com:Description xml:lang="en">Various financial instruments, such as stocks, bonds, derivatives, and other securities, including their issuance, trading volumes, prices, and returns.</com:Description>
+          <str:Parent>
+            <Ref id="G10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G21_L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G21_L">
+          <com:Name xml:lang="en">Loans</com:Name>
+          <com:Description xml:lang="en">The amount of credit extended by financial institutions to households and businesses, including information on loan types, interest rates, maturity profiles, and credit quality.</com:Description>
+          <str:Parent>
+            <Ref id="G10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G22" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G22">
+          <com:Name xml:lang="en">Insurance</com:Name>
+          <com:Description xml:lang="en">The insurance sector, including premiums, claims, assets, liabilities, and profitability of insurance companies.</com:Description>
+          <str:Parent>
+            <Ref id="G10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E43" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E43">
+          <com:Name xml:lang="en">Interest rates</com:Name>
+          <com:Description xml:lang="en">The cost of borrowing and the return on savings, typically expressed as a percentage of the principal amount. This includes data on various interest rate benchmarks, such as the policy rate set by the central bank, interbank rates, and lending rates for different types of borrowers.</com:Description>
+          <str:Parent>
+            <Ref id="G10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G10_FA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G10_FA">
+          <com:Name xml:lang="en">Financial access</com:Name>
+          <com:Description xml:lang="en">The availability and affordability of financial services, such as bank accounts, credit, insurance, and payment systems, for individuals and businesses.</com:Description>
+          <str:Parent>
+            <Ref id="G10"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G18">
+          <com:Name xml:lang="en">Financial sector stability</com:Name>
+          <com:Description xml:lang="en">The resilience of the financial system to shocks and its ability to withstand financial stress, including indicators of asset quality, capital adequacy, liquidity, profitability, and risk management practices of financial institutions.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G18_FSA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G18_FSA">
+          <com:Name xml:lang="en">Financial stability assessment</com:Name>
+          <com:Description xml:lang="en">The evaluation of the resilience of the financial system to shocks and its ability to withstand financial stress. This includes indicators of asset quality, capital adequacy, liquidity, profitability, and risk management practices of financial institutions.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G33" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G33">
+          <com:Name xml:lang="en">Solvency</com:Name>
+          <com:Description xml:lang="en">The ability of a financial institution or a government to meet its long-term financial obligations, including the payment of interest and principal on debt.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G28">
+          <com:Name xml:lang="en">Stress testing</com:Name>
+          <com:Description xml:lang="en">The simulation of adverse economic scenarios to assess the resilience of financial institutions and the broader financial system to potential shocks.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G18_SR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G18_SR">
+          <com:Name xml:lang="en">Systemic risk</com:Name>
+          <com:Description xml:lang="en">The risk of a widespread disruption to the financial system that could have severe consequences for the broader economy. This includes indicators of interconnectedness, leverage, and concentration in the financial system.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G18_FSR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G18_FSR">
+          <com:Name xml:lang="en">Financial sector risk</com:Name>
+          <com:Description xml:lang="en">The specific risks faced by different types of financial institutions, such as credit risk, market risk, operational risk, and liquidity risk.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G10_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G10_S">
+          <com:Name xml:lang="en">Securities</com:Name>
+          <com:Description xml:lang="en">Financial instruments that represent ownership in a company (stocks) or debt obligations (bonds). This includes information on issuance, trading volumes, prices, and returns.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G21_D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G21_D">
+          <com:Name xml:lang="en">Deposits</com:Name>
+          <com:Description xml:lang="en">The funds held by individuals and businesses in bank accounts, including demand deposits, time deposits, and savings accounts.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G23_FD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G23_FD">
+          <com:Name xml:lang="en">Financial derivatives</com:Name>
+          <com:Description xml:lang="en">Financial contracts whose value is derived from an underlying asset, such as stocks, bonds, commodities, or currencies.</com:Description>
+          <str:Parent>
+            <Ref id="G18"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G20" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G20">
+          <com:Name xml:lang="en">Financial institutions</com:Name>
+          <com:Description xml:lang="en">The financial activities and performance of banks, insurance companies, pension funds, investment funds, and other financial intermediaries, including balance sheets, income statements, and risk exposures.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G21_CB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G21_CB">
+          <com:Name xml:lang="en">Commercial banks</com:Name>
+          <com:Description xml:lang="en">The financial activities and performance of commercial banks, which are the primary providers of credit and deposit services to households and businesses. This includes balance sheets, income statements, and risk exposures.</com:Description>
+          <str:Parent>
+            <Ref id="G20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G23_NFI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G23_NFI">
+          <com:Name xml:lang="en">Nonbank financial institutions</com:Name>
+          <com:Description xml:lang="en">The activities and performance of financial institutions that are not banks, such as insurance companies, pension funds, investment funds, and other financial intermediaries.</com:Description>
+          <str:Parent>
+            <Ref id="G20"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E52" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E52">
+          <com:Name xml:lang="en">Monetary policy</com:Name>
+          <com:Description xml:lang="en">The actions taken by central banks to influence the availability and cost of money in the economy, such as interest rate changes, quantitative easing, and other monetary policy tools.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E52_RR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E52_RR">
+          <com:Name xml:lang="en">Reserve requirements</com:Name>
+          <com:Description xml:lang="en">The minimum amount of reserves that banks are required to hold against their deposits, as mandated by the central bank.</com:Description>
+          <str:Parent>
+            <Ref id="E52"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E51" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E51">
+          <com:Name xml:lang="en">Money</com:Name>
+          <com:Description xml:lang="en">The various forms of money in circulation, including currency, demand deposits, and other liquid assets.</com:Description>
+          <str:Parent>
+            <Ref id="E52"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E50" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E50">
+          <com:Name xml:lang="en">Monetary aggregates</com:Name>
+          <com:Description xml:lang="en">The total stock of money in circulation, including currency in circulation, demand deposits, and other liquid assets. Monetary aggregates are used as indicators of economic activity and to gauge the impact of monetary policy.</com:Description>
+          <str:Parent>
+            <Ref id="E52"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E50_MB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E50_MB">
+          <com:Name xml:lang="en">Monetary base</com:Name>
+          <com:Description xml:lang="en">The total amount of currency in circulation and reserves held by commercial banks at the central bank. The monetary base is a key component of the money supply and is directly controlled by the central bank.</com:Description>
+          <str:Parent>
+            <Ref id="E52"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E50_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E50_CA">
+          <com:Name xml:lang="en">Credit aggregates</com:Name>
+          <com:Description xml:lang="en">The total amount of credit outstanding in the economy, including loans to households, businesses, and the government.</com:Description>
+          <str:Parent>
+            <Ref id="E52"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E44" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E44">
+          <com:Name xml:lang="en">Macrofinancial analysis</com:Name>
+          <com:Description xml:lang="en">The assessment of the overall health and stability of a country's financial system, including its interactions with the broader economy. This encompasses indicators of credit growth, asset prices, capital flows, and other financial variables that can affect economic stability.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E32" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E32">
+          <com:Name xml:lang="en">Financial cycles</com:Name>
+          <com:Description xml:lang="en">The fluctuations in financial variables over time, such as credit growth, asset prices, and leverage.</com:Description>
+          <str:Parent>
+            <Ref id="E44"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E44_ML" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E44_ML">
+          <com:Name xml:lang="en">Macrofinancial linkages</com:Name>
+          <com:Description xml:lang="en">The interconnections between the financial sector and the broader economy, including the transmission channels through which financial shocks can affect economic activity and vice versa.</com:Description>
+          <str:Parent>
+            <Ref id="E44"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E44_MP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E44_MP">
+          <com:Name xml:lang="en">Macroprudential policy</com:Name>
+          <com:Description xml:lang="en">Policies and regulations designed to mitigate systemic risks in the financial system, such as capital requirements, leverage ratios, and borrower-based measures.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E44_MPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E44_MPI">
+          <com:Name xml:lang="en">Macroprudential policy instruments</com:Name>
+          <com:Description xml:lang="en">The specific tools used by policymakers to mitigate systemic risks in the financial system, such as capital buffers, leverage ratios, and borrower-based measures.</com:Description>
+          <str:Parent>
+            <Ref id="E44_MP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="E44_MA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).E44_MA">
+          <com:Name xml:lang="en">Macroprudential analysis</com:Name>
+          <com:Description xml:lang="en">The assessment of systemic risks and vulnerabilities in the financial system, using both quantitative and qualitative methods.</com:Description>
+          <str:Parent>
+            <Ref id="E44_MP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G10_FSR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G10_FSR">
+          <com:Name xml:lang="en">Financial supervision and regulation</com:Name>
+          <com:Description xml:lang="en">The oversight and enforcement activities of regulatory bodies overseeing financial institutions and markets. This includes information on regulatory frameworks, supervisory practices, and enforcement actions.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G28_BR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G28_BR">
+          <com:Name xml:lang="en">Bank regulation</com:Name>
+          <com:Description xml:lang="en">The rules and regulations governing the operations of banks, including capital requirements, liquidity requirements, and risk management standards.</com:Description>
+          <str:Parent>
+            <Ref id="G10_FSR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G32" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G32">
+          <com:Name xml:lang="en">Bank risk management</com:Name>
+          <com:Description xml:lang="en">The practices and procedures used by banks to identify, assess, and mitigate risks, such as credit risk, market risk, operational risk, and liquidity risk.</com:Description>
+          <str:Parent>
+            <Ref id="G10_FSR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G18_NFIS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G18_NFIS">
+          <com:Name xml:lang="en">Nonbank financial institution supervision</com:Name>
+          <com:Description xml:lang="en">The oversight and regulation of nonbank financial institutions, such as insurance companies, pension funds, and investment funds.</com:Description>
+          <str:Parent>
+            <Ref id="G10_FSR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G15">
+          <com:Name xml:lang="en">Asset and liability management (ALM)</com:Name>
+          <com:Description xml:lang="en">The strategies and practices employed by financial institutions to manage their assets and liabilities, including interest rate risk, liquidity risk, and credit risk. This is used to assess the effectiveness of ALM in maintaining financial soundness.</com:Description>
+          <str:Parent>
+            <Ref id="G00"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="G11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).G11">
+          <com:Name xml:lang="en">Liability risk measures</com:Name>
+          <com:Description xml:lang="en">Various measures used to assess the riskiness of an institution's liabilities, such as the maturity mismatch between assets and liabilities, the volatility of funding sources, and the potential for runs on deposits.</com:Description>
+          <str:Parent>
+            <Ref id="G15"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="EFA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).EFA">
+          <com:Name xml:lang="en">Economic forecasts and analysis</com:Name>
+          <com:Description xml:lang="en">Economic forecasts, policy analysis, and other economic research.</com:Description>
+        </str:Code>
+        <str:Code id="C53" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).C53">
+          <com:Name xml:lang="en">Economic forecasting</com:Name>
+          <com:Description xml:lang="en">Economic forecasts for various countries and regions.</com:Description>
+          <str:Parent>
+            <Ref id="EFA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).FAC">
+          <com:Name xml:lang="en">Fund accounts</com:Name>
+          <com:Description xml:lang="en">The IMF's financial accounts and resources.</com:Description>
+        </str:Code>
+        <str:Code id="FAC_A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).FAC_A">
+          <com:Name xml:lang="en">IMF Financial data</com:Name>
+          <com:Description xml:lang="en">The IMF's financial operations and lending activities.</com:Description>
+          <str:Parent>
+            <Ref id="FAC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FAC_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).FAC_B">
+          <com:Name xml:lang="en">IMF Surveillance reports</com:Name>
+          <com:Description xml:lang="en">Reports on the IMF's surveillance of member countries' economic and financial policies.</com:Description>
+          <str:Parent>
+            <Ref id="FAC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="WP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).WP">
+          <com:Name xml:lang="en">Working papers datasets</com:Name>
+          <com:Description xml:lang="en">Datasets relating to working papers, which are typically preliminary research papers that present new findings, methodologies, or analysis for academic or policy-related discussion.</com:Description>
+        </str:Code>
+        <str:Code id="IFS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).IFS">
+          <com:Name xml:lang="en">International Financial Statistics (IFS)</com:Name>
+          <com:Description xml:lang="en">Datasets underlying the International Financial Statistics, one of the Fund’s principal statistical compilations. Available since 1948, it has broad geographic and conceptual coverage. </com:Description>
+        </str:Code>
+        <str:Code id="WEO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).WEO">
+          <com:Name xml:lang="en">World Economic Outlook (WEO)</com:Name>
+          <com:Description xml:lang="en">Datasets related to the World Economic Outlook and Regional Economic Outlooks</com:Description>
+        </str:Code>
+        <str:Code id="TPD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TOPIC(2.3.0).TPD">
+          <com:Name xml:lang="en">Third-Party Data</com:Name>
+          <com:Description xml:lang="en">Licensed economic and financial data from commercial and non-profit providers, subject to strict copyright terms. External data.</com:Description>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_LANGUAGE(1.1.0)" agencyID="IMF" id="CL_LANGUAGE" version="1.1.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Language</com:Name>
+        <com:Description xml:lang="en">This codelist identifies the natural languages in which a data resource is available or presented, using standardized codes based on the ISO 639-1 standard.</com:Description>
+        <str:Code id="EN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_LANGUAGE(1.1.0).EN">
+          <com:Name xml:lang="en">English</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_ACCESS_SHARING_LEVEL(1.0.2)" agencyID="IMF" id="CL_ACCESS_SHARING_LEVEL" version="1.0.2" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Access and Sharing Level</com:Name>
+        <com:Description xml:lang="en">This codelist defines the allowable levels of access and sharing for a particular data resource, specifying who can view, use, or distribute the data and under what conditions.</com:Description>
+        <str:Code id="PUBLIC_OPEN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_ACCESS_SHARING_LEVEL(1.0.2).PUBLIC_OPEN">
+          <com:Name xml:lang="en">Public (Unrestricted)</com:Name>
+          <com:Description xml:lang="en">Share this data with the public without restrictions.</com:Description>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+    <str:Concepts>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_DOMAIN(1.0.0)" agencyID="IMF" id="CS_MASTER_DOMAIN" version="1.0.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master Domain Concepts</com:Name>
+        <com:Description xml:lang="en">Standardized definitions for data elements specific to particular domains or subject areas. This includes concepts and attributes related to macroeconomics, finance, socio-demographics, and other specialized fields.</com:Description>
+        <str:Concept id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).ACCOUNTING_ENTRY">
+          <com:Name xml:lang="en">Accounting Entry</com:Name>
+          <com:Description xml:lang="en">A classification that identifies whether a transaction represents a use of resources, a source of funds, an asset, a liability, or a change in equity.  </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ACCOUNTING_ENTRY" version="2.2.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COMMODITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COMMODITY">
+          <com:Name xml:lang="en">Commodity</com:Name>
+          <com:Description xml:lang="en"> Comprehensive list of all the different commodity codes used in IMF.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COMMODITY" version="2.2.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).SECTOR">
+          <com:Name xml:lang="en">Sector</com:Name>
+          <com:Description xml:lang="en">A classification of economic entities based on their primary function and economic behavior, such as households, corporations, government, or non-profit institutions.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SECTOR" version="2.13.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTERPART_SECTOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COUNTERPART_SECTOR">
+          <com:Name xml:lang="en">Counterpart Sector</com:Name>
+          <com:Description xml:lang="en">In the context of a specific transaction or economic flow, the counterpart sector refers to the institutional sector on the opposite side of the transaction.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SECTOR" version="2.13.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="EXRATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).EXRATE">
+          <com:Name xml:lang="en">Exchange Rate</com:Name>
+          <com:Description xml:lang="en">Represents a set of codes identifying the exchange rate between two currencies. An exchange rate indicates how much of one currency is needed to buy one unit of another currency.  It is derived by comparing the value of one currency to another, often influenced by economic factors like interest rates, inflation, and government policy. This codelist includes various exchange rate calculations, such as period averages, pre-Euro rates, and those involving Special Drawing Rights (SDRs).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_EXRATE" version="1.2.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FLOW_STOCK_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FLOW_STOCK_ENTRY">
+          <com:Name xml:lang="en">Flow or stock entry</com:Name>
+          <com:Description xml:lang="en">A classification that indicates whether a data point represents a flow (a quantity measured over a period of time) or a stock (a quantity measured at a specific point in time).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FSENTRY" version="2.2.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FUNCTIONAL_CAT">
+          <com:Name xml:lang="en">Functional category</com:Name>
+          <com:Description xml:lang="en">A classification used to categorize investments based on their purpose or function, such as equity investments, debt investments, or other investments.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FUNCTIONAL_CAT" version="2.4.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="GFS_STO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).GFS_STO">
+          <com:Name xml:lang="en">GFS Stocks, Transactions, Other Flows</com:Name>
+          <com:Description xml:lang="en">A classification of data items used in the Government Finance Statistics (GFS) framework, distinguishing between stocks (levels at a point in time), transactions (changes over a period), and other flows.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_GFS_STO" version="2.9.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDEX_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INDEX_TYPE">
+          <com:Name xml:lang="en">Index type</com:Name>
+          <com:Description xml:lang="en">Type of index prices. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_INDEX_TYPE" version="2.6.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INT_TTC" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INT_TTC">
+          <com:Name xml:lang="en">Interest Rate types, Terms and Conditions</com:Name>
+          <com:Description xml:lang="en">A classification of interest rates based on their type (fixed or floating), terms (maturity), and other conditions (e.g., collateralization, reference rates).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_INT_TTC" version="2.7.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INSTR_ASSET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INSTR_ASSET">
+          <com:Name xml:lang="en">Instrument and Assets Classification</com:Name>
+          <com:Description xml:lang="en">Because of the symmetry of financial assets and liabilities, the term ‘instrument’ is used to relate to both the asset and the liability aspect of financial transactions, other flows and financial balance sheets.  (Source: Handbook of National Accounting, 2013)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_INSTR_ASSET" version="2.15.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).INT_ACC_ITEM">
+          <com:Name xml:lang="en">International Accounts Item</com:Name>
+          <com:Description xml:lang="en">A classification of transactions in the balance of payments, such as trade in goods, services, income, and financial flows.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_INT_ACC_ITEM" version="2.8.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ACCOUNTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).ACCOUNTS">
+          <com:Name xml:lang="en">Macroeconomic and Financial Accounts</com:Name>
+          <com:Description xml:lang="en">A framework for organizing macroeconomic and financial data into a set of integrated accounts and tables that provide a comprehensive overview of an economy.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ACCOUNTS" version="2.5.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FI_MATURITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).FI_MATURITY">
+          <com:Name xml:lang="en">Maturity of Financial Instrument</com:Name>
+          <com:Description xml:lang="en">A classification of financial instruments based on their remaining time to maturity or expiration.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FI_MATURITY" version="2.1.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="MFS_INSTR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).MFS_INSTR">
+          <com:Name xml:lang="en">Monetary and Financial Instruments</com:Name>
+          <com:Description xml:lang="en">A classification of financial instruments used in monetary and financial statistics, including currency, deposits, loans, securities, and derivatives.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_MFS_INSTR" version="2.7.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="NA_STO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).NA_STO">
+          <com:Name xml:lang="en">Stocks, Transactions, Other Flows</com:Name>
+          <com:Description xml:lang="en">A classification of data items used in the System of National Accounts (SNA) framework, distinguishing between stocks (levels at a point in time), transactions (changes over a period), and other flows.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_NA_STO" version="2.5.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRICES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).PRICES">
+          <com:Name xml:lang="en">Prices</com:Name>
+          <com:Description xml:lang="en">Represents different types of prices or price adjustments, including those that have been adjusted for inflation (real or constant prices) and those that have not (nominal or current prices). It also includes various methods for adjusting prices for inflation, such as using deflators or converting to a constant base period.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_PRICES" version="2.3.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="STATISTICAL_MEASURES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).STATISTICAL_MEASURES">
+          <com:Name xml:lang="en">Statistical Measures</com:Name>
+          <com:Description xml:lang="en">Describe characteristics of a group of data. They summarize the distribution, central tendency, or spread of multiple values.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_STATISTICAL_MEASURES" version="1.6.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TRADE_FLOW" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).TRADE_FLOW">
+          <com:Name xml:lang="en">Trade flow</com:Name>
+          <com:Description xml:lang="en">Data related to the movement of goods and services between countries, including exports and imports.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TRADE_FLOW" version="2.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).VALUATION">
+          <com:Name xml:lang="en">Valuation</com:Name>
+          <com:Description xml:lang="en">Valuation refers to the rules and conventions used for recording monetary flows and stocks in macroeconomic statistics. Standard national accounts valuations include the basic price (what the seller receives) and the purchaser's price (what the purchaser pays). The purchaser's price is the basic price, plus taxes less subsidies on products, plus invoiced transportation and insurance services, plus distribution margin. International trade in goods considers the free on board (fob) price and cost-insurance-freight price, among others. Other valuation types include prices used in financial markets (e.g., buy and sell prices).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_VALUATION" version="2.4.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SOC_CONCEPTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).SOC_CONCEPTS">
+          <com:Name xml:lang="en">Social Concepts</com:Name>
+          <com:Description xml:lang="en">A broad category encompassing various social indicators, such as tourism and labor concepts.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SOC_CONCEPTS" version="1.3.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COFOG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COFOG">
+          <com:Name xml:lang="en">COFOG</com:Name>
+          <com:Description xml:lang="en">The Classification of the Functions of Government, a standardized system for classifying government expenditures by purpose.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COFOG" version="2.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COICOP_1999" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COICOP_1999">
+          <com:Name xml:lang="en">Expenditure Category</com:Name>
+          <com:Description xml:lang="en">The Classification of Individual Consumption According to Purpose (COICOP) 1999 is a standardized classification system developed by the United Nations Statistics Division to categorize household consumption expenditures by purpose. It includes 14 divisions, 47 groups, and 117 classes.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COICOP_1999" version="1.1.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COICOP_2018" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DOMAIN(1.0.0).COICOP_2018">
+          <com:Name xml:lang="en">Expenditure Category (COICOP 2018)</com:Name>
+          <com:Description xml:lang="en">The Classification of Individual Consumption According to Purpose (COICOP) 2018 is an updated and expanded version of the COICOP classification system, designed to better reflect the evolving consumption patterns of the 21st century. It includes 14 divisions, 50 groups, 153 classes, and 449 subclasses.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COICOP_2018" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF.RES:CS_WEO(3.1.0)" agencyID="IMF.RES" id="CS_WEO" version="3.1.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">World Economic Outlook (WEO)</com:Name>
+        <str:Concept id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).COUNTRY">
+          <com:Name xml:lang="en">Country</com:Name>
+          <com:Description xml:lang="en">The country or region for which the data or statistics in a resource are collected or reported.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF.RES" id="CL_WEO_COUNTRY" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).INDICATOR">
+          <com:Name xml:lang="en">Indicator</com:Name>
+          <com:Description xml:lang="en">A variable that sheds light on some phenomenon or situation.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF.RES" id="CL_WEO_INDICATOR" version="2.0.3" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LATEST_ACTUAL_ANNUAL_DATA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).LATEST_ACTUAL_ANNUAL_DATA">
+          <com:Name xml:lang="en">Latest Actual Annual Data </com:Name>
+          <com:Description xml:lang="en">This indicates that latest annual period for which official statistics are available from the authorities.  Data following this period are normal staff estimates.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LAST_UPDATED" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).LAST_UPDATED">
+          <com:Name xml:lang="en">Last updated</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="HISTORICAL_DATA_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).HISTORICAL_DATA_SOURCE">
+          <com:Name xml:lang="en">Historical data source</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).METHODOLOGY">
+          <com:Name xml:lang="en">Methodology</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASE_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).BASE_YEAR">
+          <com:Name xml:lang="en">Base year</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="START_END_MONTHS_OF_REPORTING_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).START_END_MONTHS_OF_REPORTING_YEAR">
+          <com:Name xml:lang="en">Start/end months of reporting year</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CHAIN_WEIGHTED" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).CHAIN_WEIGHTED">
+          <com:Name xml:lang="en">Chain-weighted</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASIS_OF_PROJECTIONS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).BASIS_OF_PROJECTIONS">
+          <com:Name xml:lang="en">Basis of projections</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).VALUATION">
+          <com:Name xml:lang="en">Valuation</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRICES_SECTOR_HARMONIZED_PRICES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).PRICES_SECTOR_HARMONIZED_PRICES">
+          <com:Name xml:lang="en">Prices Sector: Harmonized prices</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LABOR_SECTOR_EMPLOYMENT_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).LABOR_SECTOR_EMPLOYMENT_TYPE">
+          <com:Name xml:lang="en">Labor Sector: Employment type</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION">
+          <com:Name xml:lang="en">Fiscal Sector: General government composition</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_VALUATION_OF_DEBT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).FISCAL_SECTOR_VALUATION_OF_DEBT">
+          <com:Name xml:lang="en">Fiscal Sector: Valuation of debt</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT">
+          <com:Name xml:lang="en">Fiscal Sector: Instruments included in gross and net debt</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TRADE_SECTOR_OIL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).TRADE_SECTOR_OIL_COVERAGE">
+          <com:Name xml:lang="en">Trade Sector: Oil coverage</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRIMARY_DOMESTIC_CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).PRIMARY_DOMESTIC_CURRENCY">
+          <com:Name xml:lang="en">Primary domestic currency</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(3.1.0).METHODOLOGY_NOTES">
+          <com:Name xml:lang="en">Methodology notes</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_SYSTEM(1.0.2)" agencyID="IMF" id="CS_MASTER_SYSTEM" version="1.0.2" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="dataEngineSettings"/>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">CS_MASTER_SYSTEM</com:Name>
+        <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).FREQ">
+          <com:Name xml:lang="en">Frequency</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FREQ" version="1.2.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).SCALE">
+          <com:Name xml:lang="en">Scale</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT_MULT" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).PRECISION">
+          <com:Name xml:lang="en">Precision</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT_MULT" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).DECIMALS_DISPLAYED">
+          <com:Name xml:lang="en">Decimals Displayed</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_DECIMALS" version="1.0.3" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).OBS_VALUE">
+          <com:Name xml:lang="en">Observation value</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="Decimal"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_SYSTEM(1.0.2).TIME_PERIOD">
+          <com:Annotations>
+            <com:Annotation id="indexed">
+              <com:AnnotationTitle/>
+              <com:AnnotationType>INDEX_CONCEPTS</com:AnnotationType>
+            </com:Annotation>
+          </com:Annotations>
+          <com:Name xml:lang="en">Time Period</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="ObservationalTimePeriod"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER(2.3.0)" agencyID="IMF" id="CS_MASTER" version="2.3.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master Metadata Concepts</com:Name>
+        <com:Description xml:lang="en">Standardized definitions for common data elements used across multiple datasets. These elements include attributes like identification and provenance, access controls, methodology and other general descriptive characteristics.</com:Description>
+        <str:Concept id="DOI" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).DOI">
+          <com:Name xml:lang="en">DOI</com:Name>
+          <com:Description xml:lang="en">A public identifier (unique alphanumeric string) assigned to a digital object, typically a publication or dataset, to provide a persistent link to its location on the internet.Users use it for citing the resource. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SERIES_NAME" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).SERIES_NAME">
+          <com:Name xml:lang="en">Series Name</com:Name>
+          <com:Description xml:lang="en">A  label  given to a specific series. This name helps to distinguish it from other series data and provides context for what the data represents.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="AUTHOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).AUTHOR">
+          <com:Name xml:lang="en">Author</com:Name>
+          <com:Description xml:lang="en">The person or organization responsible for resource’s substantive and intellectual content.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PUBLISHER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).PUBLISHER">
+          <com:Name xml:lang="en">Publisher</com:Name>
+          <com:Description xml:lang="en">The organization or institution responsible for making a resource available to the public or a specific audience. For datasets, the publisher is responsible for preparing and releasing the dataset for public or private use. This includes ensuring the dataset's quality, accuracy, and accessibility.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DEPARTMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).DEPARTMENT">
+          <com:Name xml:lang="en">Department</com:Name>
+          <com:Description xml:lang="en">The specific division or unit within an organization (e.g., the IMF) that is ultimately accountable for the creation, maintenance, and dissemination of a resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_DEPARTMENT" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CREATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).CREATOR">
+          <com:Name xml:lang="en">Creator</com:Name>
+          <com:Description xml:lang="en">The creator is the entity primarily responsible for creating the resource. Institution responsible for producing official statistics.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATA_OWNER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).DATA_OWNER">
+          <com:Name xml:lang="en">Data Owner</com:Name>
+          <com:Description xml:lang="en">Institution that holds the legal ownership and accountability for the data, ensuring it aligns with national or international policies.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DATA_STEWARD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).DATA_STEWARD">
+          <com:Name xml:lang="en">Data Steward</com:Name>
+          <com:Description xml:lang="en">Institution that ensures the quality and metadata of the data, and that it adheres to relevant standards.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PUBLICATION_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).PUBLICATION_DATE">
+          <com:Name xml:lang="en">Publication Date</com:Name>
+          <com:Description xml:lang="en">The date when a resource was formally issued or made available to the public or a specific audience. This applies to datasets that have major releases, but the data may have minor updates throughout the year. In most cases where the data is regularly updated, the publication date is the same as the update date.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="DateTime"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).UPDATE_DATE">
+          <com:Name xml:lang="en">Update Date</com:Name>
+          <com:Description xml:lang="en">The most recent date on which a resource was modified or updated, including changes to data or metadata.  For a dataset, the update date is the time when the data within a dataset was last modified, or the metadata was modified.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="DateTime"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).SOURCE">
+          <com:Name xml:lang="en">Source Organization</com:Name>
+          <com:Description xml:lang="en">The entity responsible for producing or collecting the original data used in a resource. This could be a government agency, a research institution, a private company, or any other entity that generates data. When citing or referencing information, it is important to identify the source organization to ensure credibility and accuracy.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ORGANIZATION" version="2.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SHORT_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).SHORT_SOURCE_CITATION">
+          <com:Name xml:lang="en">Short Source Citation</com:Name>
+          <com:Description xml:lang="en">A brief reference to the source of data or information used in a resource, typically including the author, title, and year of publication.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FULL_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).FULL_SOURCE_CITATION">
+          <com:Name xml:lang="en">Full Source Citation </com:Name>
+          <com:Description xml:lang="en">A complete reference to the source of data or information used in a resource, providing all necessary details to locate and verify the original source.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SUGGESTED_CITATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).SUGGESTED_CITATION">
+          <com:Name xml:lang="en">Suggested Citation </com:Name>
+          <com:Description xml:lang="en">A recommended format for citing a resource in academic or professional works, ensuring proper attribution and acknowledgement of the source.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FULL_DESCRIPTION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).FULL_DESCRIPTION">
+          <com:Name xml:lang="en">Full Description</com:Name>
+          <com:Description xml:lang="en">A comprehensive description of the dataset, encompassing its content, scope, underlying concepts, coverage, classifications, and statistical techniques employed in its creation and analysis. This may include references to detailed methodological documents or papers that provide further elaboration on these aspects.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TOPIC" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).TOPIC">
+          <com:Name xml:lang="en">Topic</com:Name>
+          <com:Description xml:lang="en">A topic of the resource. A high-level categorization of the resource's subject matter, indicating the main area or domain to which the data pertains.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TOPIC" version="2.3.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TOPIC_DATASET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).TOPIC_DATASET">
+          <com:Name xml:lang="en">Topic Dataset</com:Name>
+          <com:Description xml:lang="en">A topic of the dataset.  A high-level categorization of the dataset's subject matter, indicating the main area or domain to which the data pertains.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TOPIC" version="2.3.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="KEYWORDS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).KEYWORDS">
+          <com:Name xml:lang="en">Keywords</com:Name>
+          <com:Description xml:lang="en">A set of words or phrases that describe the content and subject matter of a resource.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="KEYWORDS_DATASET" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).KEYWORDS_DATASET">
+          <com:Name xml:lang="en">Keywords Dataset</com:Name>
+          <com:Description xml:lang="en">A set of words or phrases that describe the content and subject matter of a dataset.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="KEY_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).KEY_INDICATOR">
+          <com:Name xml:lang="en">Key Indicator</com:Name>
+          <com:Description xml:lang="en">A flag or indicator that identifies a data element or indicator as being of particular importance or significance for a specific analysis or purpose.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="Boolean"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LANGUAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).LANGUAGE">
+          <com:Name xml:lang="en">Language</com:Name>
+          <com:Description xml:lang="en">It refers to the language of the intellectual content of the resource. It can be applied to any type of resource, including documents, datasets, images, audio recordings, etc.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_LANGUAGE" version="1.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TEMPORAL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).TEMPORAL_COVERAGE">
+          <com:Name xml:lang="en">Temporal Coverage</com:Name>
+          <com:Description xml:lang="en">This field represents the temporal coverage of the data, expressed using the ISO 8601 standard. The data spans the time interval from 1997 to 2009 (inclusive), indicated as 1997/2009.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FREQUENCY_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).FREQUENCY_COVERAGE">
+          <com:Name xml:lang="en">Frequency Coverage</com:Name>
+          <com:Description xml:lang="en">Frequency Coverage in a dataset like annual or monthly refers to the range of time periods for which data is available. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_FREQ" version="1.2.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="GEOGRAPHICAL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).GEOGRAPHICAL_COVERAGE">
+          <com:Name xml:lang="en">Geographical Coverage</com:Name>
+          <com:Description xml:lang="en">This field specifies the spatial extent of the data, detailing the geographic areas or regions included in the dataset. It may be represented by countries, continents, coordinates, or specific boundaries such as cities, regions, or global coverage.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).METHODOLOGY">
+          <com:Name xml:lang="en">Methodology</com:Name>
+          <com:Description xml:lang="en">Reference to the conceptual statistical framework and underlying statistical methodology  used for the dataset (e.g. country specific).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_METHODOLOGY" version="2.7.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).METHODOLOGY_NOTES">
+          <com:Name xml:lang="en">Methodology Notes</com:Name>
+          <com:Description xml:lang="en">Additional details or explanations regarding the methodology used for a specific dataset or indicator. These notes outline the conceptual frameworks and statistical methods used to collect, process, and analyze the data, and can vary in level of detail depending on the data's complexity. For example: a) At the country level, methodology notes describe the specific methods used by each country to calculate particular indicators. b) At the time series level, methodology notes provide a detailed explanation of how an indicator is generated for a specific country.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CONTACT_POINT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).CONTACT_POINT">
+          <com:Name xml:lang="en">Contact Point</com:Name>
+          <com:Description xml:lang="en">The primary individual or group responsible for handling inquiries and providing information about a resource. For datasets published on the IMF data portal, the point of contact shown to public users is standardized as a common help email address.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SECURITY_CLASSIFICATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).SECURITY_CLASSIFICATION">
+          <com:Name xml:lang="en">Security Classification</com:Name>
+          <com:Description xml:lang="en">A data classification assigned to data based on its sensitivity, value, and the potential impact of unauthorized access, disclosure, alteration, or destruction, resulting in the assignment of a tag that designates the data's sensitivity level.  This attribute is assigned at lower levels of data when a dataset contains a mix of data access levels, with some series designated as public and others as confidential.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SEC_CLASSIFICATION" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ACCESS_SHARING_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).ACCESS_SHARING_LEVEL">
+          <com:Annotations>
+            <com:Annotation id="indexed">
+              <com:AnnotationType>INDEX_CONCEPTS</com:AnnotationType>
+            </com:Annotation>
+          </com:Annotations>
+          <com:Name xml:lang="en">Access and Sharing Level</com:Name>
+          <com:Description xml:lang="en">A classification that specifies the extent to which a resource can be shared with others, including restrictions on access, use, and distribution.  It specifies who can access the data (e.g., public, specific groups, authorized personnel) and what actions they can take with it. The appropriate sharing level depends on the sensitivity and intended use of the data, ranging from open access for public data to restricted access for confidential information. This attribute is assigned at lower levels of data when a dataset contains a mix of data access levels, with some series designated as public and others as restricted.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_ACCESS_SHARING_LEVEL" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ACCESS_SHARING_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).ACCESS_SHARING_NOTES">
+          <com:Name xml:lang="en">Access and Sharing Notes</com:Name>
+          <com:Description xml:lang="en">Additional notes involves documenting any нюances or complexities beyond the standard access and sharing levels.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ACCESS_INSTRUCTIONS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).ACCESS_INSTRUCTIONS">
+          <com:Name xml:lang="en">Access Instructions</com:Name>
+          <com:Description xml:lang="en">Detailed guidance on how to obtain or access a resource, particularly relevant for datasets. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="USAGE_RIGHTS_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).USAGE_RIGHTS_NOTES">
+          <com:Name xml:lang="en">Usage Rights Notes</com:Name>
+          <com:Description xml:lang="en">Additional notes or explanations regarding the licensing terms for the source data used in a dataset.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LICENSE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).LICENSE">
+          <com:Name xml:lang="en">License</com:Name>
+          <com:Description xml:lang="en">Information on the licence for distribution /  legal agreement that defines the terms under which a resource can be used, shared, or distributed.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="URL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).URL">
+          <com:Name xml:lang="en">URL</com:Name>
+          <com:Description xml:lang="en">Direct link to the dataset on the external source's platform.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CLASSIFICATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER(2.3.0).CLASSIFICATION_TYPE">
+          <com:Name xml:lang="en">Standard Classification Type</com:Name>
+          <com:Description xml:lang="en">Identifies the standard classifications used for the data.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_CLASSIFICATION_TYPE" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:SDMX_CONCEPT_ROLES(1.0)" agencyID="SDMX" id="SDMX_CONCEPT_ROLES" version="1.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">SDMX Concept Scheme for Concept Roles</com:Name>
+        <com:Description xml:lang="en">A concept role gives a particular context to a concept for easy and systematic interpretation by machine processing and visualization tools. For example, the concepts REPORTING_AREA and COUNTERPART_AREA are different concepts but they are both geographical characteristics, therefore they can be associated with the same concept role ID: “GEO”. This allows visualization systems to interpret these concepts as geographical data in order to generate maps. For any question, comment or correction, feel free to contact the SDMX Statistical Working Group (SWG) at the following address: swg@sdmx.org.</com:Description>
+        <str:Concept id="GEO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).GEO">
+          <com:Name xml:lang="en">Geographical</com:Name>
+          <com:Description xml:lang="en">Geographic area to which the measured statistical phenomenon relates.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).FLAG">
+          <com:Name xml:lang="en">Flag</com:Name>
+          <com:Description xml:lang="en">Coded attribute in a data set that represents qualitative information for the cell or partial key (e.g. series) value.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).FREQ">
+          <com:Name xml:lang="en">Frequency</com:Name>
+          <com:Description xml:lang="en">Time interval at which the source data are collected.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="ENTITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).ENTITY">
+          <com:Name xml:lang="en">Entity</com:Name>
+          <com:Description xml:lang="en">Describes the subject of the data set (e.g. a country).</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COMMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).COMMENT">
+          <com:Name xml:lang="en">Comment</com:Name>
+          <com:Description xml:lang="en">Descriptive text which can be attached to data or metadata.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VARIABLE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).VARIABLE">
+          <com:Name xml:lang="en">Variable</com:Name>
+          <com:Description xml:lang="en">Characteristic of a unit being observed that may assume more than one of a set of values to which a numerical measure or a category from a classification can be assigned.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OPERATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:SDMX_CONCEPT_ROLES(1.0).OPERATION">
+          <com:Name xml:lang="en">Statistical operation</com:Name>
+          <com:Description xml:lang="en">Signifies statistical operations have been done on the observations.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:CS_MASTER_DATA(1.0.0)" agencyID="IMF" id="CS_MASTER_DATA" version="1.0.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">Master Data Concepts</com:Name>
+        <com:Description xml:lang="en">Standardized concepts and definitions for describing data elements across datasets, covering cross-cutting data attributes such as temporal information, country, unit of measure, transformation. </com:Description>
+        <str:Concept id="COMMENTS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COMMENTS">
+          <com:Name xml:lang="en">Comments</com:Name>
+          <com:Description xml:lang="en">Additional notes, explanations, or remarks regarding the data, methodology, or other aspects of an observation.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).OBS_STATUS">
+          <com:Name xml:lang="en">Observation Status</com:Name>
+          <com:Description xml:lang="en">Indicates the status of an observation within a dataset, such as whether it is a provisional value, an estimated value, a final figure, or a value where a time series break occurs. (Source: SDMX)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_OBS_STATUS" version="1.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).DERIVATION_TYPE">
+          <com:Name xml:lang="en">Derivation Type</com:Name>
+          <com:Description xml:lang="en">Identifies the specific method used to derive a new data element or indicator from source data. </com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_DERIVATION_TYPE" version="1.2.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).OVERLAP">
+          <com:Name xml:lang="en">IMF Data Overlap</com:Name>
+          <com:Description xml:lang="en">Indicates the potential for overlap within IMF data.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_OVERLAP" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CONF_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CONF_STATUS">
+          <com:Name xml:lang="en">Confidentiality Status</com:Name>
+          <com:Description xml:lang="en">This classification provides information about the sensitivity and confidentiality status of the data. (Source:SDMX)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_CONF_STATUS" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REPORTING_PERIOD_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).REPORTING_PERIOD_TYPE">
+          <com:Name xml:lang="en">Reporting Period Type</com:Name>
+          <com:Description xml:lang="en">It is used to identify and distinguish between different types of time periods in economic and financial reporting.  The specific start and end dates for a fiscal year (FY) can vary depending on the country, organization, or industry. When reporting data using this codelist, it is essential to specify the exact start and end dates of the fiscal year being referenced.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_REPORTING_PERIOD_TYPE" version="1.4.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="REFERENCE_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).REFERENCE_PERIOD">
+          <com:Name xml:lang="en">Reference Period</com:Name>
+          <com:Description xml:lang="en">A time interval defined by a start date and an end date, used to constrain and specify the timeframe for reporting data. </com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASE_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).BASE_YEAR">
+          <com:Name xml:lang="en">Base year</com:Name>
+          <com:Description xml:lang="en">The reference year used for comparison in the calculation of index numbers or other statistical measures. Changes in values over time are typically expressed as percentage deviations from the base year.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CALENDAR_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CALENDAR_YEAR">
+          <com:Name xml:lang="en">Calendar year</com:Name>
+          <com:Description xml:lang="en">A period of twelve consecutive months starting on January 1st and ending on December 31st, as per the Gregorian calendar.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).FISCAL_YEAR">
+          <com:Name xml:lang="en">Fiscal year</com:Name>
+          <com:Description xml:lang="en">A twelve-month period used by governments and businesses for accounting and financial reporting purposes. The start and end dates of a fiscal year can vary depending on the organization and country but often differ from the calendar year.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COUNTRY">
+          <com:Annotations>
+            <com:Annotation id="indexed">
+              <com:AnnotationType>INDEX_CONCEPTS</com:AnnotationType>
+            </com:Annotation>
+          </com:Annotations>
+          <com:Name xml:lang="en">Country</com:Name>
+          <com:Description xml:lang="en">The country or region for which the data or statistics in a resource are collected or reported.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COUNTRY" version="1.5.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTERPART_COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).COUNTERPART_COUNTRY">
+          <com:Name xml:lang="en">Counterpart Country</com:Name>
+          <com:Description xml:lang="en">The country or region with which a transaction or interaction occurs in the context of international statistics or data.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_COUNTRY" version="1.5.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).UNIT">
+          <com:Name xml:lang="en">Unit of Measure</com:Name>
+          <com:Description xml:lang="en">The standard unit used to quantify a particular data element or indicator.I It encompasses various units, including currency, physical units, percentages, and other standardized measures.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_UNIT" version="2.11.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CURRENCY">
+          <com:Name xml:lang="en">Currency</com:Name>
+          <com:Description xml:lang="en">Denominated in Currency specifies the currency in which a financial instrument is valued and settled.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_CURRENCY" version="2.3.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TRANSFORMATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).TRANSFORMATION">
+          <com:Name xml:lang="en">Transformation</com:Name>
+          <com:Description xml:lang="en">Represents a set of codes identifying the specific transformations or calculations applied to source data to derive new data elements or indicators. A transformation involves a computation with one or more input values (either base variables obtained by observation or derived variables from prior transformations) that results in a single output value (the value of a new derived variable).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_TRANSFORMATION" version="2.21.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="S_ADJUSTMENT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).S_ADJUSTMENT">
+          <com:Name xml:lang="en">Seasonal Adjustment</com:Name>
+          <com:Description xml:lang="en">Specific adjustment for the time series (e.g. seasonally adjusted).</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_S_ADJUSTMENT" version="1.0.2" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="GENDER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).GENDER">
+          <com:Name xml:lang="en">Gender</com:Name>
+          <com:Description xml:lang="en">Gender identity refers to each person’s internal and individual experience of gender. One's gender identity can be the same or different from their sex assigned at birth. (Source: UNECE 2023 Gender and salutation code lists)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_GENDER" version="1.0.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).SEX">
+          <com:Name xml:lang="en">Sex</com:Name>
+          <com:Description xml:lang="en">An individual’s sex may be defined by one’s assigned sex at birth and/or one’s biological attributes which includes a combination of hormones, chromosomes, physiology, and anatomy. It  includes both binary options as well as X and intersex. (Source: UNECE 2023 Gender and salutation code lists)</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_SEX" version="1.1.0" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CIVIL_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:CS_MASTER_DATA(1.0.0).CIVIL_STATUS">
+          <com:Name xml:lang="en">Civil (or Marital) Status</com:Name>
+          <com:Description xml:lang="en">The legal status of an individual regarding marriage, such as single, married, widowed, or divorced.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF" id="CL_CIVIL_STATUS" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF.RES:CS_WEO(4.0.0)" agencyID="IMF.RES" id="CS_WEO" version="4.0.0" isFinal="true" isExternalReference="false" isPartial="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">World Economic Outlook (WEO)</com:Name>
+        <str:Concept id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).COUNTRY">
+          <com:Name xml:lang="en">Country</com:Name>
+          <com:Description xml:lang="en">The country or region for which the data or statistics in a resource are collected or reported.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF.RES" id="CL_WEO_COUNTRY" version="1.0.1" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).INDICATOR">
+          <com:Name xml:lang="en">Indicator</com:Name>
+          <com:Description xml:lang="en">A variable that sheds light on some phenomenon or situation.</com:Description>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="IMF.RES" id="CL_WEO_INDICATOR" version="2.0.3" package="codelist" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LATEST_ACTUAL_ANNUAL_DATA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).LATEST_ACTUAL_ANNUAL_DATA">
+          <com:Name xml:lang="en">Latest Actual Annual Data </com:Name>
+          <com:Description xml:lang="en">This indicates that latest annual period for which official statistics are available from the authorities.  Data following this period are normal staff estimates.</com:Description>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="COUNTRY_UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).COUNTRY_UPDATE_DATE">
+          <com:Name xml:lang="en">Country Update Date</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="HISTORICAL_DATA_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).HISTORICAL_DATA_SOURCE">
+          <com:Name xml:lang="en">Historical data source</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).METHODOLOGY">
+          <com:Name xml:lang="en">Methodology</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASE_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).BASE_YEAR">
+          <com:Name xml:lang="en">Base year</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="START_END_MONTHS_OF_REPORTING_YEAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).START_END_MONTHS_OF_REPORTING_YEAR">
+          <com:Name xml:lang="en">Start/end months of reporting year</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="CHAIN_WEIGHTED" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).CHAIN_WEIGHTED">
+          <com:Name xml:lang="en">Chain-weighted</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="BASIS_OF_PROJECTIONS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).BASIS_OF_PROJECTIONS">
+          <com:Name xml:lang="en">Basis of projections</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).VALUATION">
+          <com:Name xml:lang="en">Valuation</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRICES_SECTOR_HARMONIZED_PRICES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).PRICES_SECTOR_HARMONIZED_PRICES">
+          <com:Name xml:lang="en">Prices Sector: Harmonized prices</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="LABOR_SECTOR_EMPLOYMENT_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).LABOR_SECTOR_EMPLOYMENT_TYPE">
+          <com:Name xml:lang="en">Labor Sector: Employment type</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION">
+          <com:Name xml:lang="en">Fiscal Sector: General government composition</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_VALUATION_OF_DEBT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).FISCAL_SECTOR_VALUATION_OF_DEBT">
+          <com:Name xml:lang="en">Fiscal Sector: Valuation of debt</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT">
+          <com:Name xml:lang="en">Fiscal Sector: Instruments included in gross and net debt</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="TRADE_SECTOR_OIL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).TRADE_SECTOR_OIL_COVERAGE">
+          <com:Name xml:lang="en">Trade Sector: Oil coverage</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="PRIMARY_DOMESTIC_CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).PRIMARY_DOMESTIC_CURRENCY">
+          <com:Name xml:lang="en">Primary domestic currency</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF.RES:CS_WEO(4.0.0).METHODOLOGY_NOTES">
+          <com:Name xml:lang="en">Methodology notes</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+    </str:Concepts>
+    <str:DataStructures>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF.RES:DSD_WEO(9.0.0)" agencyID="IMF.RES" id="DSD_WEO" version="9.0.0" isFinal="true" isExternalReference="false">
+        <com:Annotations>
+          <com:Annotation id="origin"/>
+          <com:Annotation id="isFinal"/>
+          <com:Annotation id="lastUpdatedAt"/>
+        </com:Annotations>
+        <com:Name xml:lang="en">World Economic Outlook (WEO)</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor">
+            <str:Dimension id="COUNTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.RES:DSD_WEO(9.0.0).COUNTRY" position="0">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="4.0.0" agencyID="IMF.RES" id="COUNTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.RES:DSD_WEO(9.0.0).INDICATOR" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="4.0.0" agencyID="IMF.RES" id="INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension id="FREQUENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF.RES:DSD_WEO(9.0.0).FREQUENCY" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:ConceptRole>
+                <Ref maintainableParentID="SDMX_CONCEPT_ROLES" maintainableParentVersion="1.0" agencyID="SDMX" id="FREQ" package="conceptscheme" class="Concept"/>
+              </str:ConceptRole>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF.RES:DSD_WEO(9.0.0).TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="TIME_PERIOD" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:Group id="GROUP_INDICATOR">
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="INDICATOR"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+          </str:Group>
+          <str:Group id="GROUP_COUNTRY__INDICATOR">
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="COUNTRY"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="INDICATOR"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+          </str:Group>
+          <str:AttributeList id="AttributeDescriptor">
+            <str:Attribute id="SCALE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SCALE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="SCALE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRECISION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PRECISION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="PRECISION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS_DISPLAYED" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).DECIMALS_DISPLAYED" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="DECIMALS_DISPLAYED" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FUNCTIONAL_CAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FUNCTIONAL_CAT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="FUNCTIONAL_CAT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INT_ACC_ITEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).INT_ACC_ITEM" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="INT_ACC_ITEM" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="NA_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).NA_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="NA_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="GFS_STO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).GFS_STO" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="GFS_STO" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COICOP_1999" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).COICOP_1999" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="COICOP_1999" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRADE_FLOW" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).TRADE_FLOW" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="TRADE_FLOW" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COMMODITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).COMMODITY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="COMMODITY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOC_CONCEPTS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SOC_CONCEPTS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="SOC_CONCEPTS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SECTOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="SECTOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCOUNTING_ENTRY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).ACCOUNTING_ENTRY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="ACCOUNTING_ENTRY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="INDEX_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).INDEX_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="INDEX_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRICES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PRICES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="PRICES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="STATISTICAL_MEASURES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).STATISTICAL_MEASURES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="STATISTICAL_MEASURES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="EXRATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).EXRATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DOMAIN" maintainableParentVersion="1.0.0" agencyID="IMF" id="EXRATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRANSFORMATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).TRANSFORMATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DATA" maintainableParentVersion="1.0.0" agencyID="IMF" id="TRANSFORMATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).UNIT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DATA" maintainableParentVersion="1.0.0" agencyID="IMF" id="UNIT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="REPORTING_PERIOD_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).REPORTING_PERIOD_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DATA" maintainableParentVersion="1.0.0" agencyID="IMF" id="REPORTING_PERIOD_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DERIVATION_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).DERIVATION_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DATA" maintainableParentVersion="1.0.0" agencyID="IMF" id="DERIVATION_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OVERLAP" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).OVERLAP" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_DATA" maintainableParentVersion="1.0.0" agencyID="IMF" id="OVERLAP" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COUNTRY_UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).COUNTRY_UPDATE_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="4.0.0" agencyID="IMF.RES" id="COUNTRY_UPDATE_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQUENCY"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DOI" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).DOI" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="DOI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_DESCRIPTION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FULL_DESCRIPTION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="FULL_DESCRIPTION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="AUTHOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).AUTHOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="AUTHOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLISHER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PUBLISHER" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="PUBLISHER" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DEPARTMENT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).DEPARTMENT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="DEPARTMENT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CONTACT_POINT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).CONTACT_POINT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="CONTACT_POINT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).TOPIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="TOPIC" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TOPIC_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).TOPIC_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="TOPIC_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).KEYWORDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="KEYWORDS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEYWORDS_DATASET" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).KEYWORDS_DATASET" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="KEYWORDS_DATASET" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LANGUAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).LANGUAGE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="LANGUAGE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBLICATION_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PUBLICATION_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="PUBLICATION_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UPDATE_DATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).UPDATE_DATE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="UPDATE_DATE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).METHODOLOGY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="METHODOLOGY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="METHODOLOGY_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).METHODOLOGY_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="METHODOLOGY_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).ACCESS_SHARING_LEVEL" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="ACCESS_SHARING_LEVEL" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="ACCESS_SHARING_NOTES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).ACCESS_SHARING_NOTES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="ACCESS_SHARING_NOTES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SECURITY_CLASSIFICATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SECURITY_CLASSIFICATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="SECURITY_CLASSIFICATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SOURCE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="SOURCE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SHORT_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SHORT_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="SHORT_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FULL_SOURCE_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FULL_SOURCE_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="FULL_SOURCE_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LICENSE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).LICENSE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="LICENSE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SUGGESTED_CITATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SUGGESTED_CITATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="SUGGESTED_CITATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:None/>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="KEY_INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).KEY_INDICATOR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="KEY_INDICATOR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SERIES_NAME" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).SERIES_NAME" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER" maintainableParentVersion="2.3.0" agencyID="IMF" id="SERIES_NAME" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LATEST_ACTUAL_ANNUAL_DATA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).LATEST_ACTUAL_ANNUAL_DATA" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="LATEST_ACTUAL_ANNUAL_DATA" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="HISTORICAL_DATA_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).HISTORICAL_DATA_SOURCE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="HISTORICAL_DATA_SOURCE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="BASE_YEAR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).BASE_YEAR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="BASE_YEAR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="START_END_MONTHS_OF_REPORTING_YEAR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).START_END_MONTHS_OF_REPORTING_YEAR" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="START_END_MONTHS_OF_REPORTING_YEAR" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="CHAIN_WEIGHTED" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).CHAIN_WEIGHTED" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="CHAIN_WEIGHTED" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="BASIS_OF_PROJECTIONS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).BASIS_OF_PROJECTIONS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="BASIS_OF_PROJECTIONS" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="VALUATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).VALUATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="VALUATION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRICES_SECTOR_HARMONIZED_PRICES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PRICES_SECTOR_HARMONIZED_PRICES" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="PRICES_SECTOR_HARMONIZED_PRICES" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="LABOR_SECTOR_EMPLOYMENT_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).LABOR_SECTOR_EMPLOYMENT_TYPE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="LABOR_SECTOR_EMPLOYMENT_TYPE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="FISCAL_SECTOR_GENERAL_GOVERNMENT_COMPOSITION" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FISCAL_SECTOR_VALUATION_OF_DEBT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FISCAL_SECTOR_VALUATION_OF_DEBT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="FISCAL_SECTOR_VALUATION_OF_DEBT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="FISCAL_SECTOR_INSTRUMENTS_INCLUDED_IN_GROSS_AND_NET_DEBT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TRADE_SECTOR_OIL_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).TRADE_SECTOR_OIL_COVERAGE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="TRADE_SECTOR_OIL_COVERAGE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PRIMARY_DOMESTIC_CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF.RES:DSD_WEO(9.0.0).PRIMARY_DOMESTIC_CURRENCY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_WEO" maintainableParentVersion="3.1.0" agencyID="IMF.RES" id="PRIMARY_DOMESTIC_CURRENCY" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="COUNTRY"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="INDICATOR"/>
+                </str:Dimension>
+                <str:AttachmentGroup>
+                  <Ref id="GROUP_COUNTRY__INDICATOR"/>
+                </str:AttachmentGroup>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF.RES:DSD_WEO(9.0.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_MASTER_SYSTEM" maintainableParentVersion="1.0.2" agencyID="IMF" id="OBS_VALUE" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
